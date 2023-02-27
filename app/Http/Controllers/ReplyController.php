@@ -1,0 +1,53 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Requests\ReplyRequest;
+use App\Models\Reply;
+use Illuminate\Http\Request;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+
+class ReplyController extends Controller
+{
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+    public function store(ReplyRequest $request)
+    {
+        $data = $request->validated();
+
+        $client = new Client();
+        $response = $client->request('GET', 'https://httpbin.org/ip');
+        $json = json_decode($response->getBody()->getContents());
+        $ip_address = $json->origin;
+
+        //Evitar que el usuario opine más de 2 veces al día para evitar spam.
+        $opinion_id = $data['opinion_id'];
+        $user_id = Auth::user()->id;
+        $today = date("Y-m-d");
+        $replies_today = DB::table('replies')
+                        ->where([
+                            ['opinion_id', '=', $opinion_id],
+                            ['user_id', '=', $user_id],
+                            ['created_at', 'like', $today . '%'],
+                        ])->count();
+
+        if ($replies_today >= 2) {
+            return redirect()->back()->with('reply_exceeded', 'Has excedido el límite de respuestas por día para esta opinión.');
+        }
+        //En caso de no tener 2 replies en la misma opinión, pues se crea el reply.
+        $reply = new Reply();
+        $reply->opinion_id = $data['opinion_id'];
+        $reply->user_id = auth()->user()->id;
+        $reply->body = $data['body'];
+        $reply->ip_address = $ip_address;
+        $reply->save();
+
+        return redirect()->back()->with('ok_reply', 'Respuesta publicada correctamente.');
+    }
+}

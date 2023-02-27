@@ -1,0 +1,332 @@
+.table-parent {
+    transition: all .25s ease;
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+    margin-bottom: 40px;
+    background: rgb(207 207 207 / 17%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border: 1px solid rgba(255, 255, 255, 0.11);
+}
+
+main .general1 .esta-pagina {
+    width: 100%;
+}
+
+body.Dark .table-parent {
+    background: rgb(104 104 104 / 25%);
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+
+thead, tr {
+    border-bottom: 1px solid #cccccc;
+}
+
+
+body.Dark thead, body.Dark tr {
+    border-bottom: 1px solid #545454;
+}
+
+body.Dark table {
+    background-color: #424242;
+}
+
+body.Dark thead th {
+    background-color: #383838;
+
+}
+
+body.Dark thead th:hover {
+    background-color: #575757;
+
+}
+
+.s_top:last-of-type:not(:first-of-type) {
+    margin-top: 15px;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0fe;
+    transition: all .25s ease;
+    cursor: pointer;
+}
+
+thead th:hover {
+    background-color: #cececefe;
+}
+
+tbody{
+    width: 100%;
+}
+
+tbody tr {
+    font-size: 15px;
+    transition: all .25s ease;
+}
+
+tbody tr:hover {
+    background-color: rgba(202, 202, 202, 0.4) !important;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0 .2), -1px -1px 8px rbga(0, 0, 0, .2);
+    width: 100%;
+}
+
+body.Dark tr:hover{
+    background-color: rgba(109, 109, 109, 0.6) !important;
+}
+
+.table__header{
+    width: 100%;
+    height: 10%;
+    padding: .8rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table__header .search_filter i {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 5px 9px 0 0;
+    transition: all .2s ease;
+}
+
+.table__header .search_filter {
+    width: 35%;
+    height: max-content;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    transition: all .2s ease;
+    background-color: #e3e3e3;
+    box-shadow: 0 0.1rem 0.5rem 0.3rem #0002;
+}
+
+body.Dark .table__header .search_filter {
+    background-color: #626262;
+}
+
+.table__header .search_filter:hover,
+.table__header .search_filter:has(input:focus)
+ {
+    width: 45%;
+}
+
+.table__header .search_filter:has(input:focus) i {
+    color: #f64646;
+}
+
+.table__header .search_filter input {
+    width: 100%;
+    padding: 5px 0.7rem 5px 1.3rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:#000;
+}
+
+.table__header .search_filter input::placeholder{
+    font-size: 14px;
+}
+
+body.Dark .table__header .search_filter input {
+    color: #fff;
+}
+
+body.Dark .table__header .search_filter input::placeholder{
+    color: rgba(255,255,255,.3)
+}
+
+
+.buttons_settings {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .buttons_settings a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #f3342a;
+    outline: none;
+    transition: all .2s ease;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    transition: all .3s ease;
+    box-shadow: 0px 3px 9px 0px rgb(0 0 0 / 60%);
+  }
+
+  .buttons_settings a:hover {
+    opacity: .8;
+  }
+  
+  .buttons_settings a:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .buttons_settings a span {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+ }
+
+.table__body {
+    width: 95%;
+    max-height: calc(89% - 1.6rem);
+    background-color: #fff;
+    margin: .8rem auto;
+    border-radius: .6rem;
+    box-shadow: 0px 0px 9px 5px rgb(0 0 0 / 30%);
+    overflow: overlay;
+}
+
+body.Dark .table__body {
+    background-color: #424242;
+}
+
+.table__body::-webkit-scrollbar {
+    width: 0.43rem;
+    height: 0.43rem;
+}
+
+.table__body::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: rgba(10, 10, 10, 0.267);
+}
+tbody tr td, 
+tbody tr td section {
+    transition: .2s ease-in-out;
+}
+
+tbody tr.hide td, 
+tbody tr.hide td section {
+    padding: 0;
+    font: 0 / 0 sans-serif;
+    transition: .2s ease-in-out;
+}
+
+tbody tr {
+    --delay: .1s;
+    transition: .5s ease-in-out var(--delay), background-color .2s;
+}
+
+tbody tr.hide {
+    opacity: 0;
+    border: 0;
+}
+
+#notF {
+    text-align:center; 
+    margin: auto; 
+    display:none;
+    height: max-content;
+    color: #000;
+    background: rgba(255, 255, 255);
+    margin-top: 20px;
+    width: 100%;
+}
+
+body.Dark #notF {
+    color: #fff;
+    background: #424242;
+}
+
+#warning_notF {
+    font-size: 20px;
+    color:#fc6229;
+}
+
+thead th .class-arrow i {
+    display: inline-block;
+    font-size: .8rem;
+    text-align: center;
+    position: absolute;
+    right: 3px;
+    margin-top: 3px;
+    transition: all .2s ease;
+}
+
+thead .header_table.header_activated {
+    color:#fe6e6e;
+}
+
+thead .header_table.header_activated.asc i {
+    transform: rotate(180deg);
+}
+
+
+tbody td.header_activated {
+    color:#ff9292;
+}
+
+@media (max-width: 1000px){
+    td:not(:first-of-type){
+        min-width: 12.1rem;
+    }
+
+
+}
+
+@media (max-width: 766px){
+    .table__header {
+        flex-direction: column;
+    }
+    .table__header .info_teacher {
+        margin-bottom: 20px;
+    }
+
+    .table__header .search_filter {
+        width: 70%;
+        align-self: center;
+    }
+
+    .table__header .search_filte:hover,
+    .table__header .search_filter:has(input:focus) {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 611px){
+    .buttons_settings {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 0 !important;
+      }
+      
+      .buttons_settings a {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .buttons_settings a span {
+        font-size: .86em;
+      }
+}

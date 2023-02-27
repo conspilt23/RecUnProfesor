@@ -1,0 +1,676 @@
+:root {
+    --primary: #e73617;
+    --redLight: #f3492b;
+    --redLight-2: #f46262;
+    --redDark: #2d4848;
+  }
+
+  main .general1 .esta-pagina {
+  width: 100% !important;
+}
+
+  .settings_class {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+  }
+
+  .settings_class .modality {
+    margin: 13px 31px 0 0;
+    cursor: pointer;
+    border: none;
+    height: 34px;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    font-size: 0.8125rem;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    align-items: center;
+    white-space: nowrap;
+    border-radius: 16px;
+    vertical-align: middle;
+    justify-content: center;
+    background-color: #f5f5f5;
+    box-shadow: 3px 3px 9px 5px rgb(0 0 0 / 39%);
+  }
+
+  body.Dark .settings_class .modality {
+    background-color: #343434;
+    box-shadow: 3px 3px 9px 5px rgb(0 0 0 / 20%);
+  }
+
+  .settings_class .modality .first_i {
+    color: #363636;
+    margin-left: 15px;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    cursor: pointer;
+    pointer-events: none;
+  }
+
+  body.Dark .settings_class .modality .first_i {
+    color: #e0e0e0;
+  }
+
+  .settings_class .modality .name {
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-overflow: ellipsis;
+    pointer-events: none;
+  }
+
+  .settings_class .modality .last_i {
+    color: #363636;
+    width: 16px;
+    cursor: pointer;
+    height: 20px;
+    margin: 0 15px 0 2px;
+    -webkit-tap-highlight-color: transparent;
+    fill: currentColor;
+    display: inline-block;
+    font-size: 1.2rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .prof_info {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+  }
+
+  /*cambios a .cont .tarj*/
+
+.cont .tarj {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background: #fff;
+  margin: 45px 0;
+  border-radius: 13px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgb(0 0 0 / 20%);
+  transition: .5s;
+}
+
+/*cambios a .cont .tarj .circl en clip path */
+
+
+.cont .tarj .circl {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  clip-path: circle(117px at -58px 71px);
+  text-align: left;
+  z-index: 20;
+}
+
+.cont .tarj .circl h2 {
+  color: #fff;
+  font-size: 2.1em;
+  padding: 56px 7px;
+}
+
+/*se le borra margin-left */
+.cont .tarj .titl {
+margin-left: 0 !important;
+  text-align: center;
+  padding: 17px 20px;
+}
+
+.cont .tarj .titl h3 {
+   margin-left: 0 !important; 
+   text-align: center;
+}
+
+
+.cont .tarj .tex {
+  position: relative;
+  top: 30px;
+  text-align: left;
+  margin-left: 0 !important;
+  padding-right: 0 !important; 
+  overflow-y: auto;
+  height: max-content !important;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-left: 0 !important; 
+}
+
+.cont .tarj .tex a {
+  display: inline-block;
+  text-decoration: none;
+  color: #3a3a3a;
+  padding: 15px 55px;
+  overflow: hidden;
+  transition: .6s all ease;
+  z-index: 1;
+}
+
+.cont .tarj .tex a:hover {
+  color: #fff !important
+}
+
+.cont .tarj .tex a::before {
+  content: '';
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(51deg);
+  z-index: -1;
+  transition: all .43s ease;
+}
+
+.cont .tarj .tex a:hover::before {
+  height: 380%;
+}
+
+body.Dark .cont .tarj .tex a {
+  color: #fff;
+}
+
+.cont .tarj .tex a span::before,
+.cont .tarj .tex a span::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: transparent;
+  transition: .43s ease all;
+}
+
+
+.cont .tarj .tex a span::before {
+  top: 0;
+  left: 0;
+}
+.cont .tarj .tex a span::after {
+  bottom: 0;
+  right: 0;
+}
+
+.cont .tarj .tex a:hover span::before,
+.cont .tarj .tex a:hover span::after  {
+  width: 100%;
+  height: 100%;
+}
+
+
+  body.Dark .settings_class .modality .last_i {
+    color: #e0e0e0;
+  }
+
+
+  /*Colors for the results*/
+
+  .cont:nth-of-type(1) .tarj .circl,
+.cont:nth-of-type(1) .tarj .tex a::before {
+    background: #f3492b !important;
+}
+
+.cont:nth-of-type(1) .tarj .tex a span::before {
+  border-top: 2px solid #f3492b;
+  border-left: 2px solid #f3492b;
+
+}
+.cont:nth-of-type(1) .tarj .tex a span::after{
+  border-bottom: 2px solid #f3492b;
+  border-right: 2px solid #f3492b;
+
+}
+
+
+.cont:nth-of-type(2) .tarj .circl,
+.cont:nth-of-type(2) .tarj .tex a::before {
+    background: #f3492b !important;
+}
+
+.cont:nth-of-type(2) .tarj .tex a span::before {
+  border-top: 2px solid #f3492b;
+  border-left: 2px solid #f3492b;
+
+}
+.cont:nth-of-type(2) .tarj .tex a span::after{
+  border-bottom: 2px solid #f3492b;
+  border-right: 2px solid #f3492b;
+
+}
+
+.cont:nth-of-type(3) .tarj .circl,
+.cont:nth-of-type(3) .tarj .tex a::before{
+    background: #2d4187;
+}
+
+.cont:nth-of-type(3) .tarj .tex a span::before {
+  border-top: 2px solid #2d4187;;
+  border-left: 2px solid #2d4187;
+
+}
+.cont:nth-of-type(3) .tarj .tex a span::after{
+  border-bottom: 2px solid #2d4187;
+  border-right: 2px solid #2d4187;
+
+}
+
+.cont:nth-of-type(4) .tarj .circl,
+.cont:nth-of-type(4) .tarj .tex a::before{
+    background: #712ab3;
+}
+
+.cont:nth-of-type(4) .tarj .tex a span::before {
+  border-top: 2px solid #712ab3;
+  border-left: 2px solid #712ab3;
+
+}
+.cont:nth-of-type(4) .tarj .tex a span::after{
+  border-bottom: 2px solid #712ab3;
+  border-right: 2px solid #712ab3;
+
+}
+
+.cont:nth-of-type(5) .tarj .circl,
+.cont:nth-of-type(5) .tarj .tex a::before{
+    background: #ffaf00;
+}
+
+.cont:nth-of-type(5) .tarj .tex a span::before {
+  border-top: 2px solid #ffaf00;
+  border-left: 2px solid #ffaf00;
+
+}
+.cont:nth-of-type(5) .tarj .tex a span::after{
+  border-bottom: 2px solid #ffaf00;
+  border-right: 2px solid #ffaf00;
+}
+
+.cont:nth-of-type(6) .tarj .circl,
+.cont:nth-of-type(6) .tarj .tex a::before {
+  background: #2badf7;
+}
+
+.cont:nth-of-type(6) .tarj .tex a span::before {
+  border-top: 2px solid #2badf7;
+  border-left: 2px solid #2badf7;
+
+}
+.cont:nth-of-type(6) .tarj .tex a span::after{
+  border-bottom: 2px solid #2badf7;
+  border-right: 2px solid #2badf7;
+}
+
+
+.cont:nth-of-type(7) .tarj .circl,
+.cont:nth-of-type(7) .tarj .tex a::before{
+  background: #039440;
+}
+
+.cont:nth-of-type(7) .tarj .tex a span::before {
+  border-top: 2px solid #039440;
+  border-left: 2px solid #039440;
+
+}
+.cont:nth-of-type(7) .tarj .tex a span::after{
+  border-bottom: 2px solid #039440;
+  border-right: 2px solid #039440;
+}
+
+
+.cont:nth-of-type(8) .tarj .circl,
+.cont:nth-of-type(8) .tarj .tex a::before{
+  background: #d40573;
+}
+
+.cont:nth-of-type(8) .tarj .tex a span::before {
+  border-top: 2px solid #d40573;
+  border-left: 2px solid #d40573;
+
+}
+.cont:nth-of-type(8) .tarj .tex a span::after{
+  border-bottom: 2px solid #d40573;
+  border-right: 2px solid #d40573;
+}
+
+
+.cont:nth-of-type(9) .tarj .circl,
+.cont:nth-of-type(9) .tarj .tex a::before{
+  background: #ee0f0f;
+}
+
+.cont:nth-of-type(9) .tarj .tex a span::before {
+  border-top: 2px solid #ee0f0f;
+  border-left: 2px solid #ee0f0f;
+
+}
+.cont:nth-of-type(9) .tarj .tex a span::after{
+  border-bottom: 2px solid #ee0f0f;
+  border-right: 2px solid #ee0f0f;
+}
+
+.cont:nth-of-type(10) .tarj .circl,
+.cont:nth-of-type(10) .tarj .tex a::before{
+  background: #11a28a;
+}
+
+.cont:nth-of-type(10) .tarj .tex a span::before {
+  border-top: 2px solid #11a28a;
+  border-left: 2px solid #11a28a;
+
+}
+.cont:nth-of-type(10) .tarj .tex a span::after{
+  border-bottom: 2px solid #11a28a;
+  border-right: 2px solid #11a28a;
+}
+
+.cont:nth-of-type(11) .tarj .circl,
+.cont:nth-of-type(11) .tarj .tex a::before{
+  background: #005dd0;
+}
+
+.cont:nth-of-type(11) .tarj .tex a span::before {
+  border-top: 2px solid #005dd0;
+  border-left: 2px solid #005dd0;
+
+}
+.cont:nth-of-type(11) .tarj .tex a span::after{
+  border-bottom: 2px solid #005dd0;
+  border-right: 2px solid #005dd0;
+}
+  /*end Colors for the results*/
+
+  /*The filters*/
+  .filter_back {
+    z-index: 500;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: max-content;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+body.Dark .filter_back  {
+  background: #2a2a2a;
+}
+
+.filter_background {
+    display: none;
+    z-index: 400;
+    opacity: 0.76;
+    position: fixed;
+    height: 200%;
+    width: 200%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    overflow: hidden;
+}
+
+/*The menus of the filters*/
+.dropdown-container{
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  height: inherit;
+  width: 71vw;
+}
+
+.dropdown-container .career-title{
+    position: absolute;
+    bottom: 22%;
+    left: 3%;
+    transition: all 0.3s ease;
+    color: #a9a9a9;
+    pointer-events: none;
+}
+
+body.Dark .dropdown-container .textBox {
+    color: #fff;
+}
+
+body.Dark .dropdown-container .textBox[effect="ripple"]::after{
+    background: var(--ripple-background, white);
+}
+
+.textBox.active ~ .dropdown-before {
+    transform: rotate(-180deg);
+    top: 50%;
+}
+
+.textBox.active ~ .career-title,
+.textBox:not(:empty) ~ .career-title{
+      bottom: 90%;
+      left: 0%;
+      font-size: 12px;
+      color: #000;
+  }
+
+  body.Dark .textBox.active ~ .career-title,
+  body.Dark .textBox:not(:empty) ~ .career-title{
+      color: #fff;
+  }
+
+.dropdown-before {
+    position: absolute;
+    right: 14px;
+    top: 52%;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.textBox {
+    position: relative;
+    margin-top: 20px;
+    min-height: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
+    padding: 12px 35px 12px 15px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+}
+
+.option {
+    width: 100%;
+    box-shadow: 0px 4px 31px 11px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: max-content;
+    max-height: 170px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: none;
+    margin-top: 28px;
+}
+
+.option div {
+    padding: 12px 14px 12px 14px;
+    cursor: pointer;
+    text-align: left;
+    line-height: 22px;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.1);
+    transition: all 0.18s ease;
+}
+
+.option div:hover{
+    background: rgb(249, 74, 43);
+    color: #fff;
+}
+
+.option div i,
+.textBox i {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+
+.career[effect="ripple"]::after
+ {
+    background: var(--ripple-background, white);
+}
+
+#submit_button {
+  background:rgb(249, 74, 43);
+  border-radius: 5px;
+  display: block;
+  margin: 35px auto;
+  color: #fff;
+  outline: none;
+  border: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+#submit_button:hover {
+  background:rgb(254, 114, 89);
+}
+
+/*end of menus of the filters*/
+  /*end of The filters*/
+
+  @media only screen and (max-width:998px){
+
+    .page {
+    
+    width: 577px;
+    }
+    
+    .page__btn, .page__dots, .page__numbers {
+    font-size: 1.1rem;
+    }
+    }
+    
+    @media only screen and (max-width: 474px){
+        body:has(.act){
+            overflow: hidden !important;
+        }
+    }
+
+    @media only screen and (max-width: 390px){
+      .dropdown-container .career-title,
+      .textBox i,
+      .textBox .car,
+      .option div i, 
+      .career .car {
+        font-size: 14px;
+    }
+
+    .dropdown-before {
+      top: 56%;
+      font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1050px){
+  .cont .tarj .circl {
+  clip-path: circle(114px at center -38px);
+  }
+  
+  .cont .tarj .circl h2 {
+      padding: 14px 48%;
+  }
+  
+  .prof_info {
+      margin-top: 75px;
+  }
+  
+  .cont .tarj {
+      height: 241px;
+  }
+  
+  }
+  
+  @media screen and (max-width: 337px){
+    .dropdown-container .career-title,
+    .textBox i,
+    .textBox .car,
+    .option div i, 
+    .career .car {
+      font-size: 12px;
+  }
+  }
+  
+  @media screen and (max-width: 971px){
+  .cont .tarj .circl h2 {
+      margin-top: 0 !important; 
+  }
+  }
+
+  @media screen and (max-width: 805px ){
+    .cont .tarj .circl h2 {
+      padding: 14px 47%;
+  }
+  }
+  
+  @media screen and (max-width: 807px){
+  .cont .tarj .tex a {
+      padding: 15px;
+  }
+  
+  .cont .tarj .tex a:hover::before {
+      height: 325%;
+  }
+  }
+  
+  @media screen and (max-width: 708px){
+  .cont .tarj .circl h2 {
+      margin-top: 0 !important;
+  }
+  }
+  
+  @media screen and (max-width: 517px){
+    .cont .tarj .tex {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .cont .tarj .text a {
+  width: 250px;
+  }
+  
+  .cont .tarj {
+  height: 331px;
+  }
+  
+  .cont .tarj .tex a:nth-of-type(2){
+  margin-top: 30px;
+  }
+
+  .cont .tarj .circl h2 {
+    padding: 14px 44%;
+}
+  }

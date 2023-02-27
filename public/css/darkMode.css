@@ -1,0 +1,382 @@
+header .le-nav li .boton-dark {
+    color: #fff;
+    margin-left: 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 201;
+}
+
+header nav .responsive-button-parent {
+    display: none;
+    z-index: 201;
+    position: fixed;
+    right: 0.1875rem;
+    bottom: 27.9375rem;
+    top: auto;
+    animation: fadeIn 1.75s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body.Dark .an-notifications,
+body.Dark .an-form,
+body.Dark .an-form-re,
+body.Dark .an-user {
+    background: #1c1c1c;
+    box-shadow: 0px 0px 11px 2px rgb(44 44 44 / 60%);
+}
+
+body.Dark .an-form::before,
+body.Dark .an-form-re::before{
+    background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+}
+
+body.Dark .an-form::after,
+body.Dark .an-form-re::after{
+    background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+}
+
+body.Dark   .lds-ripple div {
+    border: 4px solid rgb(255, 255, 255);
+  }
+
+
+header nav .responsive-button-parent .responsive-boton-dark {
+    color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    width: 35px;
+    height: 35px;
+    font-size: 23px;
+    border-radius: 20px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+body.Dark .an-notifications .panel-notifications{
+    background: #262626;
+}
+
+body.Dark header nav .responsive-button-parent .responsive-boton-dark {
+    background: rgb(74, 74, 74);
+    color: #fff;
+}
+
+header .le-nav li .boton-dark .ripp:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 75%;
+}
+
+header .le-nav li .boton-dark .ripp:active {
+    background-color: rgba(148, 146, 146, 0.6);
+    border-radius: 85%;
+}
+
+.Dark {
+    background: #292929;
+    color: rgb(249, 246, 246);
+}
+
+body.Dark header #Logo {
+    content: url("/img/RUP-LogoDefinitivoClaro.png");
+}
+
+body.Dark header .responsive-nav img {
+    content: url("/img/RUP-Icono-svg.png");
+}
+
+/*
+#360f0f, #e93f37
+*/
+
+body.Dark .button_r {
+    color: #1670f0;
+}
+
+body.Dark .button_r::before {
+    background: rgb(66 66 66 / 9%);
+    box-shadow: 5px 14px 124px rgb(0 0 0 / 50%);
+}
+
+body.Dark .button_r span:nth-child(1){
+    background: linear-gradient(to right, #0c002b, #1779ff);
+}
+
+body.Dark .button_r span:nth-child(2){
+    background: linear-gradient(to bottom, #0c002b, #1779ff);
+}
+
+body.Dark .button_r span:nth-child(3){
+    background: linear-gradient(to left, #0c002b, #1779ff);
+}
+
+
+body.Dark .button_r span:nth-child(4){
+    background: linear-gradient(to top, #0c002b, #1779ff);
+}
+
+body.Dark main .general2 .Average .container .card {
+    background: rgba(74, 74, 74, 0.6);
+}
+
+body.Dark main .general2 .Average .container .card .ImgBx {
+    box-shadow: 0 0 0 0;
+}
+
+body.Dark .recent_opinions .teach-container {
+    background: #343434;
+}
+
+
+body.Dark .general4 footer .le-footer .nav-footer .terminos-legales a::after,
+body.Dark .general4 footer .le-footer .nav-footer .enlaces-internos a::after,
+body.Dark .general4 footer .le-footer .nav-footer .enlaces-de-interes a::after {
+    background-color: rgb(255, 255, 255);
+}
+
+body.Dark .general4 footer .le-footer .logo2 #logo2 {
+    content: url("/img/RUP-LogoDefinitivoClaro2.png");
+}
+
+body.Dark header .le-nav li .menu-desplegable,
+body.Dark header .le-nav li .menu-desplegable-2 {
+    background: #505050;
+}
+
+body.Dark .an-notifications .panel-notifications{
+    background: #262626;
+}
+
+body.Dark .Inhalt .TextInBox .primero .uno,
+body.Dark main .general2 .Average .container .card .content,
+body.Dark .general4 footer .le-footer .nav-footer .terminos-legales a,
+body.Dark .general4 footer .le-footer .nav-footer .enlaces-internos a,
+body.Dark .general4 footer .le-footer .nav-footer .enlaces-de-interes a,
+body.Dark header .le-nav li .menu-desplegable ul li a,
+body.Dark header .le-nav li .menu-desplegable ul li .login,
+body.Dark header .le-nav li .menu-desplegable-2 ul li a,
+body.Dark .contenedor-login .formularios .titulo,
+body.Dark .formularios .textoCheck,
+body.Dark .campo-entrada input,
+body.Dark .campo-entrada input:focus ~ .form_span,
+body.Dark .campo-entrada input:not(:placeholder-shown, :focus) ~ .form_span,
+body.Dark .panel .notifications .info-noti,
+body.Dark .panel .notifications .dropdown,
+body.Dark .panel .user-avatar .user-info,
+body.Dark .panel-notifications i,
+body.Dark .notifications_cont .cont_2,
+body.Dark .teach-container a,
+body.Dark .teach-container a .sub_container .info-container{
+    color: #fff;
+}
+
+body.Dark .teach-container a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+body.Dark .actions_links a {
+    color: #fff;
+        border: 1px solid #dcdcdc;
+    }
+
+body.Dark .panel .notifications .noti-icon {
+    color: rgb(255 255 255 / 84%);
+}
+
+body.Dark   .panel .notifications:hover {
+    background-color: #696666;
+  }
+
+
+body.Dark  .panel .user-avatar .avatar-picture .green-dot{
+    box-shadow: 0 0 0 2px #424242;
+}
+
+
+body.Dark .colr {
+    color: #fff;
+}
+
+
+body.Dark .campo-entrada input,
+body.Dark .campo-entrada input:focus ~ .form_span,
+body.Dark .campo-entrada input:not(:placeholder-shown, :focus) ~ .form_span {
+    background-color: #2a2a2a;
+}
+
+body.Dark input:-webkit-autofill {
+    box-shadow: 0 0 0 30px #2a2a2a inset !important;
+    -webkit-text-fill-color: white;
+}
+
+body.Dark .Inhalt .TextInBox .primero .uno::selection {
+    background: #3297fd;
+}
+
+body.Dark .contenedor-login .marca-x,
+body.Dark .contenedor-login .fa-circle-arrow-left {
+    color: #afaeae;
+}
+
+body.Dark .contenedor-login .marca-x:hover,
+body.Dark .contenedor-login .fa-circle-arrow-left:hover {
+    color: rgb(240, 240, 240);
+}
+
+
+body.Dark .panel {
+    background-color: #262626;
+}
+
+body.Dark::-webkit-scrollbar-track {
+    background: #555353;
+}
+
+body.Dark::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+body.Dark::-webkit-scrollbar-thumb:hover {
+    background: rgb(202, 201, 201);
+}
+
+body.Dark
+    main
+    .general2
+    .Average
+    .container
+    .card:hover
+    .content::-webkit-scrollbar-thumb:hover {
+    background: rgb(202, 201, 201) !important;
+}
+
+body.Dark .contenedor-login {
+    background: #2a2a2a;
+}
+
+body.Dark .campo-entrada i {
+    color: #c7c5c5;
+}
+
+body.Dark .rip_c:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+body.Dark #nprogress .bar {
+    background: #66c7ff !important;
+    box-shadow: 0px 2px 10px 0px #66c7ff;
+}
+
+body.Dark #nprogress .peg {
+    box-shadow: 0 1px 7px #66c7ff, 0 1px 7px #66c7ff;
+}
+
+body.Dark #nprogress .spinner-icon,
+body.Dark #nprogress .spinner-icon::before,
+body.Dark .lds-parent .loader-1::before,
+body.Dark .lds-parent .loader-1 {
+    border-color: #FFF #FFF transparent transparent;
+}
+
+body.Dark #nprogress .spinner-icon::after,
+body.Dark .lds-parent .loader-1::after {
+    border-color: #66c7ff transparent #66c7ff transparent !important;
+}
+
+body.Dark .loader_recent {
+    border-top: 3px solid #fff;
+}
+
+body.Dark .banerr {
+    background: #343434;
+}
+
+body.Dark .message .text {
+    color: #e7e7e7;
+}
+
+body.Dark .message .text.text-1 {
+    color: #fff;
+}
+
+@media screen and (max-width: 971px) {
+    header .le-nav li .boton-dark {
+        display: none;
+    }
+
+    header .le-nav-active ~ .responsive-button-parent {
+        display: block;
+    }
+
+    body.Dark .rip_c_smd:active {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    body.Dark header .responsive-nav {
+        background-color: rgb(74, 74, 74);
+        box-shadow: 0 5px 10px 0 rgb(255 255 255 / 9%);
+    }
+
+    body.Dark header .responsive-nav[effect="ripple"]::after {
+        background: var(--ripple-background, white);
+    }
+
+    body.Dark header .le-nav {
+        background: rgb(55, 52, 52);
+    }
+
+    body.Dark header .le-nav::-webkit-scrollbar-thumb:hover {
+        background: rgb(202, 201, 201) !important;
+    }
+
+    body.Dark header .le-nav li .boton-dark,
+    body.Dark header .le-nav li a,
+    body.Dark header .le-nav li .submenu,
+    body.Dark header .le-nav li .fa-house,
+    body.Dark header .le-nav li .fa-chalkboard-user,
+    body.Dark header .le-nav li .fa-user,
+    body.Dark header .le-nav li .fa-screwdriver-wrench,
+    body.Dark header .le-nav li .fa-chevron-down,
+    body.Dark header .le-nav li a:hover,
+    body.Dark header .le-nav li a:focus {
+        color: #fff;
+    }
+
+    body.Dark header .le-nav li .menu-desplegable,
+    body.Dark header .le-nav li .menu-desplegable-2 {
+        background: #242222;
+    }
+}
+
+@media only screen and (max-height: 519px) and (max-width: 971px) and (orientation: landscape) {
+    header nav .responsive-button-parent {
+        bottom: 19.375rem;
+    }
+}
+
+@media only screen and (max-height: 341px) and (max-width: 971px) and (orientation: landscape) {
+    header nav .responsive-button-parent {
+        bottom: 13.75rem;
+    }
+}
+
+@media only screen and (max-height: 307px) and (max-width: 971px) and (orientation: landscape) {
+    header nav .responsive-button-parent {
+        bottom: 10.25rem;
+    }
+}

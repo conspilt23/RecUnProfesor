@@ -1,0 +1,455 @@
+    main .general1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Inhalt .TextInBox .botones {
+        justify-content: inherit !important;
+    }
+
+    .dropdown-container{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    height: inherit;
+    }
+
+    .dropdown-container .career-title {
+    position: absolute;
+    bottom: 22%;
+    left: 3%;
+    transition: all .3s ease;
+    color: #a9a9a9;
+    pointer-events: none;
+    }
+
+    body.Dark .dropdown-container .textBox {
+        color: #fff;
+    }
+
+    body.Dark .dropdown-container .textBox[effect="ripple"]::after {
+        background: var(--ripple-background, white);
+    }
+    
+     .textBox.active ~ .dropdown-before {
+        transform: rotate(-180deg);
+        top: 50%;
+    }
+
+    .textBox.active ~ .career-title,
+    .textBox:not(:empty) ~ .career-title{
+        bottom: 90%;
+        left: 0%;
+        font-size: 12px;
+        color: #000
+    }
+
+    body.Dark .textBox.active ~ .career-title,
+    body.Dark .textBox.ve:not(:empty) ~ .career-title{color: #fff;}
+
+    .dropdown-before {
+        position: absolute;
+        right: 14px;
+        top: 54%;
+        pointer-events: none; 
+        transition: all .2s ease;
+    }
+
+    .textBox {
+    position: relative;
+    margin-top: 20px;
+    min-height: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
+    padding: 12px 35px 12px 15px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    }
+
+    .fa-circle-info {
+        cursor: help;
+    }
+
+    .option {
+    width: 100%;
+    box-shadow: 0px 4px 31px 11px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 260px;
+    display: none;
+    margin-top: 28px;
+    }
+
+    .input-box:has(.error-input ) > i {
+        color: #ec6c4f !important;
+    }
+
+    .input-box:has(.error-input:focus) > .details,
+    .user-details .input-box .error-input:not(:placeholder-shown, :focus) ~ .details {
+        border-left: 1px solid rgba(252, 96, 69, 1) !important;
+        border-right: 1px solid rgba(252, 96, 69, 1) !important;
+        color: rgba(252, 96, 69, 1) !important;
+    }
+
+    .error-input {
+        outline: none !important;
+        border-color: #ec6c4f !important;
+        box-shadow: 0 0 5px #ec6c4f !important;
+}
+
+
+    .option div {
+    padding: 12px 14px 12px 14px;
+    cursor: pointer;
+    text-align: left;
+    line-height: 22px;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.1);
+    transition: all .18s ease
+}
+
+    .option div:hover {
+        background: rgb(249, 74, 43);;
+        color: #fff;
+    }
+
+    .option div i,
+    .textBox i {
+        font-size: 1.2em;
+        margin-right: 10px;
+    }
+
+    .dropdown-container .arriba {
+        position: absolute;
+        right: 12px;
+        bottom: -25px;
+    }
+
+    .container {
+        width: 100%;
+        background: #fff;
+        padding: 25px 30px;
+        border-radius: 5px;
+        margin-top: 100px;
+        transition: background .5s ease;
+        box-shadow: 3px 0px 6px 5px rgb(0 0 0 / 26%);
+        margin-bottom: 50px;
+    }
+
+    body.Dark .container{
+            background: #363636;
+        
+    }
+
+    .container .title {
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .container .title::before {
+        content: '';
+        position: absolute;
+        margin-top: 24px;
+        width: 30px;
+        height: 1.6px;
+        background: rgb(245,90,52);
+        background: linear-gradient(90deg, rgba(245,90,52,1) 13%, rgba(241,56,85,1) 100%);
+        border-radius: 20px;
+    }
+
+    .container form .user-details{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .err-m {
+    color: rgb(251, 75, 75); 
+    font-size: 12px; 
+    margin-top: 4px;
+    }
+
+    .err-m:nth-last-of-type(){
+        margin-top: 10px;
+    }
+
+    form .user-details .input-box {
+        margin: 20px 4px 12px 4px;
+      
+    }
+
+    .input-box .izq,
+    .input-box .der {
+        position: absolute;
+        font-size: 14px;
+    }
+
+    .input-box .izq {
+    margin-top: 14px;
+    margin-left: 8px;
+    }
+
+    .input-box .der{
+    margin-top: 16px;
+    margin-left: -25px;
+    }
+
+    .input-box .con{
+        cursor: pointer;
+        }
+
+    .user-details .input-box .details {
+        display: block;
+        position: absolute;
+        margin: -31px 21px 20px 33px;
+        transition: all .26s ease;
+        color: #878787;
+        pointer-events: none;
+        font-size: 14px;
+    }
+
+    .user-details .input-box input:focus ~ .details,
+    .user-details .input-box input:not(:placeholder-shown, :focus) ~ .details{
+        margin: -51px 20px 20px 7px;
+        background: #fcfcfc;
+        color: #000;
+        font-size: 11px;
+        padding: 0 7px;
+        border-left: 1px solid rgb(49, 48, 48);
+        border-right: 1px solid rgb(49, 48, 48);
+    }
+
+    body.Dark .user-details .input-box input:focus ~ .details,
+    body.Dark .user-details .input-box input:not(:placeholder-shown, :focus) ~ .details{
+        background: #363636;
+        color: #fff;
+        border-left: 1px solid rgb(255, 255, 255);
+        border-right: 1px solid rgb(255, 255, 255);
+    }
+
+    .user-details .input-box input {
+        height: 45px;
+        width: 37vw;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1em;
+        background: transparent;
+    }
+
+    body.Dark .user-details .input-box input{
+        color: #fff;
+    }
+
+    .button-check {
+        margin-top: 40px;
+    }
+
+    .button-check label {
+        font-weight: normal;
+        line-height: 23px;
+    }
+
+    .button-check label a {
+        font-weight: 600;
+        font-style: italic;
+        text-decoration: none;
+        color:rgb(253, 79, 49);
+    }
+
+    body.Dark .button-check label a {
+        color:rgb(251, 126, 105);
+    }
+
+    .button-check label a:hover {
+        text-decoration: underline;
+    }
+
+    .button {
+        margin-top: 35px;
+    }
+
+    .button[effect="ripple"]::after,
+    .career[effect="ripple"]::after {
+    background: var(--ripple-background, white);
+}
+
+    .button input {
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: rgb(253, 79, 49);
+    outline: none;
+    transition: all .2s ease;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    }
+
+    .button input:is(:disabled) {
+        background-color: #b6b6b6;
+        color: #878787;
+        cursor: not-allowed;
+    }
+
+    body.Dark input:is(:disabled){
+        background-color: #5b5b5b;
+    }
+
+    .button input:hover {
+        opacity: .9;
+    }
+
+    .tool {
+        background: rgba(252,96,69,1);
+        line-height: 20px;
+        text-align: center;
+        font-size: 13px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: none;
+        position: relative;
+        color: #fff;
+    }
+
+    .tool-info-user{
+        top: 10px;
+    
+    }
+
+    .tool-info-career{
+        top: 31px;
+    }
+
+    @media only screen and (min-height: 2120px){
+        .general4{
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    @media screen and (min-width: 1646px){
+        .container {
+            margin-top: 159px;
+        }
+
+        .user-details .input-box input {
+            width: 41vw;
+        }
+    }
+
+
+    @media screen and (max-width: 1144px){
+        .err-m {
+            font-size: 10px;
+        }
+    }
+
+    @media screen and (max-width: 1061px){
+        .user-details .input-box input {
+            width: 34vw;
+        }
+    }
+
+    @media screen and (max-width: 971px){
+.option, .option_pensum, .option-container, .option-container-grade {
+    position: fixed;
+    margin: auto;
+    z-index: 300;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 85vw;
+    background: #fff;
+    border-radius: 7px;
+}
+
+.fondo-select-responsive {
+    display: none;
+    z-index: 200;
+    opacity: 0.76;
+    position: fixed;
+    height: 200%;
+    width: 200%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+}
+
+.fondo-select-responsive.activ {
+    display: block;
+}
+
+body:has(.fondo-select-responsive.activ){
+    overflow: hidden !important;
+}
+
+body.Dark .option {
+    background: #393939;
+}
+    }
+
+    @media screen and (max-width: 889px){
+    main .general1 {
+    padding: 0 50px 10px 50px !important;
+    }
+    }
+
+    @media screen and (max-width: 650px){
+        .user-details .input-box input {
+            width: 100%;
+        }
+        .container form .user-details {
+            display: block;
+        }
+    }
+
+    @media screen and (max-width: 456px){
+    main .general1 {
+    padding: 0 30px 10px 30px !important;
+}
+
+.button-check label {
+    font-size: 13px;
+}
+    }
+    
+    @media screen and (max-width: 420px){
+        .dropdown-container .career-title,
+        .user-details .input-box .details,
+        .user-details .input-box input,
+        .car{
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (max-width: 338px){
+        .dropdown-container .career-title,
+        .user-details .input-box .details,
+        .user-details .input-box input,
+        .car{
+            font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width: 316px){
+        main .general1 {
+            padding: 0 10px 10px 10px !important;
+        }
+    }

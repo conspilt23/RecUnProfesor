@@ -1,0 +1,127 @@
+<x-layouts.guest
+    title="▷ Consejos para estudiantes de la Universidad APEC — Recomiéndame un profesor"
+    h1="Consejos para estudiantes de UNAPEC"
+    pAfterH1="Algunos tips para que tengas en cuenta qué hacer en determinadas situaciones."
+    h2general1="Consejos"
+>
+
+<x-slot name="metadesc">
+  ➫ En esta página, podrás ver los consejos generales para los estudiantes de Grado de la Universidad APEC. ➤ ➤ ✅¡Siéntete cómodo y aplica estos consejos básicos para tener un cuatrimestre más agradable!✅ ;&#x29;
+</x-slot>
+
+
+<x-slot name="otherstyle">
+    <link rel="stylesheet" href="{{asset('css/consejos.css')}}">
+  </x-slot>
+
+<x-slot name="imgpage">
+    {{asset('img/consejos.svg')}}
+</x-slot>
+
+<x-slot name="buttons">
+  <div class="botones">
+    <div class="box" style="--Color:#fc6045;">
+      <div class="content">
+        <div class="icon"><i class="fa-solid fa-rocket"></i></div>
+        <div class="text">
+          <h3>Consejos generales</h3>
+          <p>Estos consejos generales, recomendablemente, deben ser tomados en cuenta por los estudiantes de la Universidad APEC, para que les vaya mejor en el tiempo que estarán estudiando en esta casa de estudios.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</x-slot>
+
+  <x-slot name="general1">
+    <div class="general1">
+        <section class="esta-pagina">
+            <h2>Consejos generales</h2>
+            <h6>¡Para que te vaya bien!</h6>
+  
+    <p>Darle un seguimiento adecuado al calendario académico es muy importante, ya que tendrás en cuenta cada detalle en las fechas propuestas por el calendario académico oficial de la Universidad APEC. Sólo basta con seleccionar el día que necesites, o cualquiera dentro del período actual.
+  
+    Todo esto con la búsqueda de profesores, asignaturas individuales o todo un cuatrimestre, junto con otras herramientas bastante útiles que todo aquel que estudia en esta universidad le sería muy útil.</p>
+
+    <div class="cont">
+      <div class="tarj">
+        <div class="circl">
+          <h2>01</h2>
+        </div>
+        <div class="titl">
+          <h3>Asesórate antes de seleccionar alguna materia</h3>
+        </div>
+        <div class="tex">
+          <p>Esto no es extraño, es indispensable que te asesores en cada aspecto de esto. Ya que, muchos aspectos (tanto personales como de la universidad) tienen que tomarse en cuenta.</p>
+
+          <p>Un aspecto de ellos es verificar si el profesor <strong>se adapta a tu estilo de aprendizaje</strong>, para ello puedes usar tanto nuestra herramiento de búsqueda individual o cuatrimestral, como verificar o preguntar también en el grupo de Facebook que se ha creado entre los estudiantes de la universidad</p>
+
+          <p>Otro de ellos sería verificar el horario de la asignatura, si es conveniente para ti y que no te "choque" con alguna otra actividad y/o asignatura diferente, ya que sería lamentable que tengas que retirar por tener una agenda muy apretada.</p>
+
+          <p>Finalmente, te recomendamos que no elijas asignaturas muy lejanas al cuatrimestre que actualmente estás cursando, aunque no tengan pre-requesitios (a menos que te hayas asesorado lo suficiente y tengas la certeza que no representará una dificultad pesada para ti y puedas aprobarla sin problemas).</p>
+          
+        </div>
+      </div>
+    </div>
+
+
+    <div class="cont">
+      <div class="tarj">
+        <div class="circl">
+          <h2>02</h2>
+        </div>
+        <div class="titl">
+          <h3>Procura cumplir con tus asignaciones.</h3>
+        </div>
+        <div class="tex">
+          <p>Muchos estudiantes (en especial los de nuevo ingreso) no cumple con alguna determiana asignación o tarea de alguna asignatura que "llena" el acumulado ya sea del 1er o 2do parcial, debido a que valen "muy pocos puntos", lo cual es equivalente a un gran error.</p>
+
+          <p>Esto es así, ya que esos "pocos puntos" pueden convertirse en un "salvavidas" a la hora de aprobarla con una determinada calificación y no luchar para tener una "C de campeón"</p>
+
+          <p>Así que, te recomendamos, dentro de posible, cumplir con tus tareas o asignaturas para que tengas el mayor acumulado posible.</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="cont">
+      <div class="tarj">
+        <div class="circl">
+          <h2>03</h2>
+        </div>
+        <div class="titl">
+          <h3>No dejes las asignaturas de inglés para último momento.</h3>
+        </div>
+        <div class="tex">
+          <p>Es importante que selecciones estas asignaturas dentro de la medida de lo posible, puesto que, estas asignaturas son requerimientos para graduarte ya cuando estés finalizando tu plan de estudios.</p>
+
+          <p>Además, es hastiado tener que cursar un cuatrimestre solo por no haber seleccionado las asignaturas de inglés,que, aunque algunas de ellas no se sumen a la cantidad de créditos a seleccionar, o no tengan peso en el índice, son importantes.</p>
+
+          <p>Por ello, si no tienes exonerados los niveles de inglés, te invitamos a no tomarlos desde el inicio cuando ya estés muy avanzado dentro de tu carrera, en la medida de lo posible.</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="cont">
+      <div class="tarj">
+        <div class="circl">
+          <h2>04</h2>
+        </div>
+        <div class="titl">
+          <h3>Saca el carné del período actual</h3>
+        </div>
+        <div class="tex">
+          <p>Es recomendable hacerlo, ya que algunos estudiantes no lo hacen. Esto es importante, ya que, para usar ciertos servicios de la universidad es requierido. Y, aunque puede que no sea común, el docente con el que cursas alguna asignatura, podría pedirte el carné para tener derecho a examinarte</p>
+
+          <p>Por ello, te recomendamos que lo saques. Es súper sencillo y fácil, solo espera el aviso de la universidad, manda tu foto (o te la tomas presencial en el lugar determinado por la universidad en el campus) y listo, lo pasas a recoger en el tiempo estimado que el aviso informó.</p>
+          
+        </div>
+      </div>
+    </div>
+  
+    
+  </section>
+  </div>
+  </x-slot>
+
+</x-layouts.guest>

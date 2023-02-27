@@ -1,0 +1,111 @@
+/* Make clicks pass-through */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar { 
+  background: #29d;
+  box-shadow:  0px 2px 5px 0px #29d;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3.2px;
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 1px 7px #29d, 0 1px 7px #29d;
+  opacity: 1.0;
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+  -ms-transform: rotate(3deg) translate(0px, -4px);
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 12px;
+  left: 15px;
+}
+
+#nprogress .spinner-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: rgb(218, 218, 218) rgb(218, 218, 218) transparent transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+#nprogress .spinner-icon::after,
+#nprogress .spinner-icon::before {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: #29d transparent #29d transparent;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotationBack 0.35s linear infinite;
+  transform-origin: center center;
+}
+
+#nprogress .spinner-icon::before{
+  width: 15px;
+  height: 15px;
+  border-color: rgb(218, 218, 218) rgb(218, 218, 218) transparent transparent;
+  animation: rotation 0.5s linear infinite;
+}
+
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@media only screen and (max-width: 523px){
+  #nprogress .spinner {
+    right: 22px !important;
+    left: auto !important;
+  }
+}

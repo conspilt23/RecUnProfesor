@@ -1,0 +1,284 @@
+:root {
+    --primary: #e73617;
+    --redLight: #f3492b;
+    --redLight-2: #f46262;
+    --redDark: #2d4848;
+  }
+
+
+  .settings_class {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+  }
+
+  .settings_class .modality {
+    margin: 13px 31px 0 0;
+    cursor: pointer;
+    border: none;
+    height: 34px;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    font-size: 0.8125rem;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    align-items: center;
+    white-space: nowrap;
+    border-radius: 16px;
+    vertical-align: middle;
+    justify-content: center;
+    background-color: #f5f5f5;
+    box-shadow: 3px 3px 9px 5px rgb(0 0 0 / 39%);
+  }
+
+  body.Dark .settings_class .modality {
+    background-color: #343434;
+    box-shadow: 3px 3px 9px 5px rgb(0 0 0 / 20%);
+  }
+
+  .settings_class .modality .first_i {
+    color: #363636;
+    margin-left: 15px;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    cursor: pointer;
+    pointer-events: none;
+  }
+
+  body.Dark .settings_class .modality .first_i {
+    color: #e0e0e0;
+  }
+
+  .settings_class .modality .name {
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-overflow: ellipsis;
+    pointer-events: none;
+  }
+
+  .settings_class .modality .last_i {
+    color: #363636;
+    width: 16px;
+    cursor: pointer;
+    height: 20px;
+    margin: 0 15px 0 2px;
+    -webkit-tap-highlight-color: transparent;
+    fill: currentColor;
+    display: inline-block;
+    font-size: 1.2rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  body.Dark .settings_class .modality .last_i {
+    color: #e0e0e0;
+  }
+
+
+  /*The filters*/
+  .filter_back {
+    z-index: 500;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: max-content;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+body.Dark .filter_back  {
+  background: #2a2a2a;
+}
+
+.filter_background {
+    display: none;
+    z-index: 400;
+    opacity: 0.76;
+    position: fixed;
+    height: 200%;
+    width: 200%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    overflow: hidden;
+}
+
+/*The menus of the filters*/
+.dropdown-container{
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  height: inherit;
+  width: 71vw;
+}
+
+.dropdown-container .career-title{
+    position: absolute;
+    bottom: 22%;
+    left: 3%;
+    transition: all 0.3s ease;
+    color: #a9a9a9;
+    pointer-events: none;
+}
+
+body.Dark .dropdown-container .textBox {
+    color: #fff;
+}
+
+body.Dark .dropdown-container .textBox[effect="ripple"]::after{
+    background: var(--ripple-background, white);
+}
+
+.textBox.active ~ .dropdown-before {
+    transform: rotate(-180deg);
+    top: 50%;
+}
+
+.textBox.active ~ .career-title,
+.textBox:not(:empty) ~ .career-title {
+    bottom: 90%;
+    left: 0%;
+    font-size: 12px;
+    color: #000;
+}
+
+body.Dark .textBox.active ~ .career-title,
+body.Dark .textBox.ve:not(:empty) ~ .career-title{
+    color: #fff;
+}
+
+.dropdown-before {
+    position: absolute;
+    right: 14px;
+    top: 52%;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.textBox {
+    position: relative;
+    margin-top: 20px;
+    min-height: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
+    padding: 12px 35px 12px 15px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+}
+
+.option {
+    width: 100%;
+    box-shadow: 0px 4px 31px 11px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: max-content;
+    max-height: 170px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: none;
+    margin-top: 28px;
+}
+
+.option div {
+    padding: 12px 14px 12px 14px;
+    cursor: pointer;
+    text-align: left;
+    line-height: 22px;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.1);
+    transition: all 0.18s ease;
+}
+
+.option div:hover{
+    background: rgb(249, 74, 43);
+    color: #fff;
+}
+
+.option div i,
+.textBox i {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+
+.career[effect="ripple"]::after
+ {
+    background: var(--ripple-background, white);
+}
+
+#submit_button {
+  background:rgb(249, 74, 43);
+  border-radius: 5px;
+  display: block;
+  margin: 35px auto;
+  color: #fff;
+  outline: none;
+  border: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+#submit_button:hover {
+  background:rgb(254, 114, 89);
+}
+
+/*end of menus of the filters*/
+  /*end of The filters*/
+
+
+    @media only screen and (max-width: 390px){
+      .dropdown-container .career-title,
+      .textBox i,
+      .textBox .car,
+      .option div i, 
+      .career .car {
+        font-size: 14px;
+    }
+
+    .dropdown-before {
+      top: 56%;
+      font-size: 13px;
+  }
+}
+  
+  @media screen and (max-width: 337px){
+    .dropdown-container .career-title,
+    .textBox i,
+    .textBox .car,
+    .option div i, 
+    .career .car {
+      font-size: 12px;
+  }
+  }
+
+
+  

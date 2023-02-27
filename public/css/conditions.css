@@ -1,0 +1,187 @@
+/*For the confirmation*/
+.banerr{
+    z-index: 800;
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    border-radius: 12px;
+    background: #fff;
+    padding: 20px 35px 20px 25px;
+    box-shadow: 4px 11px 16px 7px rgb(0 0 0 / 22%);
+    overflow: hidden;
+    transform: translateX(815px);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.35);
+}
+
+.banerr.action_succesfully{
+    border-left: 6px solid  rgb(40, 167, 69);
+}
+
+.banerr.Sign_up_succesfully {
+    border-left: 6px solid rgb(255, 121, 97);
+}
+
+.banerr.Error {
+    border-left: 6px solid rgb(247, 18, 18);
+}
+
+.banerr.recovery-send {
+    border-left: 6px solid rgb(255, 152, 0);
+}
+
+.banerr.information_blue_bg {
+    border-left: 6px solid rgb(66, 87, 239);
+}
+
+
+.banerr.active{
+    transform: translateX(0);
+}
+
+.banerr .banner-content{
+    display: flex;
+    align-items: center;
+}
+
+.banerr .banner-content .check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.banerr.action_succesfully .banner-content .check, .banerr.action_succesfully .progress::before{
+    background-color: rgb(40, 167, 69);
+}
+
+.banerr.Sign_up_succesfully .banner-content .check, .banerr.Sign_up_succesfully .progress::before{
+    background-color: rgb(255, 121, 97);
+}
+
+.banerr.Error .banner-content .check, .banerr.Error .progress::before{
+    background-color: rgb(247, 18, 18);
+}
+
+.banerr.recovery-send .banner-content .check, .banerr.recovery-send .progress::before{
+    background-color: rgb(255, 152, 0);
+}
+
+.banerr.information_blue_bg .banner-content .check, .banerr.information_blue_bg .progress::before{
+    background-color: rgb(66, 87, 239);
+}
+
+
+.banner-content .message{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.message .text{
+    font-size: 20px;
+    font-weight: 400;;
+    color: #666666;
+}
+
+.message .text.text-1{
+    font-weight: 600;
+    color: #333;
+}
+
+.message .text.text-2{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.banerr .closs{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.banerr .closs:hover{
+    opacity: 1;
+}
+
+.banerr .progress{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: #ddd;
+}
+
+.banerr .progress:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.progress.active:before{
+    animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+    100%{
+        right: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    
+.banerr .closs {
+    top: 0px;
+    right: 5px;
+    font-size: 12px;
+}
+
+    .message .text {
+        font-size: 15px;
+    }
+    
+    .message .text.text-2 {
+        font-size: 12px;
+    }
+    
+    .banerr {
+        padding: 20px 8px 20px 11px;
+    }
+    
+    .banerr .banner-content .check {
+        height: 30px;
+        width: 30px;
+        font-size: 17px;
+    }
+    }
+    
+    
+    @media screen and (max-width: 414px){
+    .banner-content .message {
+        margin: 0 12px 0 9px;
+    }
+    .message .text {
+        font-size: 14px;
+    }
+    .message .text.text-2 {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    
+    .banerr .banner-content .check {
+        height: 27px;
+        width: 27px;
+        font-size: 16px;
+    }
+    }

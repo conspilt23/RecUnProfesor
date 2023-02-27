@@ -1,0 +1,264 @@
+main .general1 .esta-pagina {
+    margin-bottom: 27px;
+}
+
+.box {
+    margin-top: 30px;
+    position: relative;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease-in-out;
+}
+
+body.Dark .box {
+    background: #2a2a2a;
+}
+
+.box::before {
+    content: "";
+    width: 6px;
+    position: absolute;
+    height: 100%;
+    background: var(--Color);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 -1px 15px 1px var(--Color);
+}
+
+.box:hover::before {
+    width: 100%;
+}
+
+.box .content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 24px 35px 24px 6px;
+}
+
+.box .content .icon {
+    position: relative;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .content .icon i {
+    font-size: 2.5em;
+    color: var(--Color);
+    transition: 0.5s ease-in-out;
+}
+
+.box:hover .content .icon i {
+    color: #fff;
+}
+
+.box .content .text h3 {
+    font-weight: 500;
+    color: var(--Color);
+    transition: 0.5s ease-in-out;
+    font-size: 1.3em;
+}
+
+.box .content .text h3::selection,
+.box .content .text p::selection {
+    background: #3297fd;
+}
+
+/*Calendar content*/
+.console-log{
+   position: relative;
+    width: 100%;
+    padding: 26px 10px 10px 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px auto 30px auto;
+    -webkit-box-shadow: 0 10px 20px -5px rgba(242, 105, 20, 0.65);
+   box-shadow: 0 10px 20px -5px rgb(239 111 89 / 45%);
+}
+
+.console-log>.log-content {
+   overflow: auto;
+}
+
+body.Dark .console-log {
+   background-color: #141a24;
+   border-radius: 8px;
+   -webkit-box-shadow: 0 10px 20px -5px rgb(19 31 51 / 65%);
+   box-shadow: 0 10px 20px -5px rgb(19 31 51 / 65%);
+}
+.console-log::after {
+   content: "";
+   display: block;
+   width: 8px;
+   height: 8px;
+   border-radius: 40px;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   background: #ff5f56;
+   -webkit-box-shadow: 16px 0 0 #ffbd2e, 32px 0 0 #27c93f;
+   box-shadow: 16px 0 0 #ffbd2e, 32px 0 0 #27c93f;
+}
+
+/**/
+/*Table for info*/
+.back-table-info {
+   margin: auto;
+   background: #fff;
+   box-shadow: 0px 0px 14px 6px rgb(0 0 0 / 25%);
+   padding: 10px;
+   border-radius: 15px;
+   width: 100%;
+}
+
+body.Dark  .back-table-info {
+   background: #2a2a2a;
+}
+.table_info {
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+    color: inherit;
+}
+
+body.Dark .table_info tbody tr td {
+   border-color: rgba(220, 220, 220, .1) !important;
+}
+
+.table_info tbody tr td {
+   border-color: rgba(65, 65, 65, .3) !important;
+}
+
+.table_info tbody tr .legend {
+    width: 100%;
+    border: 1pt solid windowtext;
+    padding: 0cm 5.4pt;
+    vertical-align: top;
+}
+
+.table_info tbody tr .legend p {
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 0cm;
+    line-height: normal;
+    font-size: 15px;
+    text-align: center;
+}
+
+.table_info tbody tr .bullets-info {
+    border-right: 1pt solid windowtext;
+    border-bottom: 1pt solid windowtext;
+    border-left: 1pt solid windowtext;
+    border-image: initial;
+    border-top: none;
+    padding: 0cm 5.4pt;
+}
+
+.bullet-w {
+   border-right: 1pt solid windowtext;
+   border-bottom: 1pt solid windowtext;
+   border-left: 1pt solid windowtext;
+   border-image: initial;
+   border-top: none;
+   padding: 0cm 5.4pt;
+}
+
+.table_info tbody tr .bullets-info .parag {
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+.bullet-f {
+  width: 15px;
+  height: 15px; border-radius: 50%;
+}
+
+.bullet-parent {
+   padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+/**/
+
+.box .content .text p {
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: rgb(96, 96, 96);
+    transition: 0.5s ease-in-out;
+}
+
+.panell p {
+    color: #999;
+}
+
+.box:hover .content .text h3,
+.box:hover .content .text p {
+    color: #fff !important;
+}
+
+body.Dark .box .content .text p,
+body.Dark .panell p {
+    color: #bdbdbd;
+}
+
+@media screen and (max-width: 889px) {
+    .box .content {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+        padding: 24px 36px 24px 36px;
+    }
+
+    .box .content .icon {
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 1925px) {
+    main .general1 {
+        padding: 46px 100px 10px 100px !important;
+    }
+}
+@media screen and (min-width: 1920px) {
+    main .general1 .esta-pagina p {
+        margin-top: 31px;
+    }
+}
+@media screen and (max-width: 971px) {
+    main .general1 .esta-pagina h2 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    header .responsive-nav {
+        z-index: 90 !important;
+    }
+
+    .fondo-transparente {
+        z-index: 89 !important;
+    }
+}
+
+@media screen and (max-width: 716px) {
+    main .general1 .esta-pagina h2 {
+        margin-top: 0 !important;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    main .general1 .esta-pagina h2 {
+        padding-top: 53px !important;
+    }
+}
+
+.Inhalt .TextInBox .botones {
+    margin: 0 !important;
+    justify-content: flex-start !important;
+}
