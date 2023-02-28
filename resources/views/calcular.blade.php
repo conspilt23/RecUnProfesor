@@ -1,4 +1,4 @@
-<x-layouts.guest title="★ Calcular índice académico ★ — Recomiéndame un profesor" 
+<x-layouts.guest title="★ Calcular índice académico UNAPEC ★ — Recomiéndame un profesor" 
 h1="Calcula tu índice académico fácilmente"
     pAfterH1="Con esta herramienta a tu disposición, podrás tener una idea de cómo será tu índice al prever tus calificaciones, o bien, para confirmar. Así, sabrás con mejor detalle cómo te irá y en qué condición académica podrías estar. Así que, no dudes en echarle un vistazo y probarla.">
 

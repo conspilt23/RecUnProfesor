@@ -214,11 +214,7 @@ $(document).ready(function () {
                     var recentOpinionsContainer = ('#recent-opinions');
                     $(recentOpinionsContainer).empty();
                     $(opinions).appendTo(recentOpinionsContainer);
-            }, error: function (jqXHR, textStatus, errorThrown) {
-                console.log(jqXHR);
-                console.log(textStatus);
-                console.log(errorThrown);
-            },
+            }
         });
     }
 
@@ -364,11 +360,7 @@ $(document).ready(function () {
                     </div>`;
                     $('.notifications_info').append(notificationItem);
                 }
-            },            error: function (jqXHR, textStatus, errorThrown) {
-                console.log(jqXHR);
-                console.log(textStatus);
-                console.log(errorThrown);
-            },
+            }
         });   
     }
 
@@ -391,12 +383,7 @@ $(document).ready(function () {
                 $link.text("Marcada como leída");
                 $link.removeAttr("href");
                 $link.css({pointerEvents: "none"});
-            },
-            error: function (jqXHR, textStatus, errorThrown) {
-                console.log(jqXHR);
-                console.log(textStatus);
-                console.log(errorThrown);
-            },
+            }
         });
     });
 
@@ -414,12 +401,7 @@ $(document).ready(function () {
                 $link.removeAttr("href");
                 $link.removeAttr("id");
                 $link.css({pointerEvents: "none"});
-            },
-            error: function (jqXHR, textStatus, errorThrown) {
-                console.log(jqXHR);
-                console.log(textStatus);
-                console.log(errorThrown);
-            },
+            }
         });
     });
 

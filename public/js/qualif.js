@@ -440,12 +440,7 @@ $('#quarter_message').html(quarter_m).toggle(quarter_input);
                             '<div class="notFound found_t" id="t_notF" aria-disabled="true"><div class="icon-not-found"><i class="fa-solid fa-exclamation"></i></div>Ningun profesor coincide con ese nombre</div>'
                         );
                     }
-                },
-                error: function (jqXHR, textStatus, errorThrown) {
-                    console.log(jqXHR);
-                    console.log(textStatus);
-                    console.log(errorThrown);
-                },
+                }
             });
         }, 800);
     });
