@@ -143,7 +143,9 @@
 <div class="option" id="schedule_option">
   <div class="career schedul" effect="ripple"><i class="fa-solid fa-wand-sparkles"></i><span class="car">Cualquiera</span></div>
   <?php $__currentLoopData = $hours; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $hour): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+  <?php if(trim($hour) !== ':' && trim($hour) !== null): ?>
   <div class="career schedul" effect="ripple"><i class="fa-solid fa-clock"></i><span class="car"><?php echo e($hour); ?></span></div>
+  <?php endif; ?>
   <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 </div>
 

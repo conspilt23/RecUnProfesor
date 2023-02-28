@@ -80,13 +80,13 @@
 
             <li><strong>Sobre violación a la ley.</strong> Si algún usuario infringe la ley o si se presenta una situación de emergencia o peligro para la seguridad pública, los propietarios del Sitio se verán forzados a ofrecer la dirección IP del dispositivo o proxy a las autoridades competentes para cumplir con la ley.</li>
 
-            <li><strong>Sobre el control de opiniones y respuestas.</strong> El usuario reconoce y acepta que el Sitio no tiene control total sobre la calidad, precisión, veracidad o legalidad de los comentarios publicados por otros usuarios.</li>
+            <li><strong>Sobre el control de opiniones y respuestas.</strong> El usuario reconoce y acepta que El Sitio no tiene control total sobre la calidad, precisión, veracidad o legalidad de los comentarios publicados por otros usuarios.</li>
 
             <li><strong>Sobre la responsabilidad.</strong> Los propietarios del Sitio no serán responsables por ningún daño o perjuicio, directo o indirecto, que pudiera derivarse del uso del Sitio o de la información contenida en él.</li>
         </ul>
     </p>
 
-    <p>Se debe tener en cuenta que, lo que se realice con una cuenta registrada en el Sitio, queda a responsabilidad del proprietario o titular de la cuenta. Por lo que si decides registrarte en el Sitio, aceptas que serás el responsable de cualquier acción que se haga con la cuenta registrada. Por ello, te recomendamos mantener datos privados o sensibles privados, ya sean propios o de terceros.</p>
+    <p>Se debe tener en cuenta que, lo que se realice con una cuenta registrada en El Sitio, queda a responsabilidad del proprietario o titular de la cuenta. Por lo que si decides registrarte en El Sitio, aceptas que serás el responsable de cualquier acción que se haga con la cuenta registrada. Por ello, te recomendamos mantener datos privados o sensibles privados, ya sean propios o de terceros.</p>
 
 
         </section>

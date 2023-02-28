@@ -137,7 +137,9 @@
 <div class="option" id="schedule_option">
   <div class="career schedul" effect="ripple"><i class="fa-solid fa-wand-sparkles"></i><span class="car">Cualquiera</span></div>
   @foreach($hours as $hour)
+  @if(trim($hour) !== ':' && trim($hour) !== null)
   <div class="career schedul" effect="ripple"><i class="fa-solid fa-clock"></i><span class="car">{{$hour}}</span></div>
+  @endif
   @endforeach
 </div>
 
