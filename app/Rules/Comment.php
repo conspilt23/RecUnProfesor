@@ -23,7 +23,7 @@ class Comment implements InvokableRule
         ];
 
         $badWords = [
-            'mmg', 'maldito', 'maldita', 'mmñ', 'ñema', 'ripio', 'toto', 'guebo', 'güebo', 'mamaguebo', 'mamaguevo', 'guevo', 'mamagüebo', 'mamagüevo', 'güevo', 'pelotudo', 'ramera', 'puta', 'puto', 'mamagrano', 'mamabicho', 'chupa', 'maricon', 'marica', 'marico', 'homosexual', 'ridículo', 'pariguayo', 'pariguaya', 'parigüayo', 'parigüaya', 'droga', 'drug', 'mamagrano', 'verga', 'pito', 'chinga', 'chingad', 'chingo', 'puticornio',
+            'mmg', 'maldito', 'maldita', 'mmñ', 'ñema', 'ripio', 'toto', 'guebo', 'güebo', 'mamaguebo', 'mamaguevo', 'guevo', 'mamagüebo', 'mamagüevo', 'güevo', 'pelotudo', 'ramera', 'puta', 'puto', 'mamagrano', 'mamabicho', 'chupa', 'maricon', 'marica', 'marico', 'homosexual', 'ridículo', 'pariguayo', 'pariguaya', 'parigüayo', 'parigüaya', 'droga', 'drug', 'mamagrano', 'verga', 'pito', 'chinga', 'chingad', 'chingo', 'puticornio','rapa su madre', 'rapa tu madre', 'rapa tu mai', 'rapar', 'mamese', 'mámese', 'mamate', 'mámate', 'rapa tu decendencia'
         ];
 
         $RestrictedSites = [
