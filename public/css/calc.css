@@ -229,7 +229,7 @@ body.Dark .textBox_pensum.ve:not(:empty) ~ .career-title_pensum {
     box-shadow: 2px 4px 11px 2px rgb(0 0 0 / 30%);
     display: none;
     height: 250px;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
 }
 
