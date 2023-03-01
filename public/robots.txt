@@ -1,2 +1,9 @@
 User-agent: *
-Disallow:
+Disallow: /terminos
+Disallow: /privacidad
+Disallow: /cookies
+Disallow: /registro
+Disallow: /forget-password
+Disallow: /reset-password
+Disallow: /admin/*
+Disallow: /result
