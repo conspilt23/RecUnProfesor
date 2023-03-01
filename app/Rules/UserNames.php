@@ -20,7 +20,7 @@ class UserNames implements InvokableRule
 
 
         $Usernames = [
-            'admin', 'operator', 'operador', 'recomiendameunpr', 'nuevosemestre', 'administrador', 'administrator', 'adm', 'administradora', 'moderador', 'moderator', 'miprofesor', 'mi-profesor', 'apec', 'unapec', 'univerdsidad', 'intec', 'unibe', 'uasd', 'pucmm', 'haitian', 'dominican', 'rector', 'profesor', 'maestro', 'lgbt', 'pene', 'semestre', 'marihuana', 'mariguana', 'cocaina', 'anfetamina', 'tedecampana', 'tokischa', 'rochy', 'onguito', 'muerte', 'muerto', 'morir', 'matar', 'asesin', 'asesinar', 'asesinato'
+            'admin', 'operator', 'operador', 'recomiendameunpr', 'nuevosemestre', 'administrador', 'administrator', 'adm', 'administradora', 'moderador', 'moderator', 'miprofesor', 'mi-profesor', 'apec', 'unapec', 'univerdsidad', 'intec', 'unibe', 'uasd', 'pucmm', 'unphu', 'haitian', 'dominican', 'rector', 'profesor', 'maestro', 'lgbt', 'pene', 'semestre', 'marihuana', 'mariguana', 'cocaina', 'anfetamina', 'tedecampana', 'tokischa', 'rochy', 'onguito', 'muerte', 'muerto', 'morir', 'matar', 'asesin', 'asesinar', 'asesinato', 'vicioso', 'viciosa', 'culo', 
         ];
 
         $allowedWords = [
@@ -28,11 +28,11 @@ class UserNames implements InvokableRule
         ];
 
         $badWords = [
-            'mmg', 'maldito', 'maldita', 'coñ', 'mmñ', 'conazo', 'ñema', 'ripio', 'toto', 'guebo', 'güebo', 'mamaguebo', 'mamaguevo', 'guevo', 'mamagüebo', 'mamagüevo', 'güevo', 'pelotudo', 'ramera', 'puta', 'puto', 'diab', 'diablazo', 'diablaso', 'mamagrano', 'mamabicho', 'mierda', 'mielda', 'imbecil', 'imbécil', 'imvecil', 'imvécil', 'inbecil', 'inbécil', 'chupa', 'maricon', 'marica', 'marico', 'homosexual', 'ridiculo', 'ridículo', 'pendejo', 'pariguayo', 'pariguaya', 'parigüayo', 'parigüaya', 'droga', 'drug', 'mamagrano', 'verga', 'pito', 'chinga', 'chingad', 'chingo', 'puticornio'
+            'mmg', 'maldito', 'maldita', 'coñ', 'mmñ', 'conazo', 'ñema', 'ripio', 'toto', 'guebo', 'güebo', 'mamaguebo', 'mamaguevo', 'guevo', 'mamagüebo', 'mamagüevo', 'güevo', 'pelotudo', 'ramera', 'puta', 'puto', 'diab', 'diablazo', 'diablaso', 'mamagrano', 'mamabicho', 'mierda', 'mielda', 'imbecil', 'imbécil', 'imvecil', 'imvécil', 'inbecil', 'inbécil', 'chupa', 'maricón', 'marica', 'marico', 'homosexual', 'ridiculo', 'ridículo', 'pendejo', 'pariguayo', 'pariguaya', 'parigüayo', 'parigüaya', 'droga', 'drug', 'mamagrano', 'verga', 'pito', 'chinga', 'chingad', 'chingo', 'puticornio', 'rapasumadre', 'rapatumadre', 'chingatumadre', 'cuero', 
         ];
 
         $RestrictedSites = [
-            'cock', 'sex', 'rule34', 'hentai', 'yaoi', 'yuri', 'xnxx', 'porn', 'redtube', 'blacked', 'mofos', 'brazzers', 'fantasyhd', 'xvideos', 'hustlerhd', 'bangbros', 'playboy', 'dipsea', 'xhamster', 'frolicme', 'bellesa', 'onlyfans', 'manyvids', 'quinn', 'javhd', 'hentalia', 'xxx', 'creampie', 'felching', 'anal', 'ano', 'voyeur', 'pussy', 'vagina', 'vulva', 'ass', 'fuck', 'suck', 'dick', 'teta', 'glande', 'sacoleche', 'sacaleche','nalga', 'chaturba', 'masturb', 'esperm',  'mevengo', 'osomaduro'
+            'cock', 'sex', 'rule34', 'hentai', 'yaoi', 'yuri', 'xnxx', 'porn', 'redtube', 'blacked', 'mofos', 'brazzers', 'fantasyhd', 'xvideos', 'hustlerhd', 'bangbros', 'playboy', 'dipsea', 'xhamster', 'frolicme',  'onlyfans', 'manyvids', 'quinn', 'javhd', 'hentalia', 'xxx', 'creampie', 'felching', 'anal', 'ano', 'voyeur', 'pussy', 'vagina', 'vulva', 'ass', 'fuck', 'suck', 'dick', 'teta', 'glande', 'sacoleche', 'sacaleche','nalga', 'chaturba', 'masturb', 'esperm',  'mevengo', 'osomaduro', 'popola', 'eyacular', 'eyaculo', 'eyacul', 'coito', 'copular', 'fornicar', 'fornicacion', 'seisnueve', 'seinueve', 'miakhalifa', 
         ];
 
         if (Str::of($value)->lower()->contains($Usernames) && !Str::of($value)->lower()->contains($allowedWords)) {

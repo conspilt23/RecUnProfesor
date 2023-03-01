@@ -10,16 +10,16 @@ class Comment implements InvokableRule
     public function __invoke($attribute, $value, $fail)
     {
 
-    $prohibited_domains = ['com', 'online', 'info', 'net'];
+    $prohibited_domains = ['com', 'online', 'info', 'net', 'org', 'de', 'io'];
     $regex = '/(?:https?:\/\/)?(?:www\.)?[^\s]+\.(?:' . implode('|', $prohibited_domains) . ')\S*/i';
 
 
         $notAllowedWords = [
-              'haitian', 'lgbt', 'pene',  'marihuana', 'mariguana', 'cocaina', 'anfetamina', 'tedecampana', 'tokischa', 'rochy', 'onguito', 'muerte', 'muerto', 'morir', 'matar', 'asesin', 'asesinar', 'asesinato', 'creta'
+              'haitian', 'lgbt', 'pene',  'marihuana', 'mariguana', 'cocaina', 'anfetamina', 'tedecampana', 'tokischa', 'rochy', 'onguito', 'muerte', 'muerto', 'morir', 'matar', 'asesin', 'asesinar', 'asesinato', 'creta', 'vicioso'
         ];
 
         $allowedWords = [
-            'penelope'
+            'penelope',  'pitón', 'cretacio'
         ];
 
         $badWords = [
@@ -27,7 +27,7 @@ class Comment implements InvokableRule
         ];
 
         $RestrictedSites = [
-            'cock', 'sex', 'rule34', 'hentai', 'yaoi', 'yuri', 'xnxx', 'porn', 'redtube', 'blacked', 'mofos', 'brazzers', 'fantasyhd', 'xvideos', 'hustlerhd', 'bangbros', 'playboy', 'dipsea', 'xhamster', 'frolicme', 'bellesa', 'onlyfans', 'manyvids', 'quinn', 'javhd', 'hentalia', 'xxx', 'creampie', 'felching', 'anal', 'ano', 'voyeur', 'pussy', 'vagina', 'vulva', 'ass', 'fuck', 'suck', 'dick', 'teta', 'glande', 'sacoleche', 'sacaleche','nalga', 'chaturba', 'masturb', 'esperm',  'mevengo', 'osomaduro', 'singar'
+            'cock', 'sex', 'rule34', 'hentai', 'yaoi', 'yuri', 'xnxx', 'porn', 'redtube', 'blacked', 'mofos', 'brazzers', 'fantasyhd', 'xvideos', 'hustlerhd', 'bangbros', 'playboy', 'dipsea', 'xhamster', 'frolicme', 'onlyfans', 'manyvids', 'quinn', 'javhd', 'hentalia', 'xxx', 'creampie', 'felching', 'anal', 'ano', 'voyeur', 'pussy', 'vagina', 'vulva', 'ass', 'fuck', 'suck', 'dick', 'teta', 'glande', 'sacoleche', 'sacaleche','nalga', 'chaturba', 'masturb', 'esperm',  'mevengo', 'osomaduro', 'singar', 'popola', 'eyacular', 'eyaculo', 'eyacul', 'coito', 'copular', 'fornicar', 'fornicacion', 'seisnueve', 'seinueve', 'miakhalifa', 
         ];
 
         if (Str::of($value)->lower()->contains($notAllowedWords) && !Str::of($value)->lower()->contains($allowedWords)) {
