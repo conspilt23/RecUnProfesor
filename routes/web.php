@@ -70,6 +70,10 @@ Route::fallback(function(){
     return view('errors.404');
 });
 
+Route::any('{catchall}', function () {
+    abort(404);
+})->where('catchall', '.*');
+
 //Route::get('/{any}', function(){
 //    return view('inicio');
 //})->where('any', '.*');
