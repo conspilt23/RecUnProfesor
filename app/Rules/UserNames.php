@@ -20,7 +20,7 @@ class UserNames implements InvokableRule
 
 
         $Usernames = [
-            'admin', 'operator', 'operador', 'recomiendameunpr', 'nuevosemestre', 'administrador', 'administrator', 'adm', 'administradora', 'moderador', 'moderator', 'miprofesor', 'mi-profesor', 'apec', 'unapec', 'univerdsidad', 'intec', 'unibe', 'uasd', 'pucmm', 'unphu', 'haitian', 'dominican', 'rector', 'profesor', 'maestro', 'lgbt', 'pene', 'semestre', 'marihuana', 'mariguana', 'cocaina', 'anfetamina', 'tedecampana', 'tokischa', 'rochy', 'onguito', 'muerte', 'muerto', 'morir', 'matar', 'asesin', 'asesinar', 'asesinato', 'vicioso', 'viciosa', 'culo', 
+            'admin', 'operator', 'operador', 'recomiendameunpr', 'nuevosemestre', 'administrador', 'administrator', 'adm', 'administradora', 'moderador', 'moderator', 'miprofesor', 'mi-profesor',  'univerdsidad', 'intec', 'unibe', 'uasd', 'pucmm', 'unphu', 'haitian', 'dominican', 'rector', 'profesor', 'maestro', 'lgbt', 'pene', 'semestre', 'marihuana', 'mariguana', 'cocaina', 'anfetamina', 'tedecampana', 'tokischa', 'rochy', 'onguito', 'muerte', 'muerto', 'morir', 'matar', 'asesin', 'asesinar', 'asesinato', 'vicioso', 'viciosa', 'culo', 
         ];
 
         $allowedWords = [
