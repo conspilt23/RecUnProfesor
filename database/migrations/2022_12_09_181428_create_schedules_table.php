@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('schedules', function (Blueprint $table) {
             $table->id();
-            $table->unsignedInteger('subject_nrc');
+            $table->foreignId('subject_nrc')->constrained('subjects', 'nrc');
             $table->string('begin_time');
             $table->string('end_time');
             $table->string('building')->nullable();
@@ -30,8 +30,6 @@ return new class extends Migration
             $table->boolean('is_saturday');
             $table->boolean('is_sunday');
             $table->timestamps();
-
-            $table->foreign('subject_nrc')->references('nrc')->on('subjects');
         });
     }
 
