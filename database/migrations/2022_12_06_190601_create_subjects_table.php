@@ -18,7 +18,7 @@ return new class extends Migration
             $table->foreignId('teacher_id')->constrained('teachers');
             $table->string('term');
             $table->string('term_desc');
-            $table->integer('nrc');
+            $table->unsignedBigInteger('nrc');
             $table->string('campus');
             $table->string('name');
             $table->string('course');
