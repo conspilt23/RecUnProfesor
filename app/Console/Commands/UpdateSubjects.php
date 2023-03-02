@@ -33,7 +33,9 @@ class UpdateSubjects extends Command
     public function handle()
     {
         $subjectFile = File::get(storage_path('subjects' . DIRECTORY_SEPARATOR . 'all_info.json'));
+        DB::statement('SET FOREIGN_KEY_CHECKS=0');
         Subject::truncate();
+        DB::statement('SET FOREIGN_KEY_CHECKS=1');
 $subjects = json_decode($subjectFile, true);
         $bar = $this->output->createProgressBar(count($subjects));
         $bar->start();

@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\Schedule;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 
 class UpdateSchedules extends Command
@@ -31,7 +32,9 @@ class UpdateSchedules extends Command
     {
         $allSubjects = File::get(storage_path('subjects' . DIRECTORY_SEPARATOR . 'all_info.json'));
         $subjects = json_decode($allSubjects, true);
+        DB::statement('SET FOREIGN_KEY_CHECKS=0');
         Schedule::truncate();
+        DB::statement('SET FOREIGN_KEY_CHECKS=1');
 
         $bar = $this->output->createProgressBar(count($subjects));
         $bar->start();
