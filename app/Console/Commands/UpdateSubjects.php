@@ -32,7 +32,7 @@ class UpdateSubjects extends Command
      */
     public function handle()
     {
-        $subjectFile = File::get(storage_path('subjects\all_info.json'));
+        $subjectFile = File::get(storage_path('subjects' . DIRECTORY_SEPARATOR . 'all_info.json'));
         Subject::truncate();
 $subjects = json_decode($subjectFile, true);
         $bar = $this->output->createProgressBar(count($subjects));

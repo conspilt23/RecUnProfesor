@@ -17,7 +17,7 @@ class TeacherSeeder extends Seeder
      */
     public function run()
     {
-        $subjectFile = file_get_contents(storage_path('subjects\all_info.json'));
+        $subjectFile = file_get_contents(storage_path('subjects' . DIRECTORY_SEPARATOR . 'all_info.json'));
         $subjects = json_decode($subjectFile, true);
 
         // Agregar el registro "Sin profesor"

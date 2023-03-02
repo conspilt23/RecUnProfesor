@@ -29,7 +29,7 @@ class UpdateSchedules extends Command
      */
     public function handle()
     {
-        $allSubjects = File::get(storage_path('subjects\all_info.json'));
+        $allSubjects = File::get(storage_path('subjects' . DIRECTORY_SEPARATOR . 'all_info.json'));
         $subjects = json_decode($allSubjects, true);
         Schedule::truncate();
 

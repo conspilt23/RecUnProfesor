@@ -17,7 +17,7 @@ class ScheduleSeeder extends Seeder
      */
     public function run()
     {
-        $allSubjects = File::get(storage_path('subjects\all_info.json'));
+        $allSubjects = File::get(storage_path('subjects' . DIRECTORY_SEPARATOR . 'all_info.json'));
         Schedule::truncate();
 
         foreach (json_decode($allSubjects, true) as $subject) {

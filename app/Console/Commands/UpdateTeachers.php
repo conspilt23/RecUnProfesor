@@ -28,7 +28,7 @@ class UpdateTeachers extends Command
      */
     public function handle()
     {
-        $subjectFile = file_get_contents(storage_path('subjects\all_info.json'));
+        $subjectFile = file_get_contents(storage_path('subjects' . DIRECTORY_SEPARATOR . 'all_info.json'));
         $subjects = json_decode($subjectFile, true);
 
 

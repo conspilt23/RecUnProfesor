@@ -18,7 +18,7 @@ class SubjectSeeder extends Seeder
      */
     public function run()
     {
-        $subjectFile = File::get(storage_path('subjects\all_info.json'));
+        $subjectFile = File::get(storage_path('subjects' . DIRECTORY_SEPARATOR . 'all_info.json'));
         Subject::truncate();
 
         foreach (json_decode($subjectFile, true) as $subject) {
