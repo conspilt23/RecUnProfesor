@@ -59,6 +59,6 @@ class Schedule extends Model
 
     public function subjects(): BelongsTo
     {
-        return $this->belongsTo(Subject::class, 'nrc', 'subject_nrc');
+        return $this->belongsTo(Subject::class, 'subject_nrc', 'nrc');
     }
 }
