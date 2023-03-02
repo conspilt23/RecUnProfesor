@@ -7,6 +7,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 use App\Models\Schedule;
 use App\Models\Subject;
+use Illuminate\Support\Facades\DB;
 
 class ScheduleSeeder extends Seeder
 {
@@ -18,7 +19,9 @@ class ScheduleSeeder extends Seeder
     public function run()
     {
         $allSubjects = File::get(storage_path('subjects' . DIRECTORY_SEPARATOR . 'all_info.json'));
+        DB::statement('SET FOREIGN_KEY_CHECKS=0');
         Schedule::truncate();
+        DB::statement('SET FOREIGN_KEY_CHECKS=1');
 
         foreach (json_decode($allSubjects, true) as $subject) {
             foreach ($subject['schedule'] as $value) {

@@ -8,6 +8,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 use App\Models\Subject;
 use App\Models\Teacher;
+use Illuminate\Support\Facades\DB;
 
 class SubjectSeeder extends Seeder
 {
@@ -19,7 +20,9 @@ class SubjectSeeder extends Seeder
     public function run()
     {
         $subjectFile = File::get(storage_path('subjects' . DIRECTORY_SEPARATOR . 'all_info.json'));
+        DB::statement('SET FOREIGN_KEY_CHECKS=0');
         Subject::truncate();
+        DB::statement('SET FOREIGN_KEY_CHECKS=1');
 
         foreach (json_decode($subjectFile, true) as $subject) {
 
