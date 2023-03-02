@@ -125,6 +125,8 @@ $(document).ready(function () {
         var likeCount = $(this).find(".like-count");
         var dislikeCount = $(this).next().find('.dislike-count');
 
+        console.log(type + '  y es el id: ' + id);
+
 
         $.ajax({
             url: "/reactions/like",
