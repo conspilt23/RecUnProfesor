@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('quarters', function (Blueprint $table) {
             $table->id();
-            $table->string('period');
+            $table->string('period')->index();
             $table->timestamps();
         });
     }
