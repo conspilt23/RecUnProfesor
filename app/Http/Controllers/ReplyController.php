@@ -52,7 +52,9 @@ class ReplyController extends Controller
         $reply->save();
 
         $notifier = Auth::id();
+        $user_id_opinion = Opinion::find($opinion_id)->user_id;
 
+        if($user_id_opinion != $notifier){
         $notification = new Notification();
         $notification->user_id = Opinion::find($opinion_id)->user_id;
         $notification->notifier_id = $notifier;
@@ -61,7 +63,7 @@ class ReplyController extends Controller
         $notification->class_icon = 'fa-comment-dots';
         $notification->message = "El usuario '" . User::find($notifier)->username .  "' ha respondido a tu opinión sobre " . Opinion::find($opinion_id)->teacher->name;
         $notification->save();
-
+        }
         return redirect()->back()->with('ok_reply', 'Respuesta publicada correctamente.');
     }
 }

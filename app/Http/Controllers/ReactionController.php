@@ -67,7 +67,7 @@ class ReactionController extends Controller
 
         if(request()->input('type') == 'opinion'){
             $user = Opinion::find($id);
-            if(!$user->user->notifications()->where('type', 'like')
+            if($user->user_id != auth()->id() && !$user->user->notifications()->where('type', 'like')
             ->where('user_id', $user->user_id)
             ->where('notifier_id', auth()->id())
             ->where('link', "/opiniones/" . str(str_replace('-', ' ', $user->teacher->name))->slug())
