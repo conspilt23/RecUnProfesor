@@ -53,23 +53,5 @@ class Reply extends Model
         return $this->hasMany(Notification::class);
     }
 
-    protected static function boot()
-    {
-        parent::boot();
-    
-        static::created(function ($reply) {
-            $reply->notifyOpinionUser();
-        });
-    }
-    
-    public function notifyOpinionUser()
-    {
-        $opinionUser = $this->opinion->user;
-    
-        if ($opinionUser->id != $this->user_id) {
-                $opinionUser->notify(new CommentNotification($this));
-        }
-    }
-
    
 }

@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ReplyRequest;
+use App\Models\Notification;
+use App\Models\Opinion;
 use App\Models\Reply;
+use App\Models\User;
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Auth;
@@ -47,6 +50,17 @@ class ReplyController extends Controller
         $reply->body = $data['body'];
         $reply->ip_address = $ip_address;
         $reply->save();
+
+        $notifier = Auth::id();
+
+        $notification = new Notification();
+        $notification->user_id = Opinion::find($opinion_id)->user_id;
+        $notification->notifier_id = $notifier;
+        $notification->type = 'reply';
+        $notification->link = "/opiniones/" . str(str_replace('-', ' ', Opinion::find($opinion_id)->teacher->name))->slug();
+        $notification->class_icon = 'fa-comment-dots';
+        $notification->message = "El usuario '" . User::find($notifier)->username .  "' ha respondido a tu opinión sobre " . Opinion::find($opinion_id)->teacher->name;
+        $notification->save();
 
         return redirect()->back()->with('ok_reply', 'Respuesta publicada correctamente.');
     }
