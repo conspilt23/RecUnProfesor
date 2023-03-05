@@ -40,7 +40,7 @@ class CommentNotification extends Notification
         ];
     }
     else if ($this->action instanceof Reply) {
-        dd('Notificación:', [
+        Log::debug('Notificación:', [
             'user_id' => $this->action->opinion->user_id,
             'notifier_id' =>  Auth::id(),
             'type' =>  'reply',
@@ -48,6 +48,8 @@ class CommentNotification extends Notification
             'class_icon' =>  'fa-comment-dots',
             'message' => "El usuario '{$this->action->user->username}' ha respondido tu opinión sobre {$this->action->opinion->teacher->name}.",
         ]);
+        
+        
 
         return [
             'user_id' => $this->action->opinion->user_id,
