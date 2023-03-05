@@ -9,8 +9,6 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use App\Notifications\CommentNotification;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
 
 class Reply extends Model
 {
@@ -66,13 +64,11 @@ class Reply extends Model
     
     public function notifyOpinionUser()
     {
-        Schema::disableForeignKeyConstraints();
         $opinionUser = $this->opinion->user;
     
         if ($opinionUser->id != $this->user_id) {
                 $opinionUser->notify(new CommentNotification($this));
         }
-        Schema::enableForeignKeyConstraints();
     }
 
    

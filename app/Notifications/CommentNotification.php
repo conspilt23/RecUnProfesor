@@ -9,7 +9,6 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Log;
 
 class CommentNotification extends Notification
 {
@@ -32,7 +31,7 @@ class CommentNotification extends Notification
     if ($this->action instanceof Reaction) {
         return [ 
             'user_id' => $this->action->opinion->user_id,
-            'notifier_id' =>  Auth::id(),
+            'notifier_id' =>  Auth::user()->id,
             'type' =>  'like',
             'link' =>  "/opiniones/" . str(str_replace('-', ' ', $this->action->opinion->teacher->name))->slug(),
             'class_icon' =>  'fa-heart',
@@ -40,11 +39,9 @@ class CommentNotification extends Notification
         ];
     }
     else if ($this->action instanceof Reply) {
-
-
         return [
             'user_id' => $this->action->opinion->user_id,
-            'notifier_id' =>  Auth::id(),
+            'notifier_id' =>  Auth::user()->id,
             'type' =>  'reply',
             'link' =>  "/opiniones/" . str(str_replace('-', ' ', $this->action->opinion->teacher->name))->slug(),
             'class_icon' =>  'fa-comment-dots',
