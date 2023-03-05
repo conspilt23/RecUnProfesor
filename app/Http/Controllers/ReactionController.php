@@ -67,7 +67,12 @@ class ReactionController extends Controller
 
         if(request()->input('type') == 'opinion'){
             $user = Opinion::find($id);
-            if(!$user->notifications()->whereType('like')->where('user_id', $user->user_id )->where('notifier_id',auth()->user()->id)->whereLink("/opiniones/" . str(str_replace('-', ' ', $user->teacher->name))->slug())->first() && $user->id != $user->user_id) {
+            if(!$user->user->notifications()->where('type', 'like')
+            ->where('user_id', $user->user_id)
+            ->where('notifier_id', auth()->id())
+            ->where('link', "/opiniones/" . str(str_replace('-', ' ', $user->teacher->name))->slug())
+            ->exists()
+        ) {
                 $notifier = Auth::id();
 
                 $notification = new Notification();
