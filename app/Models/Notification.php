@@ -21,10 +21,10 @@ class Notification extends Model
         return $this->belongsTo(User::class, 'user_id');
     }
 
-    public function notifier_user(): BelongsTo
-{
-    return $this->belongsTo(User::class, 'notifier_id');
-}
+    public function notifier(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'notifier_id');
+    }
 
     public function reaction(): BelongsTo
     {
