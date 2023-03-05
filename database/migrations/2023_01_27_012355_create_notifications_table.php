@@ -25,7 +25,7 @@ class CreateNotificationsTable extends Migration
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users');
-            $table->foreign('notifier_id')->references('id')->on('users');
+            $table->foreign('notifier_id')->references('id')->on('users')->nullable()->constrained();
         });
     }
 
