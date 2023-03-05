@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Notification;
 use App\Models\Reaction;
 use App\Models\Opinion;
 use App\Models\Reply;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class ReactionController extends Controller
 {
@@ -61,6 +64,23 @@ class ReactionController extends Controller
         // Count the reactions 
         $like_count = Reaction::where(($type == 'opinion') ? 'opinion_id' : 'reply_id', $id)->where('like', 1)->count();
         $dislike_count = Reaction::where(($type == 'opinion') ? 'opinion_id' : 'reply_id',  $id)->where('dislike', 1)->count();
+
+        if(request()->input('type') == 'opinion'){
+            $user = Opinion::find($id);
+            if(!$user->notifications()->whereType('like')->where('user_id', $user->user_id )->where('notifier_id',auth()->user()->id)->whereLink("/opiniones/" . str(str_replace('-', ' ', $user->teacher->name))->slug())->first() && $user->id != $user->user_id) {
+                $notifier = Auth::id();
+
+                $notification = new Notification();
+                $notification->user_id = $user->user_id;
+                $notification->notifier_id = $notifier;
+                $notification->type = 'like';
+                $notification->link = "/opiniones/" . str(str_replace('-', ' ', $user->teacher->name))->slug();
+                $notification->class_icon = 'fa-heart';
+                $notification->message = "El usuario '" . User::find($notifier)->username .  "' le ha dado like a tu opinión sobre " . $user->teacher->name;
+                $notification->save();
+                
+            }
+        }
 
         return response()->json([
             'success' => true,

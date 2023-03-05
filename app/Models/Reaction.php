@@ -35,29 +35,4 @@ class Reaction extends Model
     {
         return $this->hasMany(Notification::class);
     }
-
- protected static function boot()
-    {
-        parent::boot();
-
-        static::created(function ($reaction) {
-            $reaction->notifyUsers();
-        });
-    }
-
-public function notifyUsers()
-{
-    if($this->like){
-        if($this->opinion){
-            $user = $this->opinion->user;
-            if(!$user->notifications()->whereType('like')->where('user_id', $this->user_id )->where('notifier_id',auth()->user()->id)->whereLink($this->link)->first() && $user->id != $this->user_id) {
-                $user->notify(new CommentNotification($this));
-            } else{
-                return;
-            }
-        }
-    } elseif($this->dislike){
-        return;
-    }
-}
 }
