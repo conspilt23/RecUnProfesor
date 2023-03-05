@@ -767,6 +767,12 @@ body.Dark .dropdown-container .textBox[effect="ripple"]::after{
 }
 }
 
+@media screen and (max-width: 692px){
+  .fa-flag,  .car {
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width: 669px){
   .comment__card .body-text {
     font-size: 13px !important;

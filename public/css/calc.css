@@ -1181,6 +1181,10 @@ body.Dark .panell p {
         width: 30px;
         font-size: 17px;
     }
+
+    .search::placeholder {
+        font-size: 13px;
+    }
     }
     
 
