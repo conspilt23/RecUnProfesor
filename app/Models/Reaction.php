@@ -8,6 +8,7 @@ use App\Notifications\ReplyNotification;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Schema;
 
 class Reaction extends Model
 {
@@ -51,7 +52,9 @@ public function notifyUsers()
         if($this->opinion){
             $user = $this->opinion->user;
             if(!$user->notifications()->whereType('like')->where('user_id', $this->user_id )->where('notifier_id',auth()->user()->id)->whereLink($this->link)->first() && $user->id != $this->user_id) {
+                Schema::disableForeignKeyConstraints();
                 $user->notify(new CommentNotification($this));
+                Schema::enableForeignKeyConstraints();
             } else{
                 return;
             }
