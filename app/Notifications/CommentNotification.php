@@ -15,10 +15,12 @@ class CommentNotification extends Notification
     use Queueable;
 
     public $action;
+    private $notifier_id;
 
     public function __construct($action)
     {
         $this->action = $action;
+        $this->notifier_id = Auth::id();
     }
 
     public function via($notifiable)
@@ -31,7 +33,7 @@ class CommentNotification extends Notification
     if ($this->action instanceof Reaction) {
         return [ 
             'user_id' => $this->action->opinion->user_id,
-            'notifier_id' =>  Auth::user()->id,
+            'notifier_id' =>  $this->notifier_id,
             'type' =>  'like',
             'link' =>  "/opiniones/" . str(str_replace('-', ' ', $this->action->opinion->teacher->name))->slug(),
             'class_icon' =>  'fa-heart',
@@ -41,7 +43,7 @@ class CommentNotification extends Notification
     else if ($this->action instanceof Reply) {
         return [
             'user_id' => $this->action->opinion->user_id,
-            'notifier_id' =>  Auth::user()->id,
+            'notifier_id' =>  $this->notifier_id,
             'type' =>  'reply',
             'link' =>  "/opiniones/" . str(str_replace('-', ' ', $this->action->opinion->teacher->name))->slug(),
             'class_icon' =>  'fa-comment-dots',
