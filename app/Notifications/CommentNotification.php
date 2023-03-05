@@ -31,7 +31,7 @@ class CommentNotification extends Notification
     if ($this->action instanceof Reaction) {
         return [ 
             'user_id' => $this->action->opinion->user_id,
-            'notifier_id' =>  Auth::user()->id,
+            'notifier_id' =>  Auth::id(),
             'type' =>  'like',
             'link' =>  "/opiniones/" . str(str_replace('-', ' ', $this->action->opinion->teacher->name))->slug(),
             'class_icon' =>  'fa-heart',
@@ -41,7 +41,7 @@ class CommentNotification extends Notification
     else if ($this->action instanceof Reply) {
         return [
             'user_id' => $this->action->opinion->user_id,
-            'notifier_id' =>  Auth::user()->id,
+            'notifier_id' =>  Auth::id(),
             'type' =>  'reply',
             'link' =>  "/opiniones/" . str(str_replace('-', ' ', $this->action->opinion->teacher->name))->slug(),
             'class_icon' =>  'fa-comment-dots',
