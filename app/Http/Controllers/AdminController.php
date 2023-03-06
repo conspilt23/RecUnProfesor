@@ -11,7 +11,7 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     public function __construct(){
-        $this->middleware('AdminMiddleware');
+        $this->middleware('admin')->only(['banReportedUser', 'banReporterUser', 'deleteComment', 'destroy', 'reports']);
     }
 
 
