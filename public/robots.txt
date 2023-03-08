@@ -7,3 +7,5 @@ Disallow: /forget-password
 Disallow: /reset-password
 Disallow: /admin/*
 Disallow: /result
+Sitemap: https://recomiendameunprofesor.com/sitemap-default.xml
+Sitemap: https://recomiendameunprofesor.com/sitemap-teachers.xml
