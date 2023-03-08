@@ -43,8 +43,6 @@ body.Dark .ads {
     <link rel="stylesheet" href="{{ asset('css/ripples.css') }}">
     <script src="{{ asset('js/nprogress.js') }}"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-    crossorigin="anonymous"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
      crossorigin="anonymous"></script>
     <script src="{{asset ('js/ripples.js')}}" defer></script>
     <script src="{{ asset('js/RUP.js') }}" defer></script>
