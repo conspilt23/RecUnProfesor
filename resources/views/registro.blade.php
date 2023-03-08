@@ -132,6 +132,21 @@ h1="Regístrate fácilmente"
                         <input type="hidden" name="career" id="carrer_selected" value="">
                     </form>
                 </div>
+
+                <div class="ads">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- anuncio pie inicio -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="3952649269"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                </div>
             </div>
 
             <div class="fondo-select-responsive"></div>
@@ -143,8 +158,28 @@ h1="Regístrate fácilmente"
             <div class="general1">
                 <section class="esta-pagina">
                     <h2>No hace falta que estés aquí...</h2>
+                    
                     <p style="margin-bottom: 150px;">Ya tienes una cuenta con sesión iniciada. <br> Te recomendamos volver
-                        al menú de inicio, o bien usar las herramientas que ya tenemos preparadas para ti ;&#41; .</p>
+                        al menú de inicio, o bien usar las herramientas que ya tenemos preparadas para ti ;&#41; .
+                    
+                    </p>
+
+                    <div class="ads">
+                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+         crossorigin="anonymous"></script>
+    <!-- anuncio pie inicio -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-3525189773538188"
+         data-ad-slot="3952649269"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+                    </div>
+
+
                 </section>
             </div>
         </x-slot>

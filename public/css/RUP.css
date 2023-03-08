@@ -14,6 +14,15 @@
     background: rgb(247, 77, 47);
     color: #fff;
 }
+.ads {
+    margin-bottom: 10px;
+    background:#EEEEED;
+    width: max-content;
+    height: max-content;
+    box-shadow: 0px 7px 30px 3px rgba(0,0,0,0.56);
+-webkit-box-shadow: 0px 7px 30px 3px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 7px 30px 3px rgba(0,0,0,0.56);
+}
 
 img::selection {
     background: #accef7;

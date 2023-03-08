@@ -43,6 +43,22 @@
   
     <p>Que se dé el caso en el cual nos surja una que otra pregunta sobre algo relacionado a la unviersidad es normal, en especial cuando se es de primer ingreso. Encontrarás a continuación, una lista de las preguntas más comunes que se hacen los estudiantes de APEC con sus respuestas detalladas.</p>
 
+    <div class="ads">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+    
+
     <div class="container-grant">
     <div class="accordion">
       <div class="icono"></div>

@@ -77,6 +77,21 @@
         <div class="fopr"></div>
       </div>
     </div>
+
+    <div class="ads">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
     @foreach ($results as $result)
     <div class="cont" id="results">
       <div class="tarj">
@@ -95,7 +110,20 @@
       </div>
     </div>
   @endforeach
-
+  <div class="ads">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+   crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+   style="display:block"
+   data-ad-client="ca-pub-3525189773538188"
+   data-ad-slot="5695044141"
+   data-ad-format="auto"
+   data-full-width-responsive="true"></ins>
+<script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>
 
   
   {{ $results->appends(request()->only(['modality', 'schedule', 'search_query']))->links() }}

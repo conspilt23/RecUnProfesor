@@ -163,6 +163,21 @@
             <section class="main-final">
                 <h2>Opiniones</h2>
 
+                <div class="ads">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+                   crossorigin="anonymous"></script>
+              <!-- horizontal -->
+              <ins class="adsbygoogle"
+                   style="display:block"
+                   data-ad-client="ca-pub-3525189773538188"
+                   data-ad-slot="5695044141"
+                   data-ad-format="auto"
+                   data-full-width-responsive="true"></ins>
+              <script>
+                   (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+                  </div>
+
 
     @if ($errors->any())
     <div style="border: 0;
@@ -233,6 +248,20 @@
 @endforeach
 @else 
 <p>Ninguna opinión disponible por el momnento. Te recomendamos buscar a otro docente con asignaturas similares, o bien, si ya has tomado alguna asignatura con dicho docente, no dudes en comentar tu opinión.</p>
+<div class="ads">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+   crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+   style="display:block"
+   data-ad-client="ca-pub-3525189773538188"
+   data-ad-slot="5695044141"
+   data-ad-format="auto"
+   data-full-width-responsive="true"></ins>
+<script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>
 @endif
 
 

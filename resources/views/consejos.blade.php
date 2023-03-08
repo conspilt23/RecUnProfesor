@@ -38,9 +38,22 @@
             <h2>Consejos generales</h2>
             <h6>¡Para que te vaya bien!</h6>
   
-    <p>Darle un seguimiento adecuado al calendario académico es muy importante, ya que tendrás en cuenta cada detalle en las fechas propuestas por el calendario académico oficial de la Universidad APEC. Sólo basta con seleccionar el día que necesites, o cualquiera dentro del período actual.
-  
-    Todo esto con la búsqueda de profesores, asignaturas individuales o todo un cuatrimestre, junto con otras herramientas bastante útiles que todo aquel que estudia en esta universidad le sería muy útil.</p>
+    <p>Estos consejos generalos te pueden ayudar a estar orientado, ya que tendrás en cuenta algunos detalles sobre la Universidad APEC. Sólo basta con seleccionar la pregunta que necesites para ver la resputesta.</p>
+
+    <div class="ads">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
 
     <div class="cont">
       <div class="tarj">
@@ -55,9 +68,26 @@
 
           <p>Un aspecto de ellos es verificar si el profesor <strong>se adapta a tu estilo de aprendizaje</strong>, para ello puedes usar tanto nuestra herramiento de búsqueda individual o cuatrimestral, como verificar o preguntar también en el grupo de Facebook que se ha creado entre los estudiantes de la universidad</p>
 
+          <div class="ads">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+          </div>
+
           <p>Otro de ellos sería verificar el horario de la asignatura, si es conveniente para ti y que no te "choque" con alguna otra actividad y/o asignatura diferente, ya que sería lamentable que tengas que retirar por tener una agenda muy apretada.</p>
 
           <p>Finalmente, te recomendamos que no elijas asignaturas muy lejanas al cuatrimestre que actualmente estás cursando, aunque no tengan pre-requesitios (a menos que te hayas asesorado lo suficiente y tengas la certeza que no representará una dificultad pesada para ti y puedas aprobarla sin problemas).</p>
+
+          
           
         </div>
       </div>
@@ -74,6 +104,21 @@
         </div>
         <div class="tex">
           <p>Muchos estudiantes (en especial los de nuevo ingreso) no cumple con alguna determiana asignación o tarea de alguna asignatura que "llena" el acumulado ya sea del 1er o 2do parcial, debido a que valen "muy pocos puntos", lo cual es equivalente a un gran error.</p>
+
+          <div class="ads">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+          </div>
 
           <p>Esto es así, ya que esos "pocos puntos" pueden convertirse en un "salvavidas" a la hora de aprobarla con una determinada calificación y no luchar para tener una "C de campeón"</p>
 
@@ -96,6 +141,21 @@
 
           <p>Además, es hastiado tener que cursar un cuatrimestre solo por no haber seleccionado las asignaturas de inglés,que, aunque algunas de ellas no se sumen a la cantidad de créditos a seleccionar, o no tengan peso en el índice, son importantes.</p>
 
+          <div class="ads">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+          </div>
+
           <p>Por ello, si no tienes exonerados los niveles de inglés, te invitamos a no tomarlos desde el inicio cuando ya estés muy avanzado dentro de tu carrera, en la medida de lo posible.</p>
           
         </div>
@@ -112,6 +172,21 @@
         </div>
         <div class="tex">
           <p>Es recomendable hacerlo, ya que algunos estudiantes no lo hacen. Esto es importante, ya que, para usar ciertos servicios de la universidad es requierido. Y, aunque puede que no sea común, el docente con el que cursas alguna asignatura, podría pedirte el carné para tener derecho a examinarte</p>
+
+          <div class="ads">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+          </div>
 
           <p>Por ello, te recomendamos que lo saques. Es súper sencillo y fácil, solo espera el aviso de la universidad, manda tu foto (o te la tomas presencial en el lugar determinado por la universidad en el campus) y listo, lo pasas a recoger en el tiempo estimado que el aviso informó.</p>
           

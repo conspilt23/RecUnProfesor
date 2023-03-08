@@ -189,6 +189,21 @@
                         </form>
                     </div>
                     <div class="fondo-select-responsive"></div>
+
+                    <div class="ads">
+                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- Anuncio cuadrado -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="9017273686"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                    </div>
                 @endauth
 
                 @guest
@@ -202,6 +217,22 @@
                         funcionalidades del sitio web. Si tienes alguna duda o problema con el inicio de sesión o el
                         registro, no dudes en ponerte en contacto con nosotros. ¡Esperamos verte pronto calificando a tus
                         profesores!</p>
+
+
+                        <div class="ads">
+                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- Anuncio cuadrado -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="9017273686"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                        </div>
                 @endguest
 
             </section>
