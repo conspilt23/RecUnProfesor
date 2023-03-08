@@ -18,6 +18,23 @@
 	<meta property="og:image:height" content="432"/>
     <title>{{ $title }}</title>
     {{$otherstyle ?? ''}}
+    <style>
+      .ads {
+    margin-bottom: 10px;
+    background:#EEEEED;
+    width: max-content;
+    height: max-content;
+    box-shadow: 0px 7px 30px 3px rgba(0,0,0,0.56);
+-webkit-box-shadow: 0px 7px 30px 3px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 7px 30px 3px rgba(0,0,0,0.56);
+}
+
+body.Dark .ads {
+    background:#373737;
+}
+
+
+      </style>
     <link rel="stylesheet" href="{{ asset('css/RUP.css') }}">
     <link rel="stylesheet" href="{{ asset('css/darkMode.css') }}">
     <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
