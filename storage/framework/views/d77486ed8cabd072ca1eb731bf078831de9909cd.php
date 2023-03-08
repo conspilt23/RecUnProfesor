@@ -58,6 +58,21 @@
 
             <p>Asimismo, tienes la posibilidad de calcular tu índice académico sin importar si usas el pensum antiguo o actual de tu carrera, o hacer proyecciones del mismo, con el objetivo de conocer cómo te podría ir en el cuatrimestre en curso o calcular el de un período ya concluido. Por otro lado, puedes verificar los eventos del calendario académico oficial de UNAPEC, para estar al tanto de los eventos más importantes que ocurren cada día del cuatrimestre actual, como las fechas de los parciales, fechas límite, inicio de actividades, entre otros.</p>
 
+            <div class="ads">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- Anuncio cuadrado -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="9017273686"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
+
             <p>En la web también encontrarás secciones dedicadas específicamente a ti, como respuestas a preguntas frecuentes y una lista de las carreras actualmente impartidas por UNAPEC, incluyendo información como el número de créditos, la cantidad de asignaturas de cada una, entre otros datos.</p>
 
             <p>Además, esta web te brinda la posibilidad de leer opiniones y comentarios de estudiantes y ex-alumnos, para que puedas tomar una decisión informada y asegurarte de elegir al mejor profesor y asignatura para ti.</p>
