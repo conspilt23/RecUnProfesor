@@ -50,13 +50,6 @@ Route::get('/result', [SearchController::class, 'search'])->name('search');
 Route::get('/secciones/{name}', [ProfesorSubjectController::class, 'showSubjects']);
 Route::get('/opiniones/{name}', [OpinionController::class, 'show'])->name('professor.opinion');
 Route::get('/admin/reportes', [AdminController::class, 'reports'])->name('reports');
-Route::get('/sitemap-default.xml', function () {
-    return response()->file(public_path('defaults.xml'), ['Content-Type' => 'application/xml']);
-});
-
-Route::get('/sitemap-teachers.xml', function () {
-    return response()->file(public_path('teachers.xml'), ['Content-Type' => 'application/xml']);
-});
 
 
 //Ajax routes
