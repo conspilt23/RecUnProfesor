@@ -41,12 +41,12 @@
     background: #352bf3 !important;
 }
 
-.cont02 .tarj .tex a span::before {
+.conti02 .tarj .tex a span::before {
   border-top: 2px solid #352bf3 !important;
   border-left: 2px solid #352bf3 !important;
 
 }
-.cont02 .tarj .tex a span::after{
+.conti02 .tarj .tex a span::after{
   border-bottom: 2px solid #352bf3 !important;
   border-right: 2px solid #352bf3 !important;
 
