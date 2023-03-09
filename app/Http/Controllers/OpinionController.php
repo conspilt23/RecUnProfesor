@@ -68,7 +68,7 @@ class OpinionController extends Controller
             return back()->withErrors(['teacher' => 'Ya has opinado acerca de este profesor hoy.']);
         }
 
-        $ip_address = $_SERVER['REMOTE_ADDR'];
+        $ip_address = $request->header('X-Forwarded-For') ?: $request->ip();
 
         // De lo contrario, guardar la opinion
         $teacherName = Teacher::find($teacher_id)->name;

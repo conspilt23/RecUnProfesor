@@ -23,7 +23,7 @@ class ReplyController extends Controller
     {
         $data = $request->validated();
 
-        $ip_address = $_SERVER['REMOTE_ADDR'];
+        $ip_address = $request->header('X-Forwarded-For') ?: $request->ip();
 
         //Evitar que el usuario opine más de 2 veces al día para evitar spam.
         $opinion_id = $data['opinion_id'];

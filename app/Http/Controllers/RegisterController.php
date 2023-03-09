@@ -30,7 +30,7 @@ class RegisterController extends Controller
             'email' => $data['registration_email'],
             'password' => $data['registration_password'],
             'career' => $data['career'],
-            'ip_address' => $_SERVER['REMOTE_ADDR']
+            'ip_address' => $request->header('X-Forwarded-For') ?: $request->ip()
 
         ]);
 
