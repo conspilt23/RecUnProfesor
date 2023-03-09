@@ -9,6 +9,10 @@ use Illuminate\Support\Facades\Session;
 
 class LoginController extends Controller
 {  
+    public function __construnc(){
+        $this->middleware('guest');
+    }
+    
     public function login(LoginRequest $request){
         $url = url()->previous();
         $credentials = $request->getCredentials();
