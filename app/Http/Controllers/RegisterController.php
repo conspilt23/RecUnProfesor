@@ -23,10 +23,6 @@ class RegisterController extends Controller
     {
         $data = $request->validated();
 
-        $client = new Client();
-    $response = $client->request('GET', 'https://httpbin.org/ip');
-    $json = json_decode($response->getBody()->getContents());
-    $ip_address = $json->origin;
 
 
         User::create([
@@ -34,7 +30,7 @@ class RegisterController extends Controller
             'email' => $data['registration_email'],
             'password' => $data['registration_password'],
             'career' => $data['career'],
-            'ip_address' => $ip_address
+            'ip_address' => $request->ip()
         ]);
 
         return redirect('/')->with('succes', 'succesfully registered!');

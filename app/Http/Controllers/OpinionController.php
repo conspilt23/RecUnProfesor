@@ -68,10 +68,7 @@ class OpinionController extends Controller
             return back()->withErrors(['teacher' => 'Ya has opinado acerca de este profesor hoy.']);
         }
 
-        $client = new Client();
-        $response = $client->request('GET', 'https://httpbin.org/ip');
-        $json = json_decode($response->getBody()->getContents());
-        $ip_address = $json->origin;
+        $ip_address = $request->ip();
 
         // De lo contrario, guardar la opinion
         $teacherName = Teacher::find($teacher_id)->name;

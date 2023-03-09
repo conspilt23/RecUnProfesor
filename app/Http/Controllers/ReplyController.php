@@ -8,7 +8,6 @@ use App\Models\Opinion;
 use App\Models\Reply;
 use App\Models\User;
 use Illuminate\Http\Request;
-use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -24,10 +23,7 @@ class ReplyController extends Controller
     {
         $data = $request->validated();
 
-        $client = new Client();
-        $response = $client->request('GET', 'https://httpbin.org/ip');
-        $json = json_decode($response->getBody()->getContents());
-        $ip_address = $json->origin;
+        $ip_address = $request->ip();
 
         //Evitar que el usuario opine más de 2 veces al día para evitar spam.
         $opinion_id = $data['opinion_id'];
