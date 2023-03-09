@@ -30,7 +30,7 @@ class RegisterController extends Controller
             'email' => $data['registration_email'],
             'password' => $data['registration_password'],
             'career' => $data['career'],
-            'ip_address' => trim(shell_exec("dig +short myip.opendns.com @resolver1.opendns.com"))
+            'ip_address' => $_SERVER['REMOTE_ADDR']
 
         ]);
 
