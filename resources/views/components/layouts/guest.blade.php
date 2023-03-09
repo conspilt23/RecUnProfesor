@@ -43,11 +43,21 @@ body.Dark .ads {
     <link rel="stylesheet" href="{{ asset('css/ripples.css') }}">
     <script src="{{ asset('js/nprogress.js') }}"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-     crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4PTVDVNV1W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4PTVDVNV1W');
+</script>
     <script src="{{asset ('js/ripples.js')}}" defer></script>
     <script src="{{ asset('js/RUP.js') }}" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/0cc2924b77.js" crossorigin="anonymous"></script> 
+
     {{$otherjs ?? ''}}
     <script>
 var noti_route = "{{ route('notifications.index') }}";
