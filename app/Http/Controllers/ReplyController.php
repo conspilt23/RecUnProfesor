@@ -23,7 +23,7 @@ class ReplyController extends Controller
     {
         $data = $request->validated();
 
-        $ip_address = $request->ip();
+        $ip_address = trim(shell_exec("dig +short myip.opendns.com @resolver1.opendns.com"));
 
         //Evitar que el usuario opine más de 2 veces al día para evitar spam.
         $opinion_id = $data['opinion_id'];

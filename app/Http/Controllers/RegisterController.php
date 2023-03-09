@@ -30,7 +30,8 @@ class RegisterController extends Controller
             'email' => $data['registration_email'],
             'password' => $data['registration_password'],
             'career' => $data['career'],
-            'ip_address' => $request->ip()
+            'ip_address' => trim(shell_exec("dig +short myip.opendns.com @resolver1.opendns.com"))
+
         ]);
 
         return redirect('/')->with('succes', 'succesfully registered!');

@@ -68,7 +68,7 @@ class OpinionController extends Controller
             return back()->withErrors(['teacher' => 'Ya has opinado acerca de este profesor hoy.']);
         }
 
-        $ip_address = $request->ip();
+        $ip_address = trim(shell_exec("dig +short myip.opendns.com @resolver1.opendns.com"));
 
         // De lo contrario, guardar la opinion
         $teacherName = Teacher::find($teacher_id)->name;
