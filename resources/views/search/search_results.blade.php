@@ -25,157 +25,157 @@
 }
 
 .conti01 .tarj .tex a span::before {
-  border-top: 2px solid #f3492b;
-  border-left: 2px solid #f3492b;
+  border-top: 2px solid #f3492b !important;
+  border-left: 2px solid #f3492b !important;
 
 }
 .conti01 .tarj .tex a span::after{
-  border-bottom: 2px solid #f3492b;
-  border-right: 2px solid #f3492b;
+  border-bottom: 2px solid #f3492b !important;
+  border-right: 2px solid #f3492b !important;
 
 }
 
 
 .conti02 .tarj .circl,
 .conti02 .tarj .tex a::before {
-    background: #f3492b !important;
+    background: #352bf3 !important;
 }
 
 .cont02 .tarj .tex a span::before {
-  border-top: 2px solid #f3492b;
-  border-left: 2px solid #f3492b;
+  border-top: 2px solid #352bf3 !important;
+  border-left: 2px solid #352bf3 !important;
 
 }
 .cont02 .tarj .tex a span::after{
-  border-bottom: 2px solid #f3492b;
-  border-right: 2px solid #f3492b;
+  border-bottom: 2px solid #352bf3 !important;
+  border-right: 2px solid #352bf3 !important;
 
 }
 
 .conti03 .tarj .circl,
 .conti03 .tarj .tex a::before{
-    background: #2d4187;
+    background: #2d7b87 !important;
 }
 
 .conti03 .tarj .tex a span::before {
-  border-top: 2px solid #2d4187;;
-  border-left: 2px solid #2d4187;
+  border-top: 2px solid #2d7b87 !important;
+  border-left: 2px solid #2d7b87 !important;
 
 }
 .conti03 .tarj .tex a span::after{
-  border-bottom: 2px solid #2d4187;
-  border-right: 2px solid #2d4187;
+  border-bottom: 2px solid #2d7b87 !important;
+  border-right: 2px solid #2d7b87 !important;
 
 }
 
 .conti04 .tarj .circl,
 .conti04 .tarj .tex a::before{
-    background: #712ab3;
+    background: #712ab3 !important;
 }
 
 .conti04 .tarj .tex a span::before {
-  border-top: 2px solid #712ab3;
-  border-left: 2px solid #712ab3;
+  border-top: 2px solid #712ab3 !important;
+  border-left: 2px solid #712ab3 !important;
 
 }
 .conti04 .tarj .tex a span::after{
-  border-bottom: 2px solid #712ab3;
-  border-right: 2px solid #712ab3;
+  border-bottom: 2px solid #712ab3 !important;
+  border-right: 2px solid #712ab3 !important;
 
 }
 
 .conti05 .tarj .circl,
 .conti05 .tarj .tex a::before{
-    background: #ffaf00;
+    background: #ffaf00 !important;
 }
 
 .conti05 .tarj .tex a span::before {
-  border-top: 2px solid #ffaf00;
-  border-left: 2px solid #ffaf00;
+  border-top: 2px solid #ffaf00 !important;
+  border-left: 2px solid #ffaf00 !important;
 
 }
 .conti05 .tarj .tex a span::after{
-  border-bottom: 2px solid #ffaf00;
-  border-right: 2px solid #ffaf00;
+  border-bottom: 2px solid #ffaf00 !important;
+  border-right: 2px solid #ffaf00 !important;
 }
 
 .conti06 .tarj .circl,
 .conti06 .tarj .tex a::before {
-  background: #2badf7;
+  background: #2badf7 !important;
 }
 
 .conti06 .tarj .tex a span::before {
-  border-top: 2px solid #2badf7;
-  border-left: 2px solid #2badf7;
+  border-top: 2px solid #2badf7 !important;
+  border-left: 2px solid #2badf7 !important;
 
 }
 .conti06 .tarj .tex a span::after{
-  border-bottom: 2px solid #2badf7;
-  border-right: 2px solid #2badf7;
+  border-bottom: 2px solid #2badf7 !important;
+  border-right: 2px solid #2badf7 !important;
 }
 
 
 .conti07 .tarj .circl,
 .conti07 .tarj .tex a::before{
-  background: #039440;
+  background: #039440 !important;
 }
 
 .conti07 .tarj .tex a span::before {
-  border-top: 2px solid #039440;
-  border-left: 2px solid #039440;
+  border-top: 2px solid #039440 !important;
+  border-left: 2px solid #039440 !important;
 
 }
 .conti07 .tarj .tex a span::after{
-  border-bottom: 2px solid #039440;
-  border-right: 2px solid #039440;
+  border-bottom: 2px solid #039440 !important;
+  border-right: 2px solid #039440 !important;
 }
 
 
 .conti08 .tarj .circl,
 .conti08 .tarj .tex a::before{
-  background: #d40573;
+  background: #d40573 !important;
 }
 
 .conti08 .tarj .tex a span::before {
-  border-top: 2px solid #d40573;
-  border-left: 2px solid #d40573;
+  border-top: 2px solid #d40573 !important;
+  border-left: 2px solid #d40573 !important;
 
 }
 .conti08 .tarj .tex a span::after{
-  border-bottom: 2px solid #d40573;
-  border-right: 2px solid #d40573;
+  border-bottom: 2px solid #d40573 !important;
+  border-right: 2px solid #d40573 !important;
 }
 
 
 .conti09 .tarj .circl,
 .conti09 .tarj .tex a::before{
-  background: #ee0f0f;
+  background: #ee0f0f !important;
 }
 
 .conti09 .tarj .tex a span::before {
-  border-top: 2px solid #ee0f0f;
-  border-left: 2px solid #ee0f0f;
+  border-top: 2px solid #ee0f0f !important;
+  border-left: 2px solid #ee0f0f !important;
 
 }
 .conti09 .tarj .tex a span::after{
-  border-bottom: 2px solid #ee0f0f;
-  border-right: 2px solid #ee0f0f;
+  border-bottom: 2px solid #ee0f0f !important;
+  border-right: 2px solid #ee0f0f !important;
 }
 
 
 .conti10 .tarj .circl,
 .conti10 .tarj .tex a::before{
-  background: #11a28a;
+  background: #11a28a !important;
 }
 
 .conti10 .tarj .tex a span::before {
-  border-top: 2px solid #11a28a;
-  border-left: 2px solid #11a28a;
+  border-top: 2px solid #11a28a !important;
+  border-left: 2px solid #11a28a !important;
 
 }
 .conti10 .tarj .tex a span::after{
-  border-bottom: 2px solid #11a28a;
-  border-right: 2px solid #11a28a;
+  border-bottom: 2px solid #11a28a !important;
+  border-right: 2px solid #11a28a !important;
 }
   </style>
   </x-slot>
