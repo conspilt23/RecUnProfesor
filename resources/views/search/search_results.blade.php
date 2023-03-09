@@ -18,6 +18,165 @@
       .Inhalt .TextInBox .botones {
       justify-content: flex-start !important; 
   }
+
+.conti01 .tarj .circl,
+.conti01 .tarj .tex a::before {
+    background: #f3492b !important;
+}
+
+.conti01 .tarj .tex a span::before {
+  border-top: 2px solid #f3492b;
+  border-left: 2px solid #f3492b;
+
+}
+.conti01 .tarj .tex a span::after{
+  border-bottom: 2px solid #f3492b;
+  border-right: 2px solid #f3492b;
+
+}
+
+
+.conti02 .tarj .circl,
+.conti02 .tarj .tex a::before {
+    background: #f3492b !important;
+}
+
+.cont02 .tarj .tex a span::before {
+  border-top: 2px solid #f3492b;
+  border-left: 2px solid #f3492b;
+
+}
+.cont02 .tarj .tex a span::after{
+  border-bottom: 2px solid #f3492b;
+  border-right: 2px solid #f3492b;
+
+}
+
+.conti03 .tarj .circl,
+.conti03 .tarj .tex a::before{
+    background: #2d4187;
+}
+
+.conti03 .tarj .tex a span::before {
+  border-top: 2px solid #2d4187;;
+  border-left: 2px solid #2d4187;
+
+}
+.conti03 .tarj .tex a span::after{
+  border-bottom: 2px solid #2d4187;
+  border-right: 2px solid #2d4187;
+
+}
+
+.conti04 .tarj .circl,
+.conti04 .tarj .tex a::before{
+    background: #712ab3;
+}
+
+.conti04 .tarj .tex a span::before {
+  border-top: 2px solid #712ab3;
+  border-left: 2px solid #712ab3;
+
+}
+.conti04 .tarj .tex a span::after{
+  border-bottom: 2px solid #712ab3;
+  border-right: 2px solid #712ab3;
+
+}
+
+.conti05 .tarj .circl,
+.conti05 .tarj .tex a::before{
+    background: #ffaf00;
+}
+
+.conti05 .tarj .tex a span::before {
+  border-top: 2px solid #ffaf00;
+  border-left: 2px solid #ffaf00;
+
+}
+.conti05 .tarj .tex a span::after{
+  border-bottom: 2px solid #ffaf00;
+  border-right: 2px solid #ffaf00;
+}
+
+.conti06 .tarj .circl,
+.conti06 .tarj .tex a::before {
+  background: #2badf7;
+}
+
+.conti06 .tarj .tex a span::before {
+  border-top: 2px solid #2badf7;
+  border-left: 2px solid #2badf7;
+
+}
+.conti06 .tarj .tex a span::after{
+  border-bottom: 2px solid #2badf7;
+  border-right: 2px solid #2badf7;
+}
+
+
+.conti07 .tarj .circl,
+.conti07 .tarj .tex a::before{
+  background: #039440;
+}
+
+.conti07 .tarj .tex a span::before {
+  border-top: 2px solid #039440;
+  border-left: 2px solid #039440;
+
+}
+.conti07 .tarj .tex a span::after{
+  border-bottom: 2px solid #039440;
+  border-right: 2px solid #039440;
+}
+
+
+.conti08 .tarj .circl,
+.conti08 .tarj .tex a::before{
+  background: #d40573;
+}
+
+.conti08 .tarj .tex a span::before {
+  border-top: 2px solid #d40573;
+  border-left: 2px solid #d40573;
+
+}
+.conti08 .tarj .tex a span::after{
+  border-bottom: 2px solid #d40573;
+  border-right: 2px solid #d40573;
+}
+
+
+.conti09 .tarj .circl,
+.conti09 .tarj .tex a::before{
+  background: #ee0f0f;
+}
+
+.conti09 .tarj .tex a span::before {
+  border-top: 2px solid #ee0f0f;
+  border-left: 2px solid #ee0f0f;
+
+}
+.conti09 .tarj .tex a span::after{
+  border-bottom: 2px solid #ee0f0f;
+  border-right: 2px solid #ee0f0f;
+}
+
+
+.conti10 .tarj .circl,
+.conti10 .tarj .tex a::before{
+  background: #11a28a;
+}
+
+.conti10 .tarj .tex a span::before {
+  border-top: 2px solid #11a28a;
+  border-left: 2px solid #11a28a;
+
+}
+.conti10 .tarj .tex a span::after{
+  border-bottom: 2px solid #11a28a;
+  border-right: 2px solid #11a28a;
+}
   </style>
   </x-slot>
 
@@ -93,7 +252,7 @@
 </script>
     </div>
     @foreach ($results as $result)
-    <div class="cont" id="results">
+    <div class="cont {{'conti' . str_pad($loop->iteration, 2, '0', STR_PAD_LEFT) }}" id="results">
       <div class="tarj">
         <div class="circl">
           <h2>{{ str_pad($loop->iteration, 2, '0', STR_PAD_LEFT) }}</h2>
