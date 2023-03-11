@@ -175,7 +175,7 @@ jQuery(function(){
           <div id="calendar" style="margin-bottom: 30px;"></div>
         </div>
       </div>
-      <a id="ca" href="javascript:void(0)" style="display: none; text-decoration: none;" class="md-ripples ripples-bg-immer-weiss">Mostrar calendario</a>
+      <a id="ca" href="javascript:void(0)" style="display: none; text-decoration: none; padding: 15px" class="md-ripples ripples-bg-immer-weiss">Mostrar calendario</a>
       <div id="background-calendar"></div>
 
     <div class="back-table-info">

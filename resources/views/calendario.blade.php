@@ -20,9 +20,10 @@
 <script type="module" defer>
 
     import CalendarEvents from "{{asset('js/calendarEvents.json')}}" assert {type: 'json'}
-jQuery(function(){
-
-    $('#calendar').evoCalendar({
+</script>
+<script>
+    $(document).ready(function () { 
+        $('#calendar').evoCalendar({
            theme: 'Orange Coral',
            language: 'es',
            calendarEvents: CalendarEvents,
@@ -98,9 +99,8 @@ jQuery(function(){
         
         window.requestAnimationFrame(step);
       }
-      
-  
-  });
+    });
+        
 </script>
 </x-slot>
 
