@@ -17,6 +17,7 @@
 <x-slot name="otherjs">
 <script src="{{asset('js/evo-calendar.min.js')}}" defer></script>
 <script type="module" src="{{asset('js/events.js')}}" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 </x-slot>
 
 <x-slot name="imgpage">
