@@ -48,11 +48,41 @@
           <h2>Seguimiento del calendario académico en el período actual</h2>
           <h6>¡Sin rodeos!</h6>
 
+          <div class="ads">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- Anuncio cuadrado -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="9017273686"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+          </div>
+
   <p>Darle un seguimiento adecuado al calendario académico es muy importante, ya que tendrás en cuenta cada detalle en las fechas propuestas por el calendario académico oficial de la Universidad APEC. Sólo basta con seleccionar el día que necesites, o cualquiera dentro del período actual.</p>
 
   <p>
    Básicamente, este calendario académico extraído de la Universidad APEC muestra las fechas importantes del cuatrimestre en curso, incluyendo los exámenes parciales y finales, así como otras actividades académicas y eventos especiales. El rango de fechas cubre desde el inicio hasta el final del período. Dispones también de una leyenda que te indicará el significado de cada color del evento. Mantenerse actualizado con el calendario académico es fundamental para asegurarte de cumplir con todas tus responsabilidades tanto académicas como personales.
   </p>
+
+  <div class="ads">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>
 
 
       <div class="console-log" id="calendart">
@@ -177,6 +207,21 @@
             </tr>
         </tbody>
     </table>
+  </div>
+
+  <div class="ads">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
   </div>
 
 

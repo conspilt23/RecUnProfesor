@@ -60,17 +60,17 @@
 
             <div class="ads">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-     crossorigin="anonymous"></script>
-<!-- Anuncio cuadrado -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3525189773538188"
-     data-ad-slot="9017273686"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+                crossorigin="anonymous"></script>
+           <!-- Anuncio cuadrado -->
+           <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-3525189773538188"
+                data-ad-slot="9017273686"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+           <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+           </script>
             </div>
 
             <p>En la web también encontrarás secciones dedicadas específicamente a ti, como respuestas a preguntas frecuentes y una lista de las carreras actualmente impartidas por UNAPEC, incluyendo información como el número de créditos, la cantidad de asignaturas de cada una, entre otros datos.</p>
@@ -78,6 +78,20 @@
             <p>Además, esta web te brinda la posibilidad de leer opiniones y comentarios de estudiantes y ex-alumnos, para que puedas tomar una decisión informada y asegurarte de elegir al mejor profesor y asignatura para ti.</p>
 
             <p>En pocas palabras, con esta web tendrás todo lo necesario para tener un cuatrimestre agradable y exitoso en la Universidad APEC, con herramientas útiles y fáciles de usar en un solo lugar.</p>
+
+            <div class="ads">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="4646767923"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
 </div>
  <?php $__env->endSlot(); ?>
 
@@ -163,6 +177,20 @@
     <div class="general3">
         <section class="main-final">
             <h2>¡El proceso de seleccionar  asignaturas es ahora mucho más sencillo!</h2>
+            <div class="ads">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- anuncio vertical -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="3540735666"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
             <p>Tienes a tu dispocisión las herramientas y/o información necesaria para tener un cuatrimestre agradable a la palma de tu mano.
                 Básicamente, con esta aplicación web tendrás la ayuda para ahorar dinero en el proceso de matriculación o inscripción de cuatrimestre,
                 de igual forma, el conocimiento brindado por los demás estudiantes que ya han dado el paso.

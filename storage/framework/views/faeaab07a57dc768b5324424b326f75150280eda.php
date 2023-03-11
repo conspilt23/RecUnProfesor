@@ -19,6 +19,23 @@
     <title><?php echo e($title); ?></title>
     <?php echo e($otherstyle ?? ''); ?>
 
+    <style>
+      .ads {
+    margin-bottom: 10px;
+    background:#EEEEED;
+    width: max-content;
+    height: max-content;
+    box-shadow: 0px 7px 30px 3px rgba(0,0,0,0.56);
+-webkit-box-shadow: 0px 7px 30px 3px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 7px 30px 3px rgba(0,0,0,0.56);
+}
+
+body.Dark .ads {
+    background:#373737;
+}
+
+
+      </style>
     <link rel="stylesheet" href="<?php echo e(asset('css/RUP.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('css/darkMode.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('css/normalize.css')); ?>">
@@ -26,11 +43,22 @@
     <link rel="stylesheet" href="<?php echo e(asset('css/conditions.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('css/ripples.css')); ?>">
     <script src="<?php echo e(asset('js/nprogress.js')); ?>"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+    crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4PTVDVNV1W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-4PTVDVNV1W');
+</script>
     <script src="<?php echo e(asset ('js/ripples.js')); ?>" defer></script>
     <script src="<?php echo e(asset('js/RUP.js')); ?>" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/0cc2924b77.js" crossorigin="anonymous"></script> 
+
     <?php echo e($otherjs ?? ''); ?>
 
     <script>
