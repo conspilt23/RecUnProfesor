@@ -16,9 +16,10 @@
 
 <x-slot name="otherjs">
 <script src="{{asset('js/evo-calendar.min.js')}}" defer></script>
-<script type="module" src="{{asset('js/events.js')}}" defer></script>
-<script defer>
-    import CalendarEvents from './calendarEvents.json' assert {type: 'json'}
+
+<script type="module" defer>
+
+    import CalendarEvents from "{{asset('js/calendarEvents.json')}}" assert {type: 'json'}
 jQuery(function(){
 
     $('#calendar').evoCalendar({
@@ -169,7 +170,7 @@ jQuery(function(){
           <div id="calendar" style="margin-bottom: 30px;"></div>
         </div>
       </div>
-      <button id="ca" style="display: none;" class="md-ripples ripples-bg-immer-weiss">Mostrar calendario</button>
+      <a id="ca" href="javascript:void(0)" style="display: none; text-decoration: none; padding: 15px" class="md-ripples ripples-bg-immer-weiss">Mostrar calendario</a>
       <div id="background-calendar"></div>
 
     <div class="back-table-info">
