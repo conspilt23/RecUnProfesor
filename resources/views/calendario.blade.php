@@ -17,7 +17,8 @@
 <x-slot name="otherjs">
 <script src="{{asset('js/evo-calendar.js')}}" defer></script>
 <script type="module" >
-    import CalendarEvents from './calendarEvents.json' assert {type: 'json'}
+    var imp = "{{asset('./calendarEvents.json')}}";
+    import CalendarEvents from imp assert {type: 'json'}
     $(document).ready(function(){
         $('#calendar').evoCalendar({
            theme: 'Orange Coral',
