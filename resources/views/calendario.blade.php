@@ -16,7 +16,20 @@
 
 <x-slot name="otherjs">
 <script src="{{asset('js/evo-calendar.js')}}" defer></script>
-<script type="module" src="{{asset('js/events.js')}}" defer></script>
+<script type="module" >
+    import CalendarEvents from './calendarEvents.json' assert {type: 'json'}
+    $(document).ready(function(){
+        $('#calendar').evoCalendar({
+           theme: 'Orange Coral',
+           language: 'es',
+           calendarEvents: CalendarEvents,
+           eventHeaderFormat: 'MM d, yyyy',
+           firstDayOfWeek: 1,
+           todayHighlight: true
+    });
+    });
+
+</script>
 </x-slot>
 
 <x-slot name="imgpage">
