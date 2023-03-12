@@ -1,15 +1,19 @@
-"use strict";
-import CalendarEvents from './calendarEvents.json' assert {type: 'json'}
 jQuery(function(){
 
-    $('#calendar').evoCalendar({
-           theme: 'Orange Coral',
-           language: 'es',
-           calendarEvents: CalendarEvents,
-           eventHeaderFormat: 'MM d, yyyy',
-           firstDayOfWeek: 1,
-           todayHighlight: true
-    });
+    $.ajax({
+      url: ajax_route_events ,
+      dataType: "json",
+      success: function(calendarEvents) {
+          $('#calendar').evoCalendar({
+              theme: 'Orange Coral',
+              language: 'es',
+              calendarEvents: calendarEvents,
+              eventHeaderFormat: 'MM d, yyyy',
+              firstDayOfWeek: 1,
+              todayHighlight: true
+          });
+      }
+  });
 
 
     window.addEventListener('resize', function() {
