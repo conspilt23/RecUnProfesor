@@ -15,7 +15,7 @@
 </x-slot>
 
 <x-slot name="otherjs">
-<script src="{{asset('js/evo-calendar.min.js')}}" defer></script>
+<script src="{{asset('js/evo-calendar.js')}}" defer></script>
 <script type="module" src="{{asset('js/events.js')}}" defer></script>
 </x-slot>
 
