@@ -434,7 +434,7 @@ body.Dark .orange-coral .event-list > .event-empty > p {
         $('#calendar').evoCalendar({
            theme: 'Orange Coral',
            language: 'es',
-           calendarEvents: CalendarEvents,
+           calendarEvents: '',
            eventHeaderFormat: 'MM d, yyyy',
            firstDayOfWeek: 1,
            todayHighlight: true
