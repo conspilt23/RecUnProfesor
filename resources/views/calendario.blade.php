@@ -429,8 +429,7 @@ body.Dark .orange-coral .event-list > .event-empty > p {
 
 <x-slot name="otherjs">
 <script src="{{asset('js/evo-calendar.js')}}" defer></script>
-<script type="module" >
-    import CalendarEvents from "{{asset('js/calendarEvents.json')}}" assert {type: 'json'}
+<script>
     $(document).ready(function(){
         $('#calendar').evoCalendar({
            theme: 'Orange Coral',
