@@ -12,6 +12,24 @@
   <link rel="stylesheet" href="{{asset('css/calendar.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('css/evo-calendar.min.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('css/evo-calendar.orange-coral.css')}}">
+  <style>
+    @media screen and (max-width: 454px){
+        #background-calendar {
+        display: none;
+        z-index: 90;
+        opacity: 0.76;
+        position: fixed;
+        height: 200%;
+        width: 200%;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, .54) !important;
+        overflow: hidden;
+    }
+    }
+  </style>
 </x-slot>
 
 <x-slot name="otherjs">

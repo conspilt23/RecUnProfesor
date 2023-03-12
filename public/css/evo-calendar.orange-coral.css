@@ -437,21 +437,6 @@ body.Dark .orange-coral .event-list > .event-empty > p {
         cursor: pointer;
     }
 
-    #background-calendar {
-        display: none;
-        z-index: 90;
-        opacity: 0.76;
-        position: fixed;
-        height: 200%;
-        width: 200%;
-        bottom: 0;
-        top: 0;
-        left: 0;
-        right: 0;
-        background: #000;
-        overflow: hidden;
-    }
-
     body:has(.act){
         overflow: hidden !important;
     }
