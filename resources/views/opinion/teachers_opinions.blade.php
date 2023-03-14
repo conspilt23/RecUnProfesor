@@ -185,7 +185,7 @@
     font-size: 100%;
     margin: 0;
     padding: 0;
-    vertical-align: initial;"><div icondescription="describes the close button" role="status" class="cds--toast-notification cds--toast-notification--error"><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" class="cds--toast-notification__icon"><path d="M10,1c-5,0-9,4-9,9s4,9,9,9s9-4,9-9S15,1,10,1z M13.5,14.5l-8-8l1-1l8,8L13.5,14.5z"></path><path d="M13.5,14.5l-8-8l1-1l8,8L13.5,14.5z" data-icon-path="inner-path" opacity="0"></path><title>error icon</title></svg><div class="cds--toast-notification__details"><div class="cds--toast-notification__title">Hubo un problema al pubicar tu respuesta</div><div class="cds--toast-notification__subtitle"><span>Revisa los siguientes errores e inténtalo de nuevo:
+    vertical-align: initial;"><div icondescription="describes the close button" role="status" class="cds--toast-notification cds--toast-notification--error"><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" class="cds--toast-notification__icon"><path d="M10,1c-5,0-9,4-9,9s4,9,9,9s9-4,9-9S15,1,10,1z M13.5,14.5l-8-8l1-1l8,8L13.5,14.5z"></path><path d="M13.5,14.5l-8-8l1-1l8,8L13.5,14.5z" data-icon-path="inner-path" opacity="0"></path><title>error icon</title></svg><div class="cds--toast-notification__details"><div class="cds--toast-notification__title">Hubo un problema al pubicar tu respuesta o al enviar reporte</div><div class="cds--toast-notification__subtitle"><span>Revisa los siguientes errores e inténtalo de nuevo:
     
     <ul style="margin-top: 10px;">
     @foreach ($errors->get('opinion_id') as $error)
@@ -193,6 +193,15 @@
     @endforeach
 @foreach ($errors->get('body') as $error)
     <li>{{ $error }}</li>
+@endforeach
+@foreach($errors->get('reason') as $error)
+<li> {{ $error }}</li>
+@endforeach
+@foreach($errors->get('type') as $error)
+<li> {{ $error }}</li>
+@endforeach
+@foreach($errors->get('_id') as $error)
+<li> {{ $error }}</li>
 @endforeach
     </ul>
     </span></div></div></div></div>
