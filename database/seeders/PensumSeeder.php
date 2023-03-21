@@ -8937,7 +8937,7 @@ class PensumSeeder extends Seeder
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
-                'quarter' => '2°. Cuatrimestre',
+                'quarter' => '1°. Cuatrimestre',
                 'code' => 'ESP101',
                 'subject' => 'ANALISIS DE TEXTOS DISCURSIVOS',
                 'credits' => '3',
@@ -8945,7 +8945,7 @@ class PensumSeeder extends Seeder
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
-                'quarter' => '2°. Cuatrimestre',
+                'quarter' => '1°. Cuatrimestre',
                 'code' => 'SOC030',
                 'subject' => 'ORIENTACION UNIVERSITARIA',
                 'credits' => '2',
@@ -8953,7 +8953,7 @@ class PensumSeeder extends Seeder
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
-                'quarter' => '2°. Cuatrimestre',
+                'quarter' => '1°. Cuatrimestre',
                 'code' => 'MAT010',
                 'subject' => 'MATEMATICA BASICA UNIVERSITARI',
                 'credits' => '3',
@@ -8961,7 +8961,7 @@ class PensumSeeder extends Seeder
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
-                'quarter' => '2°. Cuatrimestre',
+                'quarter' => '1°. Cuatrimestre',
                 'code' => 'SOC043',
                 'subject' => 'GESTION AMBIENTAL',
                 'credits' => '2',
@@ -8969,7 +8969,7 @@ class PensumSeeder extends Seeder
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
-                'quarter' => '2°. Cuatrimestre',
+                'quarter' => '1°. Cuatrimestre',
                 'code' => 'CPM100',
                 'subject' => 'CULTURA Y GLOBALIZ DE LA INFOR',
                 'credits' => '3',
@@ -9099,7 +9099,7 @@ class PensumSeeder extends Seeder
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
-                'quarter' => '5°. Cuatrimestre',
+                'quarter' => '4°. Cuatrimestre',
                 'code' => 'SOC031',
                 'subject' => 'ETICA PROFESIONAL',
                 'credits' => '3',
@@ -9107,7 +9107,7 @@ class PensumSeeder extends Seeder
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
-                'quarter' => '5°. Cuatrimestre',
+                'quarter' => '4°. Cuatrimestre',
                 'code' => 'ESP109',
                 'subject' => 'TEC AVANZ DE RED Y COMP DE TEX',
                 'credits' => '3',
@@ -9115,7 +9115,7 @@ class PensumSeeder extends Seeder
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
-                'quarter' => '5°. Cuatrimestre',
+                'quarter' => '4°. Cuatrimestre',
                 'code' => 'CPM400',
                 'subject' => 'DISEÑO EDITORIAL Y DIAGRAM DIG',
                 'credits' => '3',
@@ -9123,7 +9123,7 @@ class PensumSeeder extends Seeder
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
-                'quarter' => '5°. Cuatrimestre',
+                'quarter' => '4°. Cuatrimestre',
                 'code' => 'ART014',
                 'subject' => 'HISTORIA DE LA COMUNICACION II',
                 'credits' => '3',
@@ -9131,7 +9131,7 @@ class PensumSeeder extends Seeder
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
-                'quarter' => '5°. Cuatrimestre',
+                'quarter' => '4°. Cuatrimestre',
                 'code' => 'CPM405',
                 'subject' => 'REDAC PERIOD: GENE DE ANA Y OP',
                 'credits' => '3',
@@ -9139,11 +9139,59 @@ class PensumSeeder extends Seeder
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
-                'quarter' => '5°. Cuatrimestre',
+                'quarter' => '4°. Cuatrimestre',
                 'code' => 'CPM410',
                 'subject' => 'PRODUCCION INFORMATIV DE RADIO',
                 'credits' => '3',
                 'pre_requirements' => ''
+            ],
+            [
+                'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
+                'quarter' => '5°. Cuatrimestre',
+                'code' => 'CPM500',
+                'subject' => 'REDACCION PERIOD: GENEROS INTE',
+                'credits' => '3',
+                'pre_requirements' => 'CPM405'
+            ],
+            [
+                'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
+                'quarter' => '5°. Cuatrimestre',
+                'code' => 'CPM505',
+                'subject' => 'EDICION Y MAQUETACION WEB',
+                'credits' => '3',
+                'pre_requirements' => 'CPM400'
+            ],
+            [
+                'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
+                'quarter' => '5°. Cuatrimestre',
+                'code' => 'CPM510',
+                'subject' => 'FOTOPERIODISMO',
+                'credits' => '3',
+                'pre_requirements' => 'CPM405'
+            ],
+            [
+                'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
+                'quarter' => '5°. Cuatrimestre',
+                'code' => 'CPM515',
+                'subject' => 'CREATIVI Y ESTRAT DE CONTENIDO',
+                'credits' => '3',
+                'pre_requirements' => 'ESP109'
+            ],
+            [
+                'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
+                'quarter' => '5°. Cuatrimestre',
+                'code' => 'ART525',
+                'subject' => 'TECNICA DE DOCM DE LA COMUNICA',
+                'credits' => '3',
+                'pre_requirements' => 'SOC253'
+            ],
+            [
+                'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
+                'quarter' => '5°. Cuatrimestre',
+                'code' => 'CPM520',
+                'subject' => 'SEMIOTICA, COD Y SIST DE ANALI',
+                'credits' => '3',
+                'pre_requirements' => 'SOC253'
             ],
             [
                 'career' => 'Licenciatura en comunicación y periodismo multiplataforma',
