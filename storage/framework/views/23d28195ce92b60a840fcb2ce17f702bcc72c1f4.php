@@ -47,6 +47,21 @@
   
     <p>Actualmente, en la Universidad APEC, las carreras de ingeniería están siendo gestionadas por el <strong>Decanato de Ingeniería e Informática</strong>, y se divide en dos partes, que son la <strong>Escuela de Ingeniería</strong> y la <strong>Escuela de Informática.</strong> Además, dicho decanato compone un total de 5 carreras, regidas por sus respectivas escuelas. He aquí los detalles:</p>
 
+    <div class="ads">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+
   <h3 class="scholl">a) Escuela de Ingeniería</h3>
   <div class="accordion">
 
@@ -343,6 +358,21 @@
       <span class="line-x"></span>
     </div>
 
+    <div class="ads">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+
     <div class="contentBx">
       <div class="label md-ripples ripples-bg"><i class="fa-solid fa-tower-broadcast"></i>Licenciatura en Comunicación y Periodismo Multiplataforma</div>
       <div class="content">
@@ -450,6 +480,22 @@
       <span class="line-x"></span>
     </div>
 
+    <div class="ads">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+
+
     <div class="contentBx">
       <div class="label md-ripples ripples-bg"><i class="fa-solid fa-cubes"></i>Licenciatura en Diseño Gráfico</div>
       <div class="content">
@@ -520,6 +566,23 @@
       <span class="line-y"></span>
       <span class="line-x"></span>
     </div>
+
+
+    <div class="ads">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+
 
     <div class="contentBx">
       <div class="label md-ripples ripples-bg"><i class="fa-solid fa-palette"></i>Licenciatura en Educación Artística</div>
@@ -927,6 +990,22 @@
       <span class="line-x"></span>
     </div>
 
+    <div class="ads">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+
+    
     <div class="contentBx">
       <div class="label md-ripples ripples-bg"><i class="fa-solid fa-globe"></i>Licenciatura en Negocios Internacionales</div>
       <div class="content">

@@ -1,11 +1,26 @@
+@php
+use Carbon\Carbon;
+
+$now = Carbon::now();
+$quarter = '';
+
+if ($now->month >= 1 && $now->month <= 4) {
+    $quarter = 'Enero - Abril '.$now->year;
+} elseif ($now->month >= 5 && $now->month <= 8) {
+    $quarter = 'Mayo - Agosto '.$now->year;
+} else {
+    $quarter = 'Septiembre - Diciembre '.$now->year;
+}    
+@endphp
+
 <x-layouts.guest
     title="★ Calendario académico de la Universidad APEC ★ — Recomiéndame un profesor"
     h1="Calendario académico de UNAPEC"
-    pAfterH1="Aquí puedes dar seguimiento al cuatrimestre actual, para que tengas un control más fácil y prepararte mejor para las fechas importantes que tengas pendiente."
+    pAfterH1="Aquí puedes dar seguimiento del calendario de UNAPEC en el cuatrimestre actual de {{$quarter}}, para que tengas un control más fácil y prepararte mejor para las fechas importantes que tengas pendiente."
 >
 
 <x-slot name="metadesc">
-    ➫ ¿Deseas dar un seguimiento más dinámico al calendario y saber cuándo comienza cada actividad o evento? ¡Estás en el lugar indicado!. ➤ ➤ ¡No dudes en darte una vuelta, para que puedas observar durante el período completo las actividades que hay en UNAPEC! ;&#x29;
+    ➫ ¿Deseas dar un seguimiento más dinámico al calendario académico UNAPEC en el cuatrimestre {{$quarter}} y saber cuándo comienza cada actividad o evento? ¡Estás en el lugar indicado!. ➤ ➤ ¡No dudes en darte una vuelta, para que puedas observar durante el período completo las actividades que hay en UNAPEC! ;&#x29;
 </x-slot>
 
 <x-slot name="otherstyle">
@@ -166,24 +181,31 @@ window.addEventListener('resize', function() {
 
   <p>Darle un seguimiento adecuado al calendario académico es muy importante, ya que tendrás en cuenta cada detalle en las fechas propuestas por el calendario académico oficial de la Universidad APEC. Sólo basta con seleccionar el día que necesites, o cualquiera dentro del período actual.</p>
 
-  <p>
-   Básicamente, este calendario académico extraído de la Universidad APEC muestra las fechas importantes del cuatrimestre en curso, incluyendo los exámenes parciales y finales, así como otras actividades académicas y eventos especiales. El rango de fechas cubre desde el inicio hasta el final del período. Dispones también de una leyenda que te indicará el significado de cada color del evento. Mantenerse actualizado con el calendario académico es fundamental para asegurarte de cumplir con todas tus responsabilidades tanto académicas como personales.
-  </p>
+  <p style="margin-top: 23px;">
+    El calendario académico de la Universidad APEC es una herramienta imprescindible para cualquier estudiante que desee mantenerse organizado y al día con las fechas y actividades importantes del semestre en curso. Este calendario no sólo muestra las fechas de los exámenes parciales y finales, sino que también incluye días feriados, asuetos, actividades comunes, actividades de estudiantes que hacen curso monográfico y trabajo de grado, y estudiantes de posgrados, entre otros eventos y actividades importantes. </p>
+    
+    <p style="margin-top: 23px;">
+      Este calendario se actualiza regularmente para reflejar cualquier cambio o actualización en las fechas y actividades, por lo que es importante revisarlo con frecuencia para asegurarse de estar al tanto de cualquier cambio que pueda afectar los planes y horarios. Además, el calendario académico de la Universidad APEC es fácil de usar y está diseñado para ser intuitivo, lo que significa que cualquier estudiante puede acceder a él y encontrar la información que necesita rápidamente.
+    </p style="margin-top: 23px;">
+ 
+    <div class="ads">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+       crossorigin="anonymous"></script>
+  <!-- horizontal -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-3525189773538188"
+       data-ad-slot="5695044141"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+    </div>
 
-  <div class="ads">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-     crossorigin="anonymous"></script>
-<!-- horizontal -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3525189773538188"
-     data-ad-slot="5695044141"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  </div>
+    <p style="margin-top: 23px;">
+    Por ejemplo, si deseas o necesitas saber la fecha de alguna evaluación parcial o examen final, todo lo que tiene que hacer es seleccionar la fecha en el calendario y ver la información relevante en la leyenda. Del mismo modo, si un estudiante desea conocer la fecha de un día feriado o asueto, simplemente debe buscar la fecha correspondiente en el calendario y la información aparecerá en la leyenda. Finalmente, el calendario académico de la Universidad APEC es una herramienta invaluable para cualquier estudiante que quiera tener éxito en su vida académica y mantenerse organizado y actualizado con todas las fechas y actividades importantes del cuatrimestre en curso.
+  </p>
 
 
       <div class="console-log" id="calendart">

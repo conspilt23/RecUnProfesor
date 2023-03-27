@@ -40,20 +40,6 @@
   
     <p>Estos consejos generalos te pueden ayudar a estar orientado, ya que tendrás en cuenta algunos detalles sobre la Universidad APEC. Sólo basta con seleccionar la pregunta que necesites para ver la resputesta.</p>
 
-    <div class="ads">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-     crossorigin="anonymous"></script>
-<!-- horizontal -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3525189773538188"
-     data-ad-slot="5695044141"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    </div>
 
     <div class="cont">
       <div class="tarj">
@@ -66,7 +52,7 @@
         <div class="tex">
           <p>Esto no es extraño, es indispensable que te asesores en cada aspecto de esto. Ya que, muchos aspectos (tanto personales como de la universidad) tienen que tomarse en cuenta.</p>
 
-          <p>Un aspecto de ellos es verificar si el profesor <strong>se adapta a tu estilo de aprendizaje</strong>, para ello puedes usar tanto nuestra herramiento de búsqueda individual o cuatrimestral, como verificar o preguntar también en el grupo de Facebook que se ha creado entre los estudiantes de la universidad</p>
+          <p>Un aspecto de ellos es verificar si el profesor <strong>se adapta a tu estilo de aprendizaje</strong>, para ello puedes usar nuestra herramiento de búsqueda para verificar si existe alguna opinión sobre el docente en cuestión que deseas calificar</p>
 
           <div class="ads">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"

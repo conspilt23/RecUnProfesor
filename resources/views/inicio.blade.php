@@ -106,7 +106,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="/img/forma_explicar_profesor_de_apec.jpg" alt="">
+                        <img src="/img/forma_explicar_profesor_de_apec.jpg" alt="banner unapec">
                     </div>
                     <div class="content">
                         <h3>¿Explica correctamente?</h3>
@@ -116,7 +116,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="/img/evaluacion_justa.jpg" alt="">
+                        <img src="/img/evaluacion_justa.jpg" alt="canvas unapec">
                     </div>
                     <div class="content">
                         <h3>¿Evalúa justamente?</h3>
@@ -126,7 +126,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="img/retomar-clases-con-ese-profesor.jpg" alt="">
+                        <img src="img/retomar-clases-con-ese-profesor.jpg" alt="unapec idiomas">
                     </div>
                     <div class="content">
                         <h3>¿Tomarías clases con él/ella de nuevo?</h3>
@@ -136,7 +136,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="/img/puntualidad.jpg" alt="">
+                        <img src="/img/puntualidad.jpg" alt="aula virtual unapec">
                     </div>
                     <div class="content">
                         <h3>¿Es puntual?</h3>
@@ -146,7 +146,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="/img/evaluacion-estudiante.jpg" alt="">
+                        <img src="/img/evaluacion-estudiante.jpg" alt="UNAPEC">
                     </div>
                     <div class="content">
                         <h3>¿Qué calificación merece de tu parte?</h3>
@@ -156,7 +156,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="/img/opinion-definitiva.jpg" alt="">
+                        <img src="/img/opinion-definitiva.jpg" alt="unapec pagos">
                     </div>
                     <div class="content">
                         <h3>¿Cuál es tu opinión sobre él/ella?</h3>

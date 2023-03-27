@@ -133,20 +133,6 @@
                     
                 </div>
 
-                <div class="ads">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-                   crossorigin="anonymous"></script>
-              <!-- horizontal -->
-              <ins class="adsbygoogle"
-                   style="display:block"
-                   data-ad-client="ca-pub-3525189773538188"
-                   data-ad-slot="5695044141"
-                   data-ad-format="auto"
-                   data-full-width-responsive="true"></ins>
-              <script>
-                   (adsbygoogle = window.adsbygoogle || []).push({});
-              </script>
-                  </div>
 
                 <div class="buttons_settings">
                     <a href="{{'/opiniones/' . str(str_replace('-', ' ', $professor->name))->slug()}}" class="md-ripples ripples-bg-immer-weiss"><span>Ver opiniones</span></a>
@@ -154,24 +140,7 @@
                 </div>
                 @else 
                 <h2>Actualmente no hay secciones</h2>
-                <p style="margin-bottom: 50px;">Lamentamos decirte que, en el período actual, el docente {{ str($professor->name)->title() }} no tiene secciones disponibles. Te recomendamos buscar otros docentes con secciones similares a las que estabas buscando. Quizá en otro período vuelva a tener secciones disponibles.</p>
-
-                <div class="ads">
-                    <div class="ads">
-                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-                       crossorigin="anonymous"></script>
-                  <!-- horizontal -->
-                  <ins class="adsbygoogle"
-                       style="display:block"
-                       data-ad-client="ca-pub-3525189773538188"
-                       data-ad-slot="5695044141"
-                       data-ad-format="auto"
-                       data-full-width-responsive="true"></ins>
-                  <script>
-                       (adsbygoogle = window.adsbygoogle || []).push({});
-                  </script>
-                      </div>
-                </div>
+                <p style="margin-bottom: 50px;">En este período, el docente {{ str($professor->name)->title() }} no tiene secciones disponibles. Te recomendamos buscar otros docentes que ofrezcan secciones similares a las que estás buscando. Es posible que en un futuro el docente tenga secciones disponibles nuevamente, por lo que te sugerimos que estés atento a su perfil y a las actualizaciones de su disponibilidad.</p>
                 @endif
 
 

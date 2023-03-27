@@ -67,7 +67,7 @@
             <div class="content">
                 <div class="icon"><i class="fa-solid fa-user-slash"></i></div>
                 <div class="text">
-                    <h3>Actualmente</h3>
+                    <h3>Actualmente...</h3>
                     <p>Nadie ha comentado sobre este profesor, por lo que no podemos decirte con certeza qué tan recomendable es. Si ya has tomado alguna asignatura con él, no dudes en comentar tu opinión para tener una referencia de cuán recomendable es.</p>
                 </div>
             </div>
@@ -163,20 +163,6 @@
             <section class="main-final">
                 <h2>Opiniones</h2>
 
-                <div class="ads">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-                   crossorigin="anonymous"></script>
-              <!-- horizontal -->
-              <ins class="adsbygoogle"
-                   style="display:block"
-                   data-ad-client="ca-pub-3525189773538188"
-                   data-ad-slot="5695044141"
-                   data-ad-format="auto"
-                   data-full-width-responsive="true"></ins>
-              <script>
-                   (adsbygoogle = window.adsbygoogle || []).push({});
-              </script>
-                  </div>
 
 
     @if ($errors->any())
@@ -256,21 +242,9 @@
   </div>
 @endforeach
 @else 
-<p>Ninguna opinión disponible por el momnento. Te recomendamos buscar a otro docente con asignaturas similares, o bien, si ya has tomado alguna asignatura con dicho docente, no dudes en comentar tu opinión.</p>
-<div class="ads">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-   crossorigin="anonymous"></script>
-<!-- horizontal -->
-<ins class="adsbygoogle"
-   style="display:block"
-   data-ad-client="ca-pub-3525189773538188"
-   data-ad-slot="5695044141"
-   data-ad-format="auto"
-   data-full-width-responsive="true"></ins>
-<script>
-   (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  </div>
+<p>Lamentablemente, no hay ninguna opinión disponible sobre el profesor que estás buscando en este momento. Esto significa que no hay comentarios o reseñas publicados por otros estudiantes que hayan tomado clases con este profesor. Debido a esto, no podemos proporcionarte una recomendación concreta sobre qué tan bueno es el profesor en términos de calidad de enseñanza, claridad en la explicación, disponibilidad, entre otros aspectos importantes.</p>
+
+<p>Sin embargo, si ya has tomado clases con este profesor, sería de gran ayuda para otros estudiantes si compartes tu experiencia y opinión sobre su enseñanza. Si estás dispuesto a hacerlo, te invitamos a que comentes tu experiencia con el profesor para que otros estudiantes puedan tener una referencia y tomar una decisión informada. Además, dejar un comentario también ayuda al profesor a mejorar su enseñanza y atención a los estudiantes en caso de que haya algo que pueda ajustar o mejorar en su enfoque educativo.</p>
 @endif
 
 

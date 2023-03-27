@@ -16,6 +16,10 @@
       .Inhalt .TextInBox .botones {
       justify-content: flex-start !important; 
   }
+
+  main .general1 {
+    display: block !important;
+}
   </style>
   </x-slot>
 

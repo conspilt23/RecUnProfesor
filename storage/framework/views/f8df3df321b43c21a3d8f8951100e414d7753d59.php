@@ -45,7 +45,23 @@
             <h2>Preguntas e inquietudes más comunes</h2>
             <h6>¡Para que ya no te queden dudas!</h6>
   
-    <p>Que se dé el caso en el cual nos surja una que otra pregunta sobre algo relacionado a la unviersidad es normal, en especial cuando se es de primer ingreso. Encontrarás a continuación, una lista de las preguntas más comunes que se hacen los estudiantes de APEC con sus respuestas detalladas.</p>
+    <p>Es totalmente comprensible que surjan algunas preguntas relacionadas con la Universidad APEC, especialmente si eres un estudiante de primer ingreso. Por esta razón, hemos elaborado una lista de las preguntas más frecuentes que recibimos de nuestros estudiantes y hemos proporcionado respuestas detalladas para ayudarte a obtener la información que necesitas. Queremos asegurarnos de que tengas una experiencia educativa sin problemas y que tengas acceso a toda la información necesaria para tomar las mejores decisiones en cuanto a tu carrera académica.</p>
+
+    <div class="ads">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+    
 
     <div class="container-grant">
     <div class="accordion">

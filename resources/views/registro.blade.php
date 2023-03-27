@@ -133,20 +133,7 @@ h1="Regístrate fácilmente"
                     </form>
                 </div>
 
-                <div class="ads">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-     crossorigin="anonymous"></script>
-<!-- anuncio pie inicio -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3525189773538188"
-     data-ad-slot="3952649269"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-                </div>
+  
             </div>
 
             <div class="fondo-select-responsive"></div>
@@ -164,20 +151,7 @@ h1="Regístrate fácilmente"
                     
                     </p>
 
-                    <div class="ads">
-                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-         crossorigin="anonymous"></script>
-    <!-- anuncio pie inicio -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-3525189773538188"
-         data-ad-slot="3952649269"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-                    </div>
+  
 
 
                 </section>
