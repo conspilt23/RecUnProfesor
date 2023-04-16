@@ -491,6 +491,15 @@
         "everyYear": false,
         "color": "#1352B9"
     },
+
+    {
+        "id": "62cfd902cefg3",
+        "name": "Inicio selección de asignaturas para cuatrimestre Mayo - Agosto 2023.",
+        "date": "April/21/2023",
+        "type": "begin",
+        "everyYear": false,
+        "color": "#1352B9"
+    },
     {
         "id": "63cfd902c7488",
         "name": "Docencia.",
