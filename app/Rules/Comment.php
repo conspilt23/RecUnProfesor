@@ -19,7 +19,7 @@ class Comment implements InvokableRule
         ];
 
         $allowedWords = [
-            'penelope',  'pitón', 'cretacio'
+            'penelope',  'pitón', 'cretacio', 'anotar', 'ana', 'analogico', 'analógic', 'año'
         ];
 
         $badWords = [
