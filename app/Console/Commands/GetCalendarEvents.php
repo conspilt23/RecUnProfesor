@@ -168,7 +168,7 @@ class GetCalendarEvents extends Command
             return 'begin';
         } elseif (strpos($name, 'Asueto') !== false) {
             return 'holiday';
-        } elseif (strpos($name, 'P. Ev. P.') !== false || strpos($name, 'S. Ev. P.') !== false || strpos($name, 'Exámenes finales') !== false) {
+        } elseif (strpos($name, 'P. Ev. P.') !== false || strpos($name, 'S. Ev. P.') !== false || strpos($name, 'Exámenes finales') !== false || strpos($name, 'P. EV. P.') !== false || strpos($name, 'S. EV. P.')) {
             return 'exam';
         } elseif(strpos($name, 'Estudiantes del Curso Monográfico evalúan a los profesores') !== false){
             return 'mon400_student_qualif';
