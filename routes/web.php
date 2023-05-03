@@ -18,7 +18,7 @@ use App\Http\Controllers\NotificationController;
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/prueba', 'prueba');
+
 Route::view('/', 'inicio')->name('inicio');
 Route::view('/calendario-academico-unapec', 'calendario')->name('calendario');
 Route::view('/carreras-de-unapec', 'carreras')->name('carreras');

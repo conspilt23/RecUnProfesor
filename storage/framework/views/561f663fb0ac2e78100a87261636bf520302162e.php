@@ -169,48 +169,10 @@ window.addEventListener('resize', function() {
           <h2>Seguimiento del calendario académico en el período actual</h2>
           <h6>¡Sin rodeos!</h6>
 
-          <div class="ads">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-     crossorigin="anonymous"></script>
-<!-- Anuncio cuadrado -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3525189773538188"
-     data-ad-slot="9017273686"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-          </div>
-
-  <p>Darle un seguimiento adecuado al calendario académico es muy importante, ya que tendrás en cuenta cada detalle en las fechas propuestas por el calendario académico oficial de la Universidad APEC. Sólo basta con seleccionar el día que necesites, o cualquiera dentro del período actual.</p>
+  <p>El calendario académico de la Universidad APEC es una herramienta esencial para cualquier estudiante que desee mantenerse organizado y al día con las fechas y actividades importantes del semestre. Este calendario muestra todo lo que necesitas saber, desde las fechas de los exámenes hasta los días feriados y asuetos, y se actualiza regularmente para reflejar cualquier cambio en las fechas y actividades. Es fácil de usar y diseñado para ser intuitivo, lo que significa que cualquier estudiante puede encontrar la información que necesita rápidamente.</p>
 
   <p style="margin-top: 23px;">
-    El calendario académico de la Universidad APEC es una herramienta imprescindible para cualquier estudiante que desee mantenerse organizado y al día con las fechas y actividades importantes del semestre en curso. Este calendario no sólo muestra las fechas de los exámenes parciales y finales, sino que también incluye días feriados, asuetos, actividades comunes, actividades de estudiantes que hacen curso monográfico y trabajo de grado, y estudiantes de posgrados, entre otros eventos y actividades importantes. </p>
-    
-    <p style="margin-top: 23px;">
-      Este calendario se actualiza regularmente para reflejar cualquier cambio o actualización en las fechas y actividades, por lo que es importante revisarlo con frecuencia para asegurarse de estar al tanto de cualquier cambio que pueda afectar los planes y horarios. Además, el calendario académico de la Universidad APEC es fácil de usar y está diseñado para ser intuitivo, lo que significa que cualquier estudiante puede acceder a él y encontrar la información que necesita rápidamente.
-    </p style="margin-top: 23px;">
- 
-    <div class="ads">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-       crossorigin="anonymous"></script>
-  <!-- horizontal -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-3525189773538188"
-       data-ad-slot="5695044141"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-    </div>
-
-    <p style="margin-top: 23px;">
-    Por ejemplo, si deseas o necesitas saber la fecha de alguna evaluación parcial o examen final, todo lo que tiene que hacer es seleccionar la fecha en el calendario y ver la información relevante en la leyenda. Del mismo modo, si un estudiante desea conocer la fecha de un día feriado o asueto, simplemente debe buscar la fecha correspondiente en el calendario y la información aparecerá en la leyenda. Finalmente, el calendario académico de la Universidad APEC es una herramienta invaluable para cualquier estudiante que quiera tener éxito en su vida académica y mantenerse organizado y actualizado con todas las fechas y actividades importantes del cuatrimestre en curso.
-  </p>
+    No importa si necesitas saber la fecha de una evaluación parcial o examen final, o si deseas conocer la fecha de un día feriado o asueto, lo que lo convierte en la herramienta ideal que necesitas para tener éxito en tu vida académica</p>
 
 
       <div class="console-log" id="calendart">
@@ -337,20 +299,7 @@ window.addEventListener('resize', function() {
     </table>
   </div>
 
-  <div class="ads">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-     crossorigin="anonymous"></script>
-<!-- horizontal -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3525189773538188"
-     data-ad-slot="5695044141"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  </div>
+
 
 
   
