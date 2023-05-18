@@ -21,7 +21,7 @@
             <div class="enlaces-de-interes">
                 <h3>Enlaces de interés</h3> 
                 <a href="javascript:void(0)" class="shert" id="show_recent_opinions">Ver opiniones recientes</a>
-                <a href="{{ route('indice')}}">Calcular índice académico</a>
+                <a href="{{ route('historia')}}">Breve historia de UNAPEC</a>
                 <a href="{{ route('calendario') }}">Calendario académico</a>
             </div>
         </nav>

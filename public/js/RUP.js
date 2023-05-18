@@ -434,14 +434,13 @@ $(document).ready(function () {
 
     if (!localStorage.getItem("cookies-accepted")) {
         Aviso_cookies.fadeIn(1000).addClass("av-activ");
-        $(".le-nav, .botones").css({ pointerEvents: "none" });
+
     } else {
         dataLayer.push({ event: "Cookies-Accepted" });
     }
 
     accept_cookies.click(() => {
         Aviso_cookies.fadeOut(250).removeClass("av-activ");
-        $(".le-nav, .botones").css({ pointerEvents: "all" });
         localStorage.setItem("cookies-accepted", true);
         dataLayer.push({ event: "Cookies-Accepted" });
     });

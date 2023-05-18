@@ -52,22 +52,7 @@
 
             <p>Esta web ha sido creada con el propósito de ayudar a los estudiantes de la Universidad APEC, con el fin de que tengan una agradable experiencia dentro de la misma a lo largo de la carrera que hayan elegido. Con la búsqueda de profesores, asignaturas individuales o todo un cuatrimestre, junto con otras herramientas bastante útiles, podrás ahorrar tiempo y/o recursos económicos en la selección de tus asignaturas y en la elección de los horarios más convenientes para ti. </p> 
 
-            <p>Asimismo, tienes la posibilidad de calcular tu índice académico sin importar si usas el pensum antiguo o actual de tu carrera, o hacer proyecciones del mismo, con el objetivo de conocer cómo te podría ir en el cuatrimestre en curso o calcular el de un período ya concluido. Por otro lado, puedes verificar los eventos del calendario académico oficial de UNAPEC, para estar al tanto de los eventos más importantes que ocurren cada día del cuatrimestre actual, como las fechas de los parciales, fechas límite, inicio de actividades, entre otros.</p>
-
-            <div class="ads">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-                crossorigin="anonymous"></script>
-           <!-- Anuncio cuadrado -->
-           <ins class="adsbygoogle"
-                style="display:block"
-                data-ad-client="ca-pub-3525189773538188"
-                data-ad-slot="9017273686"
-                data-ad-format="auto"
-                data-full-width-responsive="true"></ins>
-           <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-           </script>
-            </div>
+            <p>Asimismo, se facilita el acceso a información relevante, como horarios de reforzamientos, los eventos y actividades universitarias por medio de un calendario dinámico, entre otros aspectos importantes para nosotros, los estudiantes.</p>
 
             <p>En la web también encontrarás secciones dedicadas específicamente a ti, como respuestas a preguntas frecuentes y una lista de las carreras actualmente impartidas por UNAPEC, incluyendo información como el número de créditos, la cantidad de asignaturas de cada una, entre otros datos.</p>
 
@@ -75,19 +60,7 @@
 
             <p>En pocas palabras, con esta web tendrás todo lo necesario para tener un cuatrimestre agradable y exitoso en la Universidad APEC, con herramientas útiles y fáciles de usar en un solo lugar.</p>
 
-            <div class="ads">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-3525189773538188"
-     data-ad-slot="4646767923"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-            </div>
+
 </div>
 </x-slot>
 
@@ -106,7 +79,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="/img/forma_explicar_profesor_de_apec.jpg" alt="banner unapec">
+                        <img src="/img/forma_explicar_profesor_de_apec.jpg" alt="explicación de profesor en banner o presencial">
                     </div>
                     <div class="content">
                         <h3>¿Explica correctamente?</h3>
@@ -116,7 +89,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="/img/evaluacion_justa.jpg" alt="canvas unapec">
+                        <img src="/img/evaluacion_justa.jpg" alt="canvas unapec evaluación">
                     </div>
                     <div class="content">
                         <h3>¿Evalúa justamente?</h3>
@@ -126,7 +99,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="img/retomar-clases-con-ese-profesor.jpg" alt="unapec idiomas">
+                        <img src="img/retomar-clases-con-ese-profesor.jpg" alt="clases con docente">
                     </div>
                     <div class="content">
                         <h3>¿Tomarías clases con él/ella de nuevo?</h3>
@@ -136,7 +109,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="/img/puntualidad.jpg" alt="aula virtual unapec">
+                        <img src="/img/puntualidad.jpg" alt="puntualidad de profesor">
                     </div>
                     <div class="content">
                         <h3>¿Es puntual?</h3>
@@ -146,7 +119,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="/img/evaluacion-estudiante.jpg" alt="UNAPEC">
+                        <img src="/img/evaluacion-estudiante.jpg" alt="evaluación de docente">
                     </div>
                     <div class="content">
                         <h3>¿Qué calificación merece de tu parte?</h3>
@@ -156,7 +129,7 @@
 
                 <div class="card">
                     <div class="ImgBx">
-                        <img src="/img/opinion-definitiva.jpg" alt="unapec pagos">
+                        <img src="/img/opinion-definitiva.jpg" alt="opinion de docente">
                     </div>
                     <div class="content">
                         <h3>¿Cuál es tu opinión sobre él/ella?</h3>
@@ -173,20 +146,6 @@
     <div class="general3">
         <section class="main-final">
             <h2>¡El proceso de seleccionar  asignaturas es ahora mucho más sencillo!</h2>
-            <div class="ads">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-     crossorigin="anonymous"></script>
-<!-- anuncio vertical -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3525189773538188"
-     data-ad-slot="3540735666"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-            </div>
             <p>Tienes a tu dispocisión las herramientas y/o información necesaria para tener un cuatrimestre agradable a la palma de tu mano.
                 Básicamente, con esta aplicación web tendrás la ayuda para ahorar dinero en el proceso de matriculación o inscripción de cuatrimestre,
                 de igual forma, el conocimiento brindado por los demás estudiantes que ya han dado el paso.

@@ -29,6 +29,7 @@
                 <li><a href="{{ route('carreras') }}" class="rip_c">Carreras en UNAPEC</a></li>
                 <li><a href="{{ route('faq') }}" class="rip_c">Preguntas frecuentes</a></li>
                 @if(auth()->check() && auth()->user()->role == 'admin')<li><a href="{{ route('reports') }}" class="rip_c">Ver reportes</a></li>@endif
+                <li><a href="{{route('math_reinforcement')}}" class="rip_c">Horario de tutorías de MAT</a></li>
                 <li class="consejo"><a href="{{ route('consejos') }}" class="rip_c">Consejos para estudiantes</a></li>
             </ul>
         </div>

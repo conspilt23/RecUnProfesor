@@ -29,6 +29,7 @@
                 <li><a href="<?php echo e(route('carreras')); ?>" class="rip_c">Carreras en UNAPEC</a></li>
                 <li><a href="<?php echo e(route('faq')); ?>" class="rip_c">Preguntas frecuentes</a></li>
                 <?php if(auth()->check() && auth()->user()->role == 'admin'): ?><li><a href="<?php echo e(route('reports')); ?>" class="rip_c">Ver reportes</a></li><?php endif; ?>
+                <li><a href="<?php echo e(route('math_reinforcement')); ?>" class="rip_c">Horario de tutorías de MAT</a></li>
                 <li class="consejo"><a href="<?php echo e(route('consejos')); ?>" class="rip_c">Consejos para estudiantes</a></li>
             </ul>
         </div>

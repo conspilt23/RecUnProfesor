@@ -15,6 +15,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\ReactionController;
 use App\Http\Controllers\NotificationController;
+use App\Http\Controllers\MathReinfoncementController;
 
 use Illuminate\Support\Facades\Route;
 
@@ -24,9 +25,11 @@ Route::view('/calendario-academico-unapec', 'calendario')->name('calendario');
 Route::view('/carreras-de-unapec', 'carreras')->name('carreras');
 Route::view('/preguntas-frecuentes-de-unapec', 'faq')->name('faq');
 Route::view('/consejos-estudiantes-de-unapec', 'consejos')->name('consejos');
+Route::view('/historia-de-unapec', 'historia')->name('historia');
 Route::view('/terminos', 'terminos')->name('terminos');
 Route::view('/privacidad', 'privacidad')->name('privacidad');
 Route::view('/cookies', 'cookies')->name('cookies');
+
 
 Route::post('/registro',[RegisterController::class, 'register']);
 Route::post('/login',[LoginController::class, 'login'])->where('any', '.*');
@@ -42,6 +45,7 @@ Route::post('/admin/report/user-reporter-ban', [AdminController::class, 'banRepo
 Route::post('/admin/report/user-reported-ban', [AdminController::class, 'banReportedUser'])->name('reported-ban');
 
 Route::get('/evaluar-profesor', [OpinionController::class, 'create'])->name('calificar');
+Route::get('/reforzamiento-matematicas', [MathReinfoncementController::class, 'index'])->name('math_reinforcement');
 Route::get('/registro', [RegisterController::class, 'create'])->name('registro');
 Route::get('/calcular-indice-academico', [PgaController::class, 'create'])->name('indice');
 Route::get('/forget-password', [ForgotPasswordController::class, 'getEmail']);
