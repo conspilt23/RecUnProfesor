@@ -12,7 +12,8 @@
         "laravel/tinker": "^2.7",
         "laravolt/avatar": "^4.1",
         "livewire/livewire": "^2.10",
-        "spatie/laravel-sitemap": "^6.2"
+        "spatie/laravel-sitemap": "^6.2",
+        "symfony/dom-crawler": "^6.2"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.7",
