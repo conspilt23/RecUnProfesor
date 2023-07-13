@@ -105,14 +105,10 @@
                                     <div class="border-expand"></div>
                                 </div>
                                 @if($quarters != null)
-                                @foreach ($quarters->orderByDesc('period')->get() as $quarter)
-        @php
-            $periodParts = explode(' ', $quarter['period']);
-            $formattedPeriod = $periodParts[0] . ' ' . $periodParts[2];
-        @endphp
+                                @foreach ($quarters as $quarter)
                                     <div class="career schedul" effect="ripple"><i
                                             class="fa-regular fa-calendar-days"></i></i><span
-                                            class="car">{{$formattedPeriod}}</span>
+                                            class="car">{{ $quarter['period'] }}</span>
                                     </div>
                                 @endforeach
                                 @endif
