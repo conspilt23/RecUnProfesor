@@ -33,8 +33,6 @@ class GetCurrentQuarter extends Command
         
         $currentQuarter = $this->getQuarter($currentMonth);
         
-        Quarter::where('period', '>', $this->getCurrentPeriod())->delete();
-        
         for ($year = $currentYear; $year >= 2008; $year--) {
             if ($year == $currentYear) {
                 if ($currentQuarter >= 1) {
@@ -88,25 +86,5 @@ class GetCurrentQuarter extends Command
         }
         
         return 0;
-    }
-    
-    /**
-     * Obtener el periodo actual.
-     *
-     * @return string
-     */
-    protected function getCurrentPeriod()
-    {
-        $currentMonth = date('n');
-        
-        if ($currentMonth >= 1 && $currentMonth <= 4) {
-            return 'Enero - Abril';
-        } elseif ($currentMonth >= 5 && $currentMonth <= 8) {
-            return 'Mayo - Agosto';
-        } elseif ($currentMonth >= 9 && $currentMonth <= 12) {
-            return 'Septiembre - Diciembre';
-        }
-        
-        return '';
     }
 }
