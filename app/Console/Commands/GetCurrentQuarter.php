@@ -33,8 +33,6 @@ class GetCurrentQuarter extends Command
         
         $currentQuarter = $this->getQuarter($currentMonth);
         
-        Quarter::truncate(); // Borra todos los registros de la tabla Quarter antes de actualizarlos.
-        
         for ($year = $currentYear; $year >= 2008; $year--) {
             if ($year == $currentYear) {
                 if ($currentQuarter >= 1) {
