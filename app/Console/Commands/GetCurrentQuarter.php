@@ -37,19 +37,29 @@ class GetCurrentQuarter extends Command
             3 => 'Septiembre - Diciembre'
         ];
 
+        $latestQuarter = null;
+
         for ($year = 2008; $year <= $currentYear; $year++) {
             foreach ($quarters as $quarterNumber => $quarterName) {
                 if ($year == $currentYear && $quarterNumber > ceil($currentMonth / 4)) {
                     break;
                 }
 
-                Quarter::updateOrCreate([
+                $quarter = Quarter::updateOrCreate([
                     'period' => $quarterName . ' ' . $year,
                 ]);
+
+                if ($year == $currentYear && $quarterNumber == ceil($currentMonth / 4)) {
+                    $latestQuarter = $quarter;
+                }
             }
         }
 
-        $this->info('Cuatrimestre obtenido correctamente. El último cuatrimestre reciente es: ' . Quarter::orderBy('id', 'desc')->first()->period);
+        Quarter::where('id', '!=', $latestQuarter->id)->update(['latest' => 0]);
+        $latestQuarter->latest = 1;
+        $latestQuarter->save();
+
+        $this->info('Cuatrimestre obtenido correctamente. El último cuatrimestre reciente es: ' . $latestQuarter->period);
 
         return Command::SUCCESS;
     }
