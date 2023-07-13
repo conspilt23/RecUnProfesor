@@ -33,31 +33,33 @@ class GetCurrentQuarter extends Command
         
         $currentQuarter = $this->getQuarter($currentMonth);
         
+        Quarter::truncate(); // Borra todos los registros de la tabla Quarter antes de actualizarlos.
+        
         for ($year = $currentYear; $year >= 2008; $year--) {
             if ($year == $currentYear) {
                 if ($currentQuarter >= 1) {
-                    Quarter::updateOrCreate([
+                    Quarter::create([
                         'period' => 'Enero - Abril ' . $year,
                     ]);
                 }
                 if ($currentQuarter >= 2) {
-                    Quarter::updateOrCreate([
+                    Quarter::create([
                         'period' => 'Mayo - Agosto ' . $year,
                     ]);
                 }
                 if ($currentQuarter >= 3) {
-                    Quarter::updateOrCreate([
+                    Quarter::create([
                         'period' => 'Septiembre - Diciembre ' . $year,
                     ]);
                 }
             } else {
-                Quarter::updateOrCreate([
+                Quarter::create([
                     'period' => 'Enero - Abril ' . $year,
                 ]);
-                Quarter::updateOrCreate([
+                Quarter::create([
                     'period' => 'Mayo - Agosto ' . $year,
                 ]);
-                Quarter::updateOrCreate([
+                Quarter::create([
                     'period' => 'Septiembre - Diciembre ' . $year,
                 ]);
             }
