@@ -30,37 +30,61 @@ class GetCurrentQuarter extends Command
     {
         $currentYear = date('Y');
         $currentMonth = date('n');
-
-        $quarters = [
-            1 => 'Enero - Abril',
-            2 => 'Mayo - Agosto',
-            3 => 'Septiembre - Diciembre'
-        ];
-
-        $latestQuarter = null;
-
-        for ($year = 2008; $year <= $currentYear; $year++) {
-            foreach ($quarters as $quarterNumber => $quarterName) {
-                if ($year == $currentYear && $quarterNumber > ceil($currentMonth / 4)) {
-                    break;
+        
+        $currentQuarter = $this->getQuarter($currentMonth);
+        
+        for ($year = $currentYear; $year >= 2008; $year--) {
+            if ($year == $currentYear) {
+                if ($currentQuarter >= 1) {
+                    Quarter::updateOrCreate([
+                        'period' => 'Enero - Abril ' . $year,
+                    ]);
                 }
-
-                $quarter = Quarter::updateOrCreate([
-                    'period' => $quarterName . ' ' . $year,
+                if ($currentQuarter >= 2) {
+                    Quarter::updateOrCreate([
+                        'period' => 'Mayo - Agosto ' . $year,
+                    ]);
+                }
+                if ($currentQuarter >= 3) {
+                    Quarter::updateOrCreate([
+                        'period' => 'Septiembre - Diciembre ' . $year,
+                    ]);
+                }
+            } else {
+                Quarter::updateOrCreate([
+                    'period' => 'Enero - Abril ' . $year,
                 ]);
-
-                if ($year == $currentYear && $quarterNumber == ceil($currentMonth / 4)) {
-                    $latestQuarter = $quarter;
-                }
+                Quarter::updateOrCreate([
+                    'period' => 'Mayo - Agosto ' . $year,
+                ]);
+                Quarter::updateOrCreate([
+                    'period' => 'Septiembre - Diciembre ' . $year,
+                ]);
             }
         }
 
-        Quarter::where('id', '!=', $latestQuarter->id)->update(['latest' => 0]);
-        $latestQuarter->latest = 1;
-        $latestQuarter->save();
-
-        $this->info('Cuatrimestre obtenido correctamente. El último cuatrimestre reciente es: ' . $latestQuarter->period);
+        $lastQuarter = Quarter::orderBy('id', 'desc')->first();
+        $this->info('Cuatrimestre obtenido correctamente. El último cuatrimestre reciente es: ' . $lastQuarter->period);
 
         return Command::SUCCESS;
+    }
+    
+    /**
+     * Obtener el cuatrimestre basado en el mes.
+     *
+     * @param int $month
+     * @return int
+     */
+    protected function getQuarter($month)
+    {
+        if ($month >= 1 && $month <= 4) {
+            return 1;
+        } elseif ($month >= 5 && $month <= 8) {
+            return 2;
+        } elseif ($month >= 9 && $month <= 12) {
+            return 3;
+        }
+        
+        return 0;
     }
 }
