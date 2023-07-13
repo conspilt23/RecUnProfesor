@@ -16,33 +16,7 @@
     <x-slot name="otherjs">
         <script src="{{ asset('js/qualif.js') }}" defer></script>
         <script src="{{ asset('js/roundslider.min.js') }}" defer></script>
-        <script defer>
-      $(document).ready(function() {
-        // Función para reordenar los cuatrimestres
-        function reorderQuarters() {
-            var $quartersContainer = $('#quartersContainer');
-            var $quarters = $quartersContainer.find('.career.schedul');
 
-            $quarters.sort(function(a, b) {
-                var aPeriod = $(a).find('.car').text();
-                var bPeriod = $(b).find('.car').text();
-                var aYear = parseInt(aPeriod.split(' ')[2]);
-                var bYear = parseInt(bPeriod.split(' ')[2]);
-
-                if (aYear === bYear) {
-                    return aPeriod.localeCompare(bPeriod); // Ordenar alfabéticamente si los años son iguales
-                } else {
-                    return aYear - bYear;
-                }
-            });
-
-            $quartersContainer.empty().append($quarters);
-        }
-
-        // Llamar a la función para reordenar los cuatrimestres
-        reorderQuarters();
-    });
-        </script>
     </x-slot>
 
     <x-slot name="imgpage">
