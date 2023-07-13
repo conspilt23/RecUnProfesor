@@ -17,14 +17,22 @@
         <script src="{{ asset('js/qualif.js') }}" defer></script>
         <script src="{{ asset('js/roundslider.min.js') }}" defer></script>
         <script defer>
-        function reorderQuarters() {
+         // Función para reordenar los cuatrimestres
+         function reorderQuarters() {
             var $quartersContainer = $('#quartersContainer');
             var $quarters = $quartersContainer.find('.career.schedul');
 
             $quarters.sort(function(a, b) {
                 var aPeriod = $(a).find('.car').text();
                 var bPeriod = $(b).find('.car').text();
-                return new Date(bPeriod.split(' ')[2]) - new Date(aPeriod.split(' ')[2]);
+                var aYear = parseInt(aPeriod.split(' ')[2]);
+                var bYear = parseInt(bPeriod.split(' ')[2]);
+
+                if (aYear === bYear) {
+                    return aPeriod.localeCompare(bPeriod); // Ordenar alfabéticamente si los años son iguales
+                } else {
+                    return aYear - bYear;
+                }
             });
 
             $quartersContainer.empty().append($quarters);
@@ -32,6 +40,7 @@
 
         // Llamar a la función para reordenar los cuatrimestres
         reorderQuarters();
+    });
         </script>
     </x-slot>
 
