@@ -29,41 +29,27 @@ class GetCurrentQuarter extends Command
     public function handle()
     {
         $currentYear = date('Y');
-        $currentQuarter = floor((date('n') - 1) / 3) + 1;
-        for ($year = $currentYear; $year >= 2008; $year--) {
-            if ($year == $currentYear) {
-                if ($currentQuarter >= 1) {
-                    Quarter::updateOrCreate([
+        $currentMonth = date('n');
 
-                        'period' => 'Enero - Abril ' . $year,
-                    ]);
-                }
-                if ($currentQuarter >= 2) {
-                    Quarter::updateOrCreate([
+        $quarters = [
+            1 => 'Enero - Abril',
+            2 => 'Mayo - Agosto',
+            3 => 'Septiembre - Diciembre'
+        ];
 
-                        'period' => 'Mayo - Agosto ' . $year,
-                    ]);
+        for ($year = 2008; $year <= $currentYear; $year++) {
+            foreach ($quarters as $quarterNumber => $quarterName) {
+                if ($year == $currentYear && $quarterNumber > ceil($currentMonth / 4)) {
+                    break;
                 }
-                if ($currentQuarter >= 3) {
-                    Quarter::updateOrCreate([
 
-                        'period' => 'Septiembre - Diciembre ' . $year,
-                    ]);
-                }
-            } else {
                 Quarter::updateOrCreate([
-                    'period' => 'Enero - Abril ' . $year,
-                ]);
-                Quarter::updateOrCreate([
-                    'period' => 'Mayo - Agosto ' . $year,
-                ]);
-                Quarter::updateOrCreate([
-                    'period' => 'Septiembre - Diciembre ' . $year,
+                    'period' => $quarterName . ' ' . $year,
                 ]);
             }
         }
 
-        $this->info('Cuatrimestre obtenido correctamente. El último cuatrimestre reciente es: ' .  Quarter::find(1)->period);
+        $this->info('Cuatrimestre obtenido correctamente. El último cuatrimestre reciente es: ' . Quarter::orderBy('id', 'desc')->first()->period);
 
         return Command::SUCCESS;
     }
