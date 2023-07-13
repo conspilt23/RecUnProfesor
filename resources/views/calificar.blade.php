@@ -17,8 +17,9 @@
         <script src="{{ asset('js/qualif.js') }}" defer></script>
         <script src="{{ asset('js/roundslider.min.js') }}" defer></script>
         <script defer>
-         // Función para reordenar los cuatrimestres
-         function reorderQuarters() {
+      $(document).ready(function() {
+        // Función para reordenar los cuatrimestres
+        function reorderQuarters() {
             var $quartersContainer = $('#quartersContainer');
             var $quarters = $quartersContainer.find('.career.schedul');
 
