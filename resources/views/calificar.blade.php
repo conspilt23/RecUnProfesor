@@ -16,6 +16,23 @@
     <x-slot name="otherjs">
         <script src="{{ asset('js/qualif.js') }}" defer></script>
         <script src="{{ asset('js/roundslider.min.js') }}" defer></script>
+        <script defer>
+        function reorderQuarters() {
+            var $quartersContainer = $('#quartersContainer');
+            var $quarters = $quartersContainer.find('.career.schedul');
+
+            $quarters.sort(function(a, b) {
+                var aPeriod = $(a).find('.car').text();
+                var bPeriod = $(b).find('.car').text();
+                return new Date(bPeriod.split(' ')[2]) - new Date(aPeriod.split(' ')[2]);
+            });
+
+            $quartersContainer.empty().append($quarters);
+        }
+
+        // Llamar a la función para reordenar los cuatrimestres
+        reorderQuarters();
+        </script>
     </x-slot>
 
     <x-slot name="imgpage">
@@ -96,6 +113,7 @@
                             <small style="color:#fc6045; font-style:italic;">{{$message}}</small>
                             @enderror
 
+                            <div id="quartersContainer">
                             <div class="option" id="schedule_option">
                                 <div class="search-box" id="search_period_cont">
                                     <input type="text" name="" id="search_period" class="search"
@@ -118,6 +136,7 @@
                                     </div> Período especificado no encontrado
                                 </div>
                             </div>
+                        </div>
 
                             <div class="range_inputs">
 
