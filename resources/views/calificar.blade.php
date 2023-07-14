@@ -16,6 +16,40 @@
     <x-slot name="otherjs">
         <script src="{{ asset('js/qualif.js') }}" defer></script>
         <script src="{{ asset('js/roundslider.min.js') }}" defer></script>
+        <script defer>
+$(document).ready(function() {
+  // Obtener todos los elementos con las clases "career" y "schedul"
+
+  function orderElements(){
+    var elements = $(".career.schedul");
+
+// Ordenar los elementos en función del año (de forma ascendente)
+elements.sort(function(a, b) {
+  var yearA = extractYear($(a).find(".car").text());
+  var yearB = extractYear($(b).find(".car").text());
+
+  // Ordenar de forma ascendente (invertir el orden)
+  return yearA - yearB;
+});
+elements.each(function() {
+    $(this).insertAfter("#search_period_cont");
+  });
+  }
+
+  // Mover los elementos ordenados después del elemento con ID "search_period_cont"
+
+});
+
+// Función para extraer el año de una cadena en formato "Mes - Año"
+function extractYear(dateString) {
+  var words = dateString.split(" ");  // Dividir la cadena en palabras
+  var lastWord = words[words.length - 1];  // Obtener la última palabra
+  var year = parseInt(lastWord);  // Convertir la última palabra a número
+  return year;
+}
+
+orderElements();
+        </script>
 
     </x-slot>
 
