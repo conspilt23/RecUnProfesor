@@ -23,6 +23,40 @@
      <?php $__env->slot('otherjs', null, []); ?> 
         <script src="<?php echo e(asset('js/qualif.js')); ?>" defer></script>
         <script src="<?php echo e(asset('js/roundslider.min.js')); ?>" defer></script>
+        <script defer>
+$(document).ready(function() {
+  // Función para extraer el año de una cadena en formato "Mes - Año"
+  function extractYear(dateString) {
+    var words = dateString.split(" ");  // Dividir la cadena en palabras
+    var lastWord = words[words.length - 1];  // Obtener la última palabra
+    var year = parseInt(lastWord);  // Convertir la última palabra a número
+    return year;
+  }
+
+  // Obtener todos los elementos con las clases "career" y "schedul"
+  function orderElements() {
+    var elements = $(".career.schedul");
+
+    // Ordenar los elementos en función del año (de forma ascendente)
+    elements.sort(function(a, b) {
+      var yearA = extractYear($(a).find(".car").text());
+      var yearB = extractYear($(b).find(".car").text());
+
+      // Ordenar de forma ascendente (invertir el orden)
+      return yearA - yearB;
+    });
+
+    // Mover los elementos ordenados después del elemento con ID "search_period_cont"
+    elements.each(function() {
+      $(this).insertAfter("#search_period_cont");
+    });
+  }
+
+  // Llamar a la función para ordenar los elementos
+  orderElements();
+});
+        </script>
+
      <?php $__env->endSlot(); ?>
 
      <?php $__env->slot('imgpage', null, []); ?> 
@@ -117,6 +151,7 @@ if (isset($__messageOriginal)) { $message = $__messageOriginal; }
 endif;
 unset($__errorArgs, $__bag); ?>
 
+                            <div id="quartersContainer">
                             <div class="option" id="schedule_option">
                                 <div class="search-box" id="search_period_cont">
                                     <input type="text" name="" id="search_period" class="search"
@@ -139,6 +174,7 @@ unset($__errorArgs, $__bag); ?>
                                     </div> Período especificado no encontrado
                                 </div>
                             </div>
+                        </div>
 
                             <div class="range_inputs">
 
@@ -252,6 +288,21 @@ unset($__errorArgs, $__bag); ?>
                         </form>
                     </div>
                     <div class="fondo-select-responsive"></div>
+
+                    <div class="ads">
+                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- Anuncio cuadrado -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="9017273686"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                    </div>
                 <?php endif; ?>
 
                 <?php if(auth()->guard()->guest()): ?>
@@ -265,6 +316,22 @@ unset($__errorArgs, $__bag); ?>
                         funcionalidades del sitio web. Si tienes alguna duda o problema con el inicio de sesión o el
                         registro, no dudes en ponerte en contacto con nosotros. ¡Esperamos verte pronto calificando a tus
                         profesores!</p>
+
+
+                        <div class="ads">
+                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- Anuncio cuadrado -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="9017273686"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                        </div>
                 <?php endif; ?>
 
             </section>

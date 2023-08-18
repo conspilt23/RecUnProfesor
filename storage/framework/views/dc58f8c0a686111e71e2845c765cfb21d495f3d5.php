@@ -336,20 +336,8 @@ main .general3 {
                     </div>
 
                     <?php if(auth()->guard()->check()): ?>
-
-                        <span style="display: none;" id="careerSelected">
-                            <?php if($careerSp): ?>
-                                <?php echo e($userCareer); ?>
-
-                            <?php endif; ?>
-                        </span>
-
-                        <span style="display: none" id="Career_multiple_pensum">
-                            <?php if($careerCmp): ?>
-                                <?php echo e($userCareer); ?>
-
-                            <?php endif; ?>
-                        </span>
+<span style="display: none;" id="careerSelected"><?php if($careerSp): ?><?php echo e($userCareer); ?><?php endif; ?></span>
+<span style="display: none" id="Career_multiple_pensum"><?php if($careerCmp): ?><?php echo e($userCareer); ?><?php endif; ?></span>
                     <?php endif; ?>
 
                     <?php if(auth()->guard()->guest()): ?>
@@ -396,16 +384,7 @@ main .general3 {
 
             </div>
 
-            <div class="ads">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
-                    crossorigin="anonymous"></script>
-                <!-- horizontal -->
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3525189773538188"
-                    data-ad-slot="5695044141" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
+
         </div>
 
      <?php $__env->endSlot(); ?>

@@ -14,3 +14,7 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+resources/views/pensum.blade.php
+App/Http/Controllers/CareerProgressController.php
+public/js/progresPensum.js
+App/Http/Middleware/PensumMiddleware.php

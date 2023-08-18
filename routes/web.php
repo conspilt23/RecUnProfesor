@@ -16,6 +16,7 @@ use App\Http\Controllers\ReportController;
 use App\Http\Controllers\ReactionController;
 use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\MathReinfoncementController;
+use App\Http\Controllers\CareerProgressController;
 
 use Illuminate\Support\Facades\Route;
 

@@ -180,6 +180,8 @@ unset($__errorArgs, $__bag); ?>
                         <input type="hidden" name="career" id="carrer_selected" value="">
                     </form>
                 </div>
+
+  
             </div>
 
             <div class="fondo-select-responsive"></div>
@@ -191,8 +193,15 @@ unset($__errorArgs, $__bag); ?>
             <div class="general1">
                 <section class="esta-pagina">
                     <h2>No hace falta que estés aquí...</h2>
+                    
                     <p style="margin-bottom: 150px;">Ya tienes una cuenta con sesión iniciada. <br> Te recomendamos volver
-                        al menú de inicio, o bien usar las herramientas que ya tenemos preparadas para ti ;&#41; .</p>
+                        al menú de inicio, o bien usar las herramientas que ya tenemos preparadas para ti ;&#41; .
+                    
+                    </p>
+
+  
+
+
                 </section>
             </div>
          <?php $__env->endSlot(); ?>
