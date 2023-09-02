@@ -84,4 +84,11 @@
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
         </url>
+<url>
+    <loc>https://recomiendameunprofesor.com/progreso-de-carrera</loc>
+    <lastmod>2023-09-02T15:30:00+00:00</lastmod> <!-- Cambia la fecha y hora a la actual o aproximada -->
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+
 </urlset>

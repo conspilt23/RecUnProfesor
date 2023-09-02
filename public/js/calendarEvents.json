@@ -1,824 +1,700 @@
 [
     {
-        "id": "6451c207d5af5",
+        "id": "64f1bb523e9cd",
         "name": "Inicio 1°. Semana",
-        "date": "May/01/2023",
+        "date": "August/28/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b0d",
+        "id": "64f1bb523e9e2",
         "name": "Inicio 2°. Semana",
-        "date": "May/08/2023",
+        "date": "September/04/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b18",
+        "id": "64f1bb523e9e9",
         "name": "Inicio 3°. Semana",
-        "date": "May/15/2023",
+        "date": "September/11/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b23",
+        "id": "64f1bb523e9f1",
         "name": "Inicio 4°. Semana",
-        "date": "May/22/2023",
+        "date": "September/18/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b2d",
+        "id": "64f1bb523e9f8",
         "name": "Inicio 5°. Semana",
-        "date": "May/29/2023",
+        "date": "September/25/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b38",
+        "id": "64f1bb523e9fe",
         "name": "Inicio 6°. Semana",
-        "date": "June/05/2023",
+        "date": "October/02/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b41",
+        "id": "64f1bb523ea04",
         "name": "Inicio 7°. Semana",
-        "date": "June/12/2023",
+        "date": "October/09/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b4b",
+        "id": "64f1bb523ea0a",
         "name": "Inicio 8°. Semana",
-        "date": "June/19/2023",
+        "date": "October/16/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b54",
+        "id": "64f1bb523ea10",
         "name": "Inicio 9°. Semana",
-        "date": "June/26/2023",
+        "date": "October/23/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b5e",
+        "id": "64f1bb523ea16",
         "name": "Inicio 10°. Semana",
-        "date": "July/03/2023",
+        "date": "October/30/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b68",
+        "id": "64f1bb523ea1c",
         "name": "Inicio 11°. Semana",
-        "date": "July/10/2023",
+        "date": "November/06/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b71",
+        "id": "64f1bb523ea22",
         "name": "Inicio 12°. Semana",
-        "date": "July/17/2023",
+        "date": "November/13/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b7b",
+        "id": "64f1bb523ea28",
         "name": "Inicio 13°. Semana",
-        "date": "July/24/2023",
+        "date": "November/20/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b84",
+        "id": "64f1bb523ea2e",
         "name": "Inicio 14°. Semana",
-        "date": "July/31/2023",
+        "date": "November/27/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5b8d",
+        "id": "64f1bb523ea33",
         "name": "Inicio 15°. Semana",
-        "date": "August/07/2023",
+        "date": "December/04/2023",
         "type": "week",
         "everyYear": false,
         "color": "#27F8F2"
     },
     {
-        "id": "6451c207d5c1b",
-        "name": "Inicio de docencia: Nivel Técnico Superior, Grado y Primer Módulo del Nivel de Posgrado del Curso Monográfico (MON400).",
-        "date": "May/02/2023",
-        "type": "begin",
+        "id": "64f1bb523ea96",
+        "name": "INICIO DE DOCENCIA: Nivel Técnico Superior, Grado y primer Módulo de Posgrado.",
+        "date": "August/28/2023",
+        "type": "normal_day",
         "everyYear": false,
-        "color": "#1352B9"
+        "color": "#2EB044"
     },
     {
-        "id": "6451c207d5c56",
-        "name": "Matriculación tardía y adición de asignaturas a través del autoservicio.",
-        "date": "May/02/2023",
+        "id": "62ghbb523ebd8",
+        "name": "Docencia y solicitud. ",
+        "badge": "08/28 - 03/10",
+        "date": [
+            "August/28/2023",
+            "September/03/2023"
+        ],
+        "description": "Solicitud examen de nivel de idiomas con fines de exoneración en carreras. ",
+        "type": "normal_day",
+        "color": "#2EB044"
+    },
+    {
+        "id": "64f1bb523eaee",
+        "name": "Último día para realizar el primer pago del cuatrimestre.",
+        "date": "August/30/2023",
+        "type": "last_day",
+        "everyYear": false,
+        "color": "#FF3030"
+    },
+    {
+        "id": "64f1bb523eb13",
+        "name": "Proceso de Matriculación tardía y adición de asignaturas a través del autoservicio.",
+        "date": "August/31/2023",
         "type": "later_matric",
         "everyYear": false,
         "color": "#7FFFC1"
     },
     {
-        "id": "6451c207d5cb8",
-        "name": "Docencia.",
-        "badge": "05/03 - 05/07",
-        "date": [
-            "May/03/2023",
-            "May/07/2023"
-        ],
-        "description": "Docencia.",
+        "id": "64f1bb523eb44",
+        "name": "Retiro de asignaturas y/o de cuatrimestre con ajuste a cuenta hasta el 5/9/2023 y con fines de índice hasta el 19/11/2023.",
+        "date": "September/01/2023",
         "type": "normal_day",
+        "everyYear": false,
         "color": "#2EB044"
     },
     {
-        "id": "6451c207d5d22",
-        "name": "Retiro",
-        "badge": "05/03 - 05/07",
-        "date": [
-            "May/03/2023",
-            "May/07/2023"
-        ],
-        "description": "Retiro de asignaturas y de cuatrimestre con ajuste a cuenta hasta el 9/5/2023 y con fines de índice hasta el 21/7/2023.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d5d80",
-        "name": "Solicitud",
-        "badge": "05/03 - 05/07",
-        "date": [
-            "May/03/2023",
-            "May/07/2023"
-        ],
-        "description": "Solicitud Cursos Especiales hasta el 12/5/2023.",
+        "id": "3hyobb523eb44",
+        "name": "Solicitud Cursos Especiales hasta el 8/9/2023.",
+        "date": "September/01/2023",
         "type": "special_class",
+        "everyYear": false,
         "color": "#722EB0"
     },
     {
-        "id": "6451c207d5dd4",
-        "name": "Solicitud",
-        "badge": "05/03 - 05/07",
-        "date": [
-            "May/03/2023",
-            "May/07/2023"
-        ],
-        "description": "Solicitud examen de nivel de idiomas con fines de exoneración en carreras.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d5e4e",
-        "name": "Inicio Primer Módulo Curso Monográfico.",
-        "date": "May/06/2023",
+        "id": "64f1bb523eb73",
+        "name": "Inicio Primer Módulo del Curso Monográfico de Evaluación Final (MON400).",
+        "date": "September/02/2023",
         "type": "begin",
         "everyYear": false,
         "color": "#1352B9"
     },
     {
-        "id": "6451c207d5eab",
-        "name": "Docencia. Inicio",
-        "badge": "05/08 - 05/14",
-        "date": [
-            "May/08/2023",
-            "May/14/2023"
-        ],
-        "description": "Docencia. Inicio asesorías de Trabajos de Grado (TES500) hasta el 16/7/2023.",
-        "type": "begin",
-        "color": "#1352B9"
+        "id": "64f1bb523eb99",
+        "name": "Estudiantes del Curso Monográfico (MON400) forman grupos para sus monografías.",
+        "date": "September/03/2023",
+        "type": "normal_day",
+        "everyYear": false,
+        "color": "#2EB044"
     },
     {
-        "id": "6451c207d5f03",
+        "id": "64f1bb523ebd8",
+        "name": "Docencia. ",
+        "badge": "09/04 - 09/10",
+        "date": [
+            "September/04/2023",
+            "September/10/2023"
+        ],
+        "description": "Docencia. ",
+        "type": "normal_day",
+        "color": "#2EB044"
+    },
+    {
+        "id": "64f1bb523ec1b",
         "name": "Inicio",
-        "badge": "05/08 - 05/14",
+        "badge": "09/04 - 09/10",
         "date": [
-            "May/08/2023",
-            "May/14/2023"
+            "September/04/2023",
+            "September/10/2023"
         ],
-        "description": "Inicio del Programa Académico de Nivelación (PAN), dirigido a estudiantes de nivel Técnico Superior y Grado que requieren reforzar Matemática y Español, hasta el 2/6/2023.",
+        "description": "Inicio del Programa Académico de Nivelación (PAN), dirigido a estudiantes de nivel Técnico Superior y Grado para reforzar Matemática y Español, hasta el 29/9/2023.",
         "type": "begin",
         "color": "#1352B9"
     },
     {
-        "id": "6451c207d5f73",
-        "name": "Último día para retiro de asignaturas y/o de cuatrimestre con ajuste a cuenta.",
-        "date": "May/09/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d5f8f",
-        "name": "Recepción solicitudes de admisión para el cuatrimestre septiembre diciembre 2023 hasta el 17/7/2023.",
-        "date": "May/09/2023",
+        "id": "64f1bb523ec61",
+        "name": "Recepción solicitudes de admisión para el cuatrimestre septiembre diciembre 2023 hasta el 13/11/2023.",
+        "date": "September/05/2023",
         "type": "normal_day",
         "everyYear": false,
         "color": "#2EB044"
     },
     {
-        "id": "6451c207d5fdb",
-        "name": "Último día para solicitudes de Cursos Especiales.",
-        "date": "May/12/2023",
+        "id": "64f1bb523ec90",
+        "name": "Último día para solicitar Cursos Especiales.",
+        "date": "September/08/2023",
         "type": "last_day",
         "everyYear": false,
         "color": "#FF3030"
     },
     {
-        "id": "6451c207d6031",
-        "name": "Docencia.",
-        "badge": "05/15 - 05/21",
-        "date": [
-            "May/15/2023",
-            "May/21/2023"
-        ],
-        "description": "Docencia.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d608e",
+        "id": "64f1bb523ecc3",
         "name": "Jornada",
-        "badge": "05/15 - 05/21",
+        "badge": "09/11 - 09/17",
         "date": [
-            "May/15/2023",
-            "May/21/2023"
+            "September/11/2023",
+            "September/17/2023"
         ],
-        "description": "Jornada Introducción a la Biblioteca para estudiantes de los niveles Técnico Superior y Grado que están cursando la asignatura Orientación Universitaria (SOC030), hasta el 24/5/2023.",
+        "description": "Jornada Introducción a la Biblioteca a estudiantes del nivel Técnico Superior y Grado que cursan la asignatura Orientación Universitaria (SOC030), hasta el 20/9/2023.",
         "type": "normal_day",
         "color": "#2EB044"
     },
     {
-        "id": "6451c207d6107",
-        "name": "Inicio preselección de Trabajo Final de Grado (TES500 y MON400) para el cuatrimestre septiembre diciembre hasta el 12/6/2023, a través del autoservicio del estudiante/Encuestas Generales. ",
-        "date": "May/18/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d6162",
-        "name": "Docencia.",
-        "badge": "05/22 - 05/28",
-        "date": [
-            "May/22/2023",
-            "May/28/2023"
-        ],
-        "description": "Docencia.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d61d9",
-        "name": "Último día Jornada Introducción a la Biblioteca para estudiantes que están cursando la asignatura Orientación Universitaria (SOC030).",
-        "date": "May/24/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d6214",
-        "name": "Inicio del proceso de emisión del carnet estudiantil, hasta el 9 de junio.",
-        "date": "May/25/2023",
+        "id": "64f1bb523ed0c",
+        "name": "Inicio preselección de Trabajo Final de Grado (TES500 y MON400) para el cuatrimestre enero abril 2024, hasta el 9/10/2023, a través del autoservicio del estudiante/Encuestas Generales.",
+        "date": "September/14/2023",
         "type": "begin",
         "everyYear": false,
         "color": "#1352B9"
     },
     {
-        "id": "6451c207d6278",
-        "name": "Estudiantes",
-        "badge": "05/27 - 06/03",
+        "id": "64f1bb523ed45",
+        "name": "Jornada",
+        "badge": "09/18 - 09/24",
         "date": [
-            "May/27/2023",
-            "June/03/2023"
+            "September/18/2023",
+            "September/24/2023"
         ],
-        "description": "Estudiantes del Curso Monográfico evalúan a los profesores del primer módulo.",
-        "type": "mon400_student_qualif",
-        "color": "#B064CF"
-    },
-    {
-        "id": "6451c207d631a",
-        "name": "Último día para realizar retiro de asignaturas a estudiantes Posgrado.",
-        "date": "May/27/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d63ae",
-        "name": "Docencia.",
-        "badge": "05/29 - 06/04",
-        "date": [
-            "May/29/2023",
-            "June/04/2023"
-        ],
-        "description": "Docencia.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d640f",
-        "name": "Inicio",
-        "badge": "05/29 - 06/04",
-        "date": [
-            "May/29/2023",
-            "June/04/2023"
-        ],
-        "description": "Inicio docencia Cursos Especiales.",
+        "description": "Jornada introducción a la biblioteca a estudiantes de Posgrado y del Curso Monográfico acerca del uso de bases de datos y libros electrónicos disponibles, hasta el 1/10/2023.",
         "type": "begin",
         "color": "#1352B9"
     },
     {
-        "id": "6451c207d6484",
-        "name": "Fecha límite para efectuar el segundo pago del cuatrimestre.",
-        "date": "May/30/2023",
+        "id": "64f1bb523ed8f",
+        "name": "Último día Jornada Introducción a la Biblioteca para estudiantes que cursan la asignatura Orientación Universitaria (SOC030).",
+        "date": "September/20/2023",
         "type": "last_day",
         "everyYear": false,
         "color": "#FF3030"
     },
     {
-        "id": "6451c207d64c9",
-        "name": "Último día de docencia del Programa Académico de Nivelación (PAN).",
-        "date": "June/02/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d6504",
-        "name": "Último día capacitación bibliotecaria a estudiantes de Posgrado y Curso Monográfico acerca del uso de las bases de datos y libros electrónicos disponibles.",
-        "date": "June/04/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d655f",
-        "name": "Docencia.",
-        "badge": "06/05 - 06/11",
-        "date": [
-            "June/05/2023",
-            "June/11/2023"
-        ],
-        "description": "Docencia.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d65c5",
-        "name": "Exámenes",
-        "badge": "06/05 - 06/11",
-        "date": [
-            "June/05/2023",
-            "June/11/2023"
-        ],
-        "description": "Exámenes de la Primera Evaluación Parcial, P. EV. P.",
-        "type": "exam",
-        "color": "#FF893C"
-    },
-    {
-        "id": "6451c207d66e8",
-        "name": "Solicitud",
-        "badge": "06/05 - 06/11",
-        "date": [
-            "June/05/2023",
-            "June/11/2023"
-        ],
-        "description": "Solicitud de exámenes diferidos de la Primera Evaluación Parcial por el Autoservicio.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d67e4",
-        "name": "Publicación",
-        "badge": "06/05 - 06/14",
-        "date": [
-            "June/05/2023",
-            "June/14/2023"
-        ],
-        "description": "Publicación calificaciones de la Primera Evaluación Parcial del Nivel Técnico Superior, Grado y primer módulo de Posgrado y del Curso Monográfico.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d689d",
-        "name": "Inicio de docencia de segundo módulo de Posgrado.",
-        "date": "June/05/2023",
+        "id": "64f1bb523edb9",
+        "name": "Inicio del proceso de emisión del carné estudiantil, hasta el 6/10/2023.",
+        "date": "September/21/2023",
         "type": "begin",
         "everyYear": false,
         "color": "#1352B9"
     },
     {
-        "id": "6451c207d6900",
-        "name": "Fecha límite para que los estudiantes que han llenado la preselección de Trabajo Final (TES500) septiembre diciembre 2023 depositen en su Escuela el formulario Ternas de Temas.",
-        "date": "June/06/2023",
+        "id": "64f1bb523ede2",
+        "name": "Último día para efectuar el pago de Cursos Especiales.",
+        "date": "September/22/2023",
         "type": "last_day",
         "everyYear": false,
         "color": "#FF3030"
     },
     {
-        "id": "6451c207d6965",
-        "name": "Asueto: Corpus Christi",
-        "date": "June/08/2023",
+        "id": "64f1bb523ee03",
+        "name": "Asueto: día de la Virgen de las Mercedes.",
+        "date": "September/24/2023",
         "type": "holiday",
         "everyYear": false,
         "color": "#FFFF00"
     },
     {
-        "id": "6451c207d69c9",
-        "name": "Ultimo día del proceso para emitir el carnet estudiantil.",
-        "date": "June/09/2023",
-        "type": "normal_day",
-        "everyYear": false,
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d6a61",
-        "name": "Docencia.",
-        "badge": "06/12 - 06/18",
+        "id": "64f1bb523ee39",
+        "name": "Docencia. ",
+        "badge": "09/25 - 10/01",
         "date": [
-            "June/12/2023",
-            "June/18/2023"
+            "September/25/2023",
+            "October/01/2023"
         ],
-        "description": "Docencia.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d6b0a",
-        "name": "Exámenes",
-        "badge": "06/12 - 06/18",
-        "date": [
-            "June/12/2023",
-            "June/18/2023"
-        ],
-        "description": "Exámenes diferidos de la Primera Evaluación Parcial.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d6bbe",
-        "name": "Último día preselección de Trabajo Final de Grado (TES500 y MON400) para el cuatrimestre septiembre diciembre 2023.",
-        "date": "June/12/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d6c19",
-        "name": "Inicio de solicitud para la graduación ordinaria 2023 hasta el 14 de julio.",
-        "date": "June/12/2023",
+        "description": "Docencia.  Inicio Cursos Especiales.",
         "type": "begin",
-        "everyYear": false,
         "color": "#1352B9"
     },
     {
-        "id": "6451c207d6c7c",
-        "name": "Último día publicación calificaciones de la Primera Evaluación Parcial y primer módulo de Posgrado y del Curso Monográfico (MON400).",
-        "date": "June/14/2023",
+        "id": "64f1bb523ee7d",
+        "name": "Fecha límite para efectuar el segundo pago del cuatrimestre.",
+        "date": "September/30/2023",
         "type": "last_day",
         "everyYear": false,
         "color": "#FF3030"
     },
     {
-        "id": "6451c207d6cd3",
-        "name": "Inicio Segundo Módulo Curso Monográfico (MON400).",
-        "date": "June/17/2023",
-        "type": "begin",
+        "id": "64f1bb523ee8f",
+        "name": "Estudiantes del Curso Monográfico evalúan el contenido y profesores del Primer Módulo, hasta el 11/10/2023. ",
+        "date": "September/30/2023",
+        "type": "mon400_student_qualif",
         "everyYear": false,
-        "color": "#1352B9"
+        "color": "#B064CF"
     },
     {
-        "id": "6451c207d6d59",
-        "name": "Docencia.",
-        "badge": "06/19 - 06/25",
-        "date": [
-            "June/19/2023",
-            "June/25/2023"
-        ],
-        "description": "Docencia.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d6e3c",
-        "name": "Docencia.",
-        "badge": "06/26 - 07/02",
-        "date": [
-            "June/26/2023",
-            "July/02/2023"
-        ],
-        "description": "Docencia.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d6ef8",
-        "name": "Fecha límite para efectuar el tercer pago del cuatrimestre.",
-        "date": "June/30/2023",
+        "id": "64f1bb523eebb",
+        "name": "Último día capacitación bibliotecaria a estudiantes de Posgrado y Curso Monográfico acerca del uso de las bases de datos y libros electrónicos disponibles.",
+        "date": "October/01/2023",
         "type": "last_day",
         "everyYear": false,
         "color": "#FF3030"
     },
     {
-        "id": "6451c207d6f5d",
-        "name": "Estudiantes del Curso Monográfico evalúan a sus profesores, al contenido del módulo y a la gestión administrativa, hasta el 8/7/2023.",
-        "date": "July/01/2023",
-        "type": "normal_day",
-        "everyYear": false,
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d6ff5",
-        "name": "Docencia.",
-        "badge": "07/03 - 07/09",
+        "id": "64f1hyo523eeef",
+        "name": "1era evaluación parcial",
+        "badge": "10/02 - 10/08",
         "date": [
-            "July/03/2023",
-            "July/09/2023"
+            "October/02/2023",
+            "October/08/2023"
         ],
-        "description": "Docencia.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d707e",
-        "name": "Exámenes",
-        "badge": "07/03 - 07/09",
-        "date": [
-            "July/03/2023",
-            "July/09/2023"
-        ],
-        "description": "Exámenes de la Segunda Evaluación Parcial, S. EV. P.",
+        "description": "Exámenes de la Primera Evaluación Parcial, P. Ev. P.",
         "type": "exam",
         "color": "#FF893C"
     },
     {
-        "id": "6451c207d715f",
-        "name": "Estudiantes",
-        "badge": "07/05 - 07/08",
+        "id": "64f1bb523eeef",
+        "name": "Solicitud",
+        "badge": "10/02 - 10/08",
         "date": [
-            "July/05/2023",
-            "July/08/2023"
+            "October/02/2023",
+            "October/08/2023"
         ],
-        "description": "Estudiantes Curso Monográfico envían anteproyecto de monografía a profesores.",
+        "description": "Solicitud de exámenes diferidos de la Primera Evaluación Parcial a través del Autoservicio.",
         "type": "normal_day",
         "color": "#2EB044"
     },
     {
-        "id": "6451c207d7253",
-        "name": "Docencia. ",
-        "badge": "07/10 - 07/16",
+        "id": "64f1bb523ef3c",
+        "name": "Publicación",
+        "badge": "10/02 - 10/11",
         "date": [
-            "July/10/2023",
-            "July/16/2023"
+            "October/02/2023",
+            "October/11/2023"
         ],
-        "description": "Docencia.   ",
+        "description": "Publicación calificaciones de la primera evaluación parcial del nivel Técnico, Grado y primer Módulo de Posgrado.",
         "type": "normal_day",
         "color": "#2EB044"
     },
     {
-        "id": "6451c207d734b",
-        "name": "Asesorías",
-        "badge": "07/10 - 07/16",
-        "date": [
-            "July/10/2023",
-            "July/16/2023"
-        ],
-        "description": "Asesorías de Trabajo Final de Grado (TES500/MON400).",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d4tg2",
-        "name": "Último día de las asesorías de Trabajo Final de Grado (TES500/MON400).",
-        "date": "July/16/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d7402",
-        "name": "Inicio tercer módulo Posgrado.",
-        "date": "July/10/2023",
+        "id": "64f1bb523ef84",
+        "name": "Inicio de docencia Segundo Módulo de Posgrado.",
+        "date": "October/02/2023",
         "type": "begin",
         "everyYear": false,
         "color": "#1352B9"
     },
     {
-        "id": "6451c207d7478",
-        "name": "Último día publicación calificaciones de la Segunda Evaluación Parcial de Nivel Técnico Superior, Grado y segundo módulo de Posgrado y del Curso Monográfico.",
-        "date": "July/12/2023",
+        "id": "64f1bb523efa9",
+        "name": "Fecha límite para que los estudiantes que realizaron la preselección de Trabajo Final (TES500) para enero abril 2024 depositen en su Escuela el formulario Ternas de Temas.",
+        "date": "October/03/2023",
         "type": "last_day",
         "everyYear": false,
         "color": "#FF3030"
     },
     {
-        "id": "6451c207d74d6",
-        "name": "Último día para la solicitud de graduación ordinaria 2023.",
-        "date": "July/14/2023",
+        "id": "64f1bb523efce",
+        "name": "Último día emisión del Carné estudiantil.",
+        "date": "October/06/2023",
         "type": "last_day",
         "everyYear": false,
         "color": "#FF3030"
     },
     {
-        "id": "6451c207d7553",
+        "id": "64f1bb523efee",
+        "name": "Publicación calificaciones primer Módulo del Curso Monográfico, hasta el 11/10/2023.",
+        "date": "October/07/2023",
+        "type": "normal_day",
+        "everyYear": false,
+        "color": "#2EB044"
+    },
+    {
+        "id": "64f1bb523f02c",
         "name": "Docencia.",
-        "badge": "07/17 - 07/23",
+        "badge": "10/09 - 10/15",
         "date": [
-            "July/17/2023",
-            "July/23/2023"
+            "October/09/2023",
+            "October/15/2023"
+        ],
+        "description": "Docencia.  Exámenes diferidos de la Primera Evaluación Parcial, P. Ev. P.",
+        "type": "normal_day",
+        "color": "#2EB044"
+    },
+    {
+        "id": "64f1bb523f06e",
+        "name": "Último día para realizar la preselección de Trabajo Final de Grado (TES500 y MON400), para el cuatrimestre enero abril 2024.",
+        "date": "October/09/2023",
+        "type": "last_day",
+        "everyYear": false,
+        "color": "#FF3030"
+    },
+    {
+        "id": "64f1bb523f094",
+        "name": "Último día publicación calificaciones de la Primera Evaluación Parcial y primer Módulo de Posgrado y del Curso Monográfico.",
+        "date": "October/11/2023",
+        "type": "last_day",
+        "everyYear": false,
+        "color": "#FF3030"
+    },
+    {
+        "id": "64f1bb523f0ba",
+        "name": "Inicio Segundo Módulo Curso Monográfico, MON400.",
+        "date": "October/14/2023",
+        "type": "begin",
+        "everyYear": false,
+        "color": "#1352B9"
+    },
+    {
+        "id": "64f1bb523f0ef",
+        "name": "Docencia.",
+        "badge": "10/16 - 10/22",
+        "date": [
+            "October/16/2023",
+            "October/22/2023"
         ],
         "description": "Docencia.",
         "type": "normal_day",
         "color": "#2EB044"
     },
     {
-        "id": "6451c207d75d5",
-        "name": "Asesorías",
-        "badge": "07/17 - 07/23",
+        "id": "64f1bb523f1d7",
+        "name": "Docencia.",
+        "badge": "10/23 - 10/29",
         "date": [
-            "July/17/2023",
-            "July/23/2023"
+            "October/23/2023",
+            "October/29/2023"
         ],
-        "description": "Asesorías de Trabajo de Grado (TES500) y del Curso Monográfico (MON400).",
+        "description": "Docencia.",
         "type": "normal_day",
         "color": "#2EB044"
     },
     {
-        "id": "6451c207dfkbb",
-        "name": "Último día de asesorías de Trabajo de Grado (TES500) y del Curso Monográfico (MON400).",
-        "date": "July/23/2023",
+        "id": "64f1bb523f23c",
+        "name": "Estudiantes",
+        "badge": "10/30 - 11/05",
+        "date": [
+            "October/30/2023",
+            "November/05/2023"
+        ],
+        "description": "Estudiantes del Curso Monográfico evalúan a sus profesores, al contenido del Módulo y a la gestión administrativa, hasta el 15/11/2023.",
+        "type": "mon400_student_qualif",
+        "color": "#B064CF"
+    },
+    {
+        "id": "64fjidsjfids5",
+        "name": "2da Evaluación parcial y evaluación del estudiante al docente",
+        "badge": "10/30 - 11/05",
+        "date": [
+            "October/30/2023",
+            "November/08/2023"
+        ],
+        "description": "Docencia.  Exámenes de la Segunda Evaluación Parcial, S. EV. P.",
+        "type": "exam",
+        "color": "#FF893C"
+    },
+    {
+        "id": "64f1bb523f2a9",
+        "name": "Publicación",
+        "badge": "10/30 - 11/08",
+        "date": [
+            "October/30/2023",
+            "November/08/2023"
+        ],
+        "description": "Publicación calificaciones de la Segunda Evaluación Parcial y segundo módulo de Posgrado y del Curso Monográfico hasta el 8/11/2023.",
+        "type": "normal_day",
+        "color": "#2EB044"
+    },
+    {
+        "id": "64f1bb523f307",
+        "name": "Fecha límite para efectuar el tercer pago del cuatrimestre.",
+        "date": "October/30/2023",
         "type": "last_day",
         "everyYear": false,
         "color": "#FF3030"
     },
     {
-        "id": "6451c207d765b",
-        "name": "Fecha límite para solicitar admisión para el cuatrimestre septiembre diciembre 2023.",
-        "date": "July/17/2023",
+        "id": "64f1bb523f335",
+        "name": "Último día para solicitar reingreso, cambio de carreras y de pénsum.",
+        "date": "November/03/2023",
         "type": "last_day",
         "everyYear": false,
         "color": "#FF3030"
     },
     {
-        "id": "6451c207d769e",
+        "id": "64f1bb523f36e",
+        "name": "Asueto: día de la Constitución.",
+        "date": "November/06/2023",
+        "type": "holiday",
+        "everyYear": false,
+        "color": "#FFFF00"
+    },
+    {
+        "id": "64f1bb523f39b",
+        "name": "Estudiantes",
+        "badge": "11/06 - 11/12",
+        "date": [
+            "November/06/2023",
+            "November/12/2023"
+        ],
+        "description": "Estudiantes del Curso Monográfico (MON400) remiten vía electrónica sus monografías a sus profesores para evaluación final, hasta el 11/11/2023.Docencia.  Último día de asesorías de Trabajo Final de Grado (TES500/MON400).",
+        "type": "mon400_student_qualif",
+        "color": "#B064CF"
+    },
+    {
+        "id": "64f1bb523f3eb",
+        "name": "Último día publicación calificaciones de la Segunda Evaluación Parcial, Niveles Técnico Superior, Grado y segundo Módulo de Posgrado y del Curso Monográfico.",
+        "date": "November/08/2023",
+        "type": "last_day",
+        "everyYear": false,
+        "color": "#FF3030"
+    },
+    {
+        "id": "64f1bb523f41a",
+        "name": "Profesores remiten las monografías a la Coordinación del Curso Monográfico, hasta el 18/11/2023.",
+        "date": "November/12/2023",
+        "type": "normal_day",
+        "everyYear": false,
+        "color": "#2EB044"
+    },
+    {
+        "id": "64f1bb523f467",
+        "name": "Docencia. ",
+        "badge": "11/13 - 11/19",
+        "date": [
+            "November/13/2023",
+            "November/19/2023"
+        ],
+        "description": "Docencia. ",
+        "type": "normal_day",
+        "color": "#2EB044"
+    },
+    {
+        "id": "64f1bb523f4d2",
+        "name": "Fecha límite para solicitar admisión para el cuatrimestre enero abril 2024.",
+        "date": "November/13/2023",
+        "type": "last_day",
+        "everyYear": false,
+        "color": "#FF3030"
+    },
+    {
+        "id": "64f1bb523f506",
+        "name": "Último día para evaluar a profesores, contenido del segundo Módulo y a la gestión administrativa del Curso Monográfico. ",
+        "date": "November/15/2023",
+        "type": "last_day",
+        "everyYear": false,
+        "color": "#FF3030"
+    },
+    {
+        "id": "64f1bb523f53f",
         "name": "Acto al Mérito Estudiantil.",
-        "date": "July/20/2023",
+        "date": "November/16/2023",
         "type": "merit",
         "everyYear": false,
         "color": "#CF8064"
     },
     {
-        "id": "6451c207d7702",
+        "id": "64f1bb523f5a3",
+        "name": "Último día para realizar retiros de asignaturas y de cuatrimestre con fines de índice.",
+        "date": "November/19/2023",
+        "type": "last_day",
+        "everyYear": false,
+        "color": "#FF3030"
+    },
+    {
+        "id": "64f1bb523f61e",
         "name": "Docencia.",
-        "badge": "07/24 - 07/30",
+        "badge": "11/20 - 11/26",
         "date": [
-            "July/24/2023",
-            "July/30/2023"
+            "November/20/2023",
+            "November/26/2023"
         ],
         "description": "Docencia.",
         "type": "normal_day",
         "color": "#2EB044"
     },
     {
-        "id": "6451c207d7781",
+        "id": "64f1bb523f696",
         "name": "Estudiantes",
-        "badge": "07/24 - 07/28",
+        "badge": "11/20 - 11/24",
         "date": [
-            "July/24/2023",
-            "July/28/2023"
+            "November/20/2023",
+            "November/24/2023"
         ],
-        "description": "Estudiantes entregan sus Trabajos de Grado (TES500) a sus respectivas escuelas.",
+        "description": "Estudiantes entregan Trabajo Final de Grado (TES500), a sus respectivas Escuelas.",
+        "type": "mon400_student_qualif",
+        "color": "#B064CF"
+    },
+    {
+        "id": "64f1bb523f6f2",
+        "name": "Ultimo día para solicitar reingreso, cambio de carreras y de pensum.",
+        "date": "November/24/2023",
+        "type": "last_day",
+        "everyYear": false,
+        "color": "#FF3030"
+    },
+    {
+        "id": "64f1bb523f75a",
+        "name": "Docencia.  ",
+        "badge": "11/27 - 12/03",
+        "date": [
+            "November/27/2023",
+            "December/03/2023"
+        ],
+        "description": "Docencia.  ",
         "type": "normal_day",
         "color": "#2EB044"
     },
     {
-        "id": "6451c207d77f9",
-        "name": "Último día para solicitar reingresos, cambios de carreras y de pensum.",
-        "date": "July/28/2023",
+        "id": "64f1bb523f7c7",
+        "name": "Fecha límite para efectuar el cuarto pago del cuatrimestre.",
+        "date": "November/30/2023",
         "type": "last_day",
         "everyYear": false,
         "color": "#FF3030"
     },
     {
-        "id": "6451c207d7833",
-        "name": "Fecha límite para efectuar el cuarto pago de colegiatura.",
-        "date": "July/30/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d7895",
-        "name": "Docencia.",
-        "badge": "07/31 - 08/06",
-        "date": [
-            "July/31/2023",
-            "August/06/2023"
-        ],
-        "description": "Docencia.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d7917",
-        "name": "Último día para recibir excusas por inasistencias.",
-        "date": "July/31/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d7954",
-        "name": "Último día para realizar retiro de asignaturas del tercer módulo de Posgrado.",
-        "date": "August/05/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d7990",
-        "name": "ÚLTIMO DIA DE DOCENCIA:  Todos los niveles.",
-        "date": "August/06/2023",
+        "id": "64f1bb523f80d",
+        "name": "Publicación calificaciones del Curso Monográfico, hasta el 5/12/2023.",
+        "date": "December/01/2023",
         "type": "normal_day",
         "everyYear": false,
         "color": "#2EB044"
     },
     {
-        "id": "6451c207d79ff",
-        "name": "Exámenes",
-        "badge": "08/07 - 08/13",
+        "id": "64f1bb523f848",
+        "name": "ÚLTIMO DÍA DE DOCENCIA: Todos los niveles.",
+        "date": "December/03/2023",
+        "type": "last_day",
+        "everyYear": false,
+        "color": "#FF3030"
+    },
+    {
+        "id": "64f1bb523f89c",
+        "name": "Último día para devolver libros a la Biblioteca.",
+        "date": "December/06/2023",
+        "type": "last_day",
+        "everyYear": false,
+        "color": "#FF3030"
+    },
+    {
+        "id": "64f1bb523f8c3",
+        "name": "Acto de clausura del Curso Monográfico de Evaluación Final (MON400).",
+        "date": "December/08/2023",
+        "type": "mon400_student_qualif",
+        "everyYear": false,
+        "color": "#B064CF"
+    },
+    {
+        "id": "64f1bb523ebd8",
+        "name": "Exámenes finales ",
+        "badge": "12/04 - 12/10",
         "date": [
-            "August/07/2023",
-            "August/13/2023"
+            "December/04/2023",
+            "December/10/2023"
         ],
-        "description": "Exámenes finales cuatrimestrales y publicación de calificaciones finales de: Nivel Técnico Superior, Grado, Posgrado y Cursos Especiales.",
+        "description": "Exámenes finales y publicación de calificaciones: Nivel Técnico Superior, Grado, Posgrado y Cursos Especiales. ",
         "type": "exam",
         "color": "#FF893C"
     },
     {
-        "id": "6451c207d7a5a",
-        "name": "Solicitud",
-        "badge": "08/07 - 08/13",
-        "date": [
-            "August/07/2023",
-            "August/13/2023"
-        ],
-        "description": "Solicitud exámenes diferidos de la Evaluación Final, por el Autoservicio.",
-        "type": "normal_day",
-        "color": "#2EB044"
-    },
-    {
-        "id": "6451c207d7ac4",
-        "name": "Último día para devolver libros a la Biblioteca.",
-        "date": "August/10/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d7b01",
-        "name": "Último día de docencia del tercer módulo de Posgrado.",
-        "date": "August/13/2023",
-        "type": "last_day",
-        "everyYear": false,
-        "color": "#FF3030"
-    },
-    {
-        "id": "6451c207d7b53",
+        "id": "64f1bb523f8ed",
         "name": "Exámenes diferidos finales.",
-        "date": "August/14/2023",
+        "date": "December/11/2023",
         "type": "normal_day",
         "everyYear": false,
         "color": "#2EB044"
     },
     {
-        "id": "6451c207d7cc9",
-        "name": "Asueto: día de la Restauración Dominicana.",
-        "date": "August/16/2023",
-        "type": "holiday",
-        "everyYear": false,
-        "color": "#FFFF00"
-    },
-    {
-        "id": "6451c207d7d30",
-        "name": "Inicio de docencia",
-        "date": "August/28/2023",
+        "id": "64f1bb523f941",
+        "name": "Inicio de docencia cuatrimestre enero abril 2024: 2 de enero",
+        "date": "January/02/2024",
         "type": "begin",
         "everyYear": false,
         "color": "#1352B9"

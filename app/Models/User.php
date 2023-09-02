@@ -77,6 +77,11 @@ public function notifications(): HasMany
     return $this->hasMany(Notification::class);
 }
 
+public function progress()
+    {
+        return $this->hasMany(Progress::class);
+    }
+
 public function isAdmin()
 {
     return $this->role == 'admin';

@@ -55,10 +55,13 @@ Route::get('/result', [SearchController::class, 'search'])->name('search');
 Route::get('/secciones/{name}', [ProfesorSubjectController::class, 'showSubjects']);
 Route::get('/opiniones/{name}', [OpinionController::class, 'show'])->name('professor.opinion');
 Route::get('/admin/reportes', [AdminController::class, 'reports'])->name('reports');
+Route::get('/progreso-de-carrera', [CareerProgressController::class, 'create'])->name('progress');
 
 
 //Ajax routes
 Route::post('/pensum', [PgaController::class, 'show']);
+Route::post('/save-progress', [CareerProgressController::class, 'saveProgress']);
+Route::post('/showPensum', [CareerProgressController::class, 'showPensum']);
 Route::post('/the-current-teacher', [OpinionController::class, 'getCurrentTeacher'])->name('the-current-teacher');
 Route::post('/reactions/like', [ReactionController::class, 'like'])->name('like');
 Route::post('/reactions/dislike', [ReactionController::class, 'dislike'])->name('dislike');

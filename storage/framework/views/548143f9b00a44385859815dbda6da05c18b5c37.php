@@ -19,37 +19,120 @@
         <link rel="stylesheet" href="<?php echo e(asset('css/professors_subjects.css')); ?>">
         <style>
 
+#button_saver {
+    display: none;
+    font-size: 14px;
+    width: 50% !important;
+    margin: auto;
+}
+#data_table {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.status-selector {
+    background: #ede8e8;
+    box-shadow: 0px 0px 3px 6px rgba(217, 217, 217, 0.2);
+    border-radius: 17px;
+
+}
+body.Dark .status-selector {
+    background: #3f3e3e;
+    color: #fff;
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.1);
+}
+.container-master-doughnut {
+    margin-top: 50px;
+}
+.container-master-doughnut, .container-master-pie {
+    width: 100%;
+    height: 100%;
+    display: none;
+    box-shadow: 0px 0px 9px 5px rgb(0 0 0 / 30%);
+    background-color: #fff; 
+    border-radius: 5px;
+    flex-flow: row nowwrap;
+    padding: 25px;
+}
+
+body.Dark .container-master-doughnut, body.Dark .container-master-pie {
+    background-color: #424242;
+}
+
+#container-pie, #container-doughnut {
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 600px;
+}
     table, th, td{
     border-collapse: collapse;
     padding: 1rem;
     text-align: left;
 }
 
+
+
 .box {
     width: inherit !important;
 }
 
-.approved_gr {
-    background: rgba(28, 245, 12, 0.4);
+.alert-success {
+    background: #059911;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    color: #fff;
+}
+
+.alert-danger {
+    background: #bb0706;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    color: #fff;
+
+}
+
+.in_progresss, tr:has(#in_progress_subjects), #in_progress_subjects {
+    background: rgb(245 240 12 / 54%);
     pointer-events: all;
 }
 
 .pending td select {
     pointer-events: all;
-    background: inherit;
 }
 .approved_gr td select,
 .pending td select {
     opacity: 1;
 }
 
-.in_progress_ye {
-    background: rgba(255, 255, 2, 0.4);
+.approved, tr:has(#approv_subcj), #approv_subcj {
+    background: rgb(19 213 35 / 54%);
 }
+
+tr:has(#pendings_subjects), #pendings_subjects{background: #A3AFF9;}
 
 .blocked_re {
     background: rgba(250, 16, 16, 0.2);
     pointer-events: none;
+}
+tr:has(#blocked_subjectss), #blocked_subjectss {
+    background: rgba(250, 16, 16, 0.2);
+}
+
+.approved td, .blocked_re td, .in_progresss td {
+    color: #4a4747;
+}
+
+body.Dark .approved td, body.Dark .blocked_re td, body.Dark .in_progresss td {
+    color: #fff;
 }
 
 .blocked_re td select {
@@ -74,10 +157,7 @@ body.Dark thead th {
 
 }
 
-body.Dark thead th:hover {
-    background-color: #575757;
 
-}
 
 thead th {
     position: sticky;
@@ -87,9 +167,7 @@ thead th {
     transition: all .25s ease;
 }
 
-thead th:hover {
-    background-color: #cececefe;
-}
+
 
 tbody{
     width: 100%;
@@ -101,14 +179,12 @@ tbody tr {
 }
 
 tbody tr:hover {
-    background-color: rgba(202, 202, 202, 0.4) !important;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0 .2), -1px -1px 8px rbga(0, 0, 0, .2);
+ 
     width: 100%;
     transform: scale(1.01);
 }
 
-body.Dark tr:hover{
-    background-color: rgba(109, 109, 109, 0.6) !important;}
+
 
 
 .table__body {
@@ -147,6 +223,19 @@ main .general3 {
     display: block !important;
 }
 
+@media (max-width: 1043px){
+    .container-master-doughnut, .container-master-pie{
+        flex-flow: row wrap;
+        overflow:auto;
+    }
+
+    #container-pie .table__body table, #container-doughnut .table__body table {
+        width: 100%;
+    }
+
+
+}
+
 
 @media (max-width: 1000px){
     td:not(:first-of-type){
@@ -164,24 +253,94 @@ main .general3 {
         margin-bottom: 20px;
     }
 
-    .table__header .search_filter {
-        width: 70%;
-        align-self: center;
-    }
 
-    .table__header .search_filte:hover,
-    .table__header .search_filter:has(input:focus) {
-        width: 100%;
-    }
+}
+
+
+@media  screen and (max-width: 889px){
+main .general1 {
+    padding: 0 100px 10px 50px !important;
+}
+}
+
+@media  screen and (max-width: 809px) {
+    main .general1 {
+    padding: 0 100px 10px 50px !important;
+}
+
+}
+
+@media  screen and (max-width: 770px) {
+main .general1 {
+    padding: 0 100px 10px 31px !important;
+}
+}
+
+@media  screen and (max-width: 567px){
+    main .general1 {
+    padding: 0 59px 10px 30px !important;
+}
+}
+
+@media  screen and (max-width: 523px){
+    main .general1 {
+    padding: 0 52px 0 30px !important;
+}
+}
+
+@media  screen and (max-width: 447px){
+    main .general1 {
+    padding: 0 33px 10px 30px !important;
+}
 }
         </style>
      <?php $__env->endSlot(); ?>
 
      <?php $__env->slot('otherjs', null, []); ?> 
         <script src="<?php echo e(asset('js/progresPensum.js')); ?>" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <?php if(auth()->guard()->check()): ?>
+        <?php if(!is_null($progress)): ?>
+        <script defer>
+            var userProgress = <?php echo json_encode($progress, 15, 512) ?>;
+            
+            function applyUserProgress() {
+                // Itera a través de los datos de progreso del usuario y aplica las clases CSS correspondientes
+                userProgress.forEach(function (item) {
+                    var selectName = item.select_name;
+                    var optionValue = item.option_value;
+
+                    // Busca el select por su name y configura las clases CSS
+                    var select = $('select[name="' + selectName + '"]');
+                    var tr = select.parent().parent();
+                     // Elimina todas las clases
+                    if (optionValue == 1) {
+                        tr.removeClass('in_progress approved blocked_re');
+                        tr.addClass('pending');
+                        select.val(optionValue);
+                        select.attr('disabled', false);
+                        
+                    } else if (optionValue == 2) {
+                        tr.removeClass('pending approved blocked_re');
+                        tr.addClass('in_progresss');
+                        select.val(optionValue);
+                        select.attr('disabled', false);
+                        
+                    } else if (optionValue == 3) {
+                        tr.removeClass('pending in_progresss blocked_re');
+                        tr.addClass('approved');
+                        select.val(optionValue);
+                        select.attr('disabled', false);
+                    }
+
+                    
+                });
+            }
+
+        </script>
+        <?php endif; ?>
+        <?php endif; ?>
      <?php $__env->endSlot(); ?>
-
-
 
      <?php $__env->slot('imgpage', null, []); ?> 
         <?php echo e(asset('img/pensum.svg')); ?>
@@ -195,7 +354,7 @@ main .general3 {
                     <div class="icon"><i class="fa-solid fa-building-columns"></i></div>
                     <div class="text">
                         <h3>¡Calcula el progreso con tu pensum!</h3>
-                        <p>En esta sección, podrás ver tu progreso en la carrera de <?php echo e($userCareer); ?>, con el objetivo de que puedas mantener un control y orden de las asignaturas que llevas. ¡Esperemos que encuentres esta herramienta útil para ti!</p>
+                        <p>En esta sección, podrás ver tu progreso en la carrera <?php if(auth()->guard()->check()): ?><?php echo e($userCareer); ?><?php endif; ?> <?php if(auth()->guard()->guest()): ?> <?php echo e("que estudies"); ?> <?php endif; ?>, con el objetivo de que puedas mantener un control y orden de las asignaturas que llevas. ¡Esperemos que encuentres esta herramienta útil para ti!</p>
                     </div>
                 </div>
             </div>
@@ -206,16 +365,23 @@ main .general3 {
         <div class="general1">
             <section class="esta-pagina">
                 <h2>Cuatrimestres desglozados</h2>
-                <h6>Para la carrera de <?php echo e($userCareer); ?></h6>
+                <h6>Para la carrera <?php if(auth()->guard()->check()): ?><?php echo e($userCareer); ?><?php endif; ?> <?php if(auth()->guard()->guest()): ?> <?php echo e("Que estudies"); ?> <?php endif; ?> </h6>
 
 
-                <p style="margin-top:23px;">A continuación, encontrarás todos los cuatrimestres desglozados relacionados a la carrera que estudias. Solo basta con seleccionar la caja de opciones de las materias que tienes "liberadas" a partir del primer cuatrimestre, ya sea la opción: cursando o aprobada. Las asignaturas que aún no hayas desbloqueado o liberado, aparecerán de forma rojiza hasta que apruebes el o los pre-requisitos necesarios.</p>
+                <p style="margin-top:23px;">A continuación, encontrarás todos los cuatrimestres desglozados relacionados a la carrera que estudias. Solo basta con seleccionar la caja de opciones de las materias que tienes "<span><strong>liberadas</strong></span>" a partir del primer cuatrimestre, ya sea la opción: en curso, aprobada o pendiente. Las asignaturas que aún no hayas desbloqueado o liberado, aparecerán de forma <span style="color: red;">rojiza</span> hasta que apruebes el o los pre-requisitos necesarios.</p>
 
-                <p  style="margin-top:23px;">La acción de "cursando" te ayuda a mantener aún más el control de las asignaturas que llevas actualmente en el cuatrimestre en curso. Así que, te recomendamos usarlo para el cuatrimestre actual que lleves en curso</p>
+                <p style="margin-top:23px;">La acción de "<span><strong>cursando</strong></span>" te ayuda a mantener aún más el control de las asignaturas que llevas actualmente en el cuatrimestre en curso. Así que, te recomendamos usarlo para el cuatrimestre actual que lleves en curso.</p>
 
+                <p style="margin-top:23px;">Ten en cuenta que, para aprovechar al máximo nuestras funciones de seguimiento y guardar tu progreso de manera segura, es esencial que dispongas de una cuenta con <strong>sesión iniciada</strong>. Tu cuenta te brindará la capacidad de almacenar y acceder a tu información académica de manera conveniente y personalizada.</p>
 
-                <p style="margin-top:23px;">Aquí te presentamos los cuatrimestres de tu carrera y demás detalles: </p>
+                
+                <p style="margin-top:23px;">A continuación, te proporcionamos una vista detallada de los cuatrimestres correspondientes a tu carrera (si ya está seleccionada), así como otros detalles relevantes para tu formación académica:</p>
+                
             </section>
+
+            <div class="fondo-index"></div>
+            <div class="fondo-select-responsive"></div>
+            <div class="fondo-select-responsive-subject"></div>
         </div>
      <?php $__env->endSlot(); ?>
 
@@ -223,16 +389,59 @@ main .general3 {
         <div class="general2">
             <section class="Average">
                 <h2>Todos los cuatrimestres de la carrera que cursas</h2>
+
+            <?php if(auth()->guard()->guest()): ?>
+            <div id="quarters">
+                <div class="dropdown-container">
+                    <div class="textBox" effect="ripple"></div>
+                    <i class="fa-solid fa-angle-down dropdown-before"></i>
+                    <span class="career-title">Selecciona tu carrera:</span>
+                </div>
+            <div class="option">
+                <?php $__currentLoopData = $careers; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $career): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <div class="<?php echo e($career->class); ?>" effect="ripple">
+                        <i class="fa-solid <?php echo e($career->icon_class); ?>"></i><span
+                            class="car"><?php echo e($career->name); ?></span>
+                    </div>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+            </div>
+
+            <div class="dropdown-container_pensum">
+                <div class="textBox_pensum" effect="ripple"></div>
+                <i class="fa-solid fa-angle-down dropdown-before_pensum"></i>
+                <span class="career-title_pensum">Selecciona el pensum:</span>
+            </div>
+
+            <div class="option_pensum" id="multiple_pensum"></div>
+        </div>
+            <?php endif; ?>
+
+
                 
-                <div id="quarters">
-                    <?php if($careerCmp): ?><div class="dropdown-container_pensum" id="pen_cont"><div class="textBox_pensum" effect="ripple"></div><i class="fa-solid fa-angle-down dropdown-before_pensum"></i><span class="career-title_pensum">Selecciona el pensum:</span></div><div class="option_pensum" id="multiple_pensum"></div></div><?php endif; ?>
+            <?php if(auth()->guard()->check()): ?>
+            <form action="" method="" id="saving_changes">
+                <?php echo csrf_field(); ?>
+                <div id="quarters"><?php if($careerCmp): ?><div class="dropdown-container_pensum" id="pen_cont"><div class="textBox_pensum" effect="ripple"></div><i class="fa-solid fa-angle-down dropdown-before_pensum"></i><span class="career-title_pensum">Selecciona el pensum:</span></div><div class="option_pensum" id="multiple_pensum"></div><?php endif; ?></div>
+             <div class="button-calc">  
+            <button type="submit" id="button_saver" class="md-ripples ripples-bg-immer-weiss">Guardar cambios</button>
+            <div id="status-messages" style="margin-top: 30px;"></div>
+                </div>
+                <input type="hidden" name="user_id" value=<?php echo e(Auth::user()->id); ?>>
+            </form>
+            <?php endif; ?>  
             </section>
                 </div>
         
 
-
+            <?php if(auth()->guard()->check()): ?>
             <span style="display: none;" id="careerSelected"><?php if($careerSp): ?><?php echo e($userCareer); ?><?php endif; ?></span>
             <span style="display: none;" id="Career_multiple_pensum"><?php if($careerCmp): ?><?php echo e($userCareer); ?><?php endif; ?></span>
+            <?php endif; ?>
+
+            <?php if(auth()->guard()->guest()): ?>
+            <span style="display: none;" id="careerSelected"></span>
+            <span style="display: none" id="Career_multiple_pensum"></span>
+            <?php endif; ?>
 
         </div>
      <?php $__env->endSlot(); ?>
@@ -240,13 +449,125 @@ main .general3 {
      <?php $__env->slot('general3', null, []); ?> 
         <div class="general3">
             <section class="main-final">
-                <h2>¡Te deseamos lo mejor en la asignatura que estés cursando!</h2>
+                <h2>Representación gráfica de tu progreso</h2>
+                <?php if(auth()->guard()->check()): ?>
+                <p>Una vez hayas cargado tu pensum, tendrás a tu disposición una herramienta gráfica intuitiva que te permitirá llevar un seguimiento detallado de tu progreso en la maravillosa carrera de <?php echo e($userCareer); ?>. Estos gráficos proporcionarán una visión clara y fácil de entender de tus logros y avances a lo largo de tu trayecto académico, lo que te ayudará a mantenerte motivado y enfocado en tus metas educativas.</p>
 
-                <p style="margin-top:23px;">En tu camino académico, es normal encontrarse con desafíos y dificultades al enfrentar ciertas asignaturas. Sin embargo, recuerda que tienes a tu disposición recursos y herramientas para superar cualquier obstáculo.</p>
+                
+                <p style="margin-top: 23px;">Los gráficos te mostrarán información valiosa, como las materias completadas, las que están pendientes, en progreso y las bloqueadas, al igual que tu promedio académico, y otros datos relevantes para tu carrera. Esta herramienta te permitirá identificar áreas en las que puedes mejorar y celebrar tus éxitos a medida que avanzas en tu formación universitaria. Además, podrás personalizar los gráficos según tus preferencias para que se adapten mejor a tus necesidades específicas.</p>
 
-                <p style="margin-top:23px;">Los refuerzos y secciones dedicadas a las asignaturas clave son una oportunidad invaluable para fortalecer tus habilidades, adquirir nuevos conocimientos y alcanzar el éxito en tus estudios. Aprovecha estas oportunidades adicionales de aprendizaje, ya sea a través de profesores especializados, materiales de estudio complementarios o compañeros de clase que pueden brindarte apoyo.</p>
+                <p style="margin-top: 23px;">La visualización gráfica de tu progreso en tu carrera de <?php echo e($userCareer); ?> no solo te ayudará a planificar tu carga académica de manera más efectiva, sino que también te proporcionará una visión clara de tu camino hacia la graduación. Esto te permitirá tomar decisiones informadas sobre tus estudios, como la elección de materias electivas, la distribución del tiempo y los recursos, y la identificación de áreas en las que necesitas dedicar más esfuerzo. En pocas palabras, estos gráficos serán una herramienta valiosa para tu éxito universitario.</p>
+                <?php endif; ?>
 
-                <p style="margin-top:23px;">Te exhortamos a mantener una mentalidad positiva, también, mantén la motivación y la perseverancia en tu camino hacia el dominio de las asignaturas que estás cursando. Recuerda que cada obstáculo superado es un paso más hacia el logro de tus metas académicas y profesionales.</p>
+                <?php if(auth()->guard()->guest()): ?>
+                <p>Una vez hayas seleccionado tu carrera y hayacargado tu pensum, tendrás a tu disposición una herramienta gráfica intuitiva que te permitirá llevar un seguimiento detallado de tu progreso la carrera que estudies. Estos gráficos proporcionarán una visión clara y fácil de entender de tus logros y avances a lo largo de tu trayecto académico, lo que te ayudará a mantenerte motivado y enfocado en tus metas educativas.</p>
+
+                <p style="margin-top: 23px;">Los gráficos te mostrarán información valiosa, como las materias completadas, las que están pendientes, en progreso y las bloqueadas, al igual que tu promedio académico, y otros datos relevantes para tu carrera. Esta herramienta te permitirá identificar áreas en las que puedes mejorar y celebrar tus éxitos a medida que avanzas en tu formación universitaria. Además, podrás personalizar los gráficos según tus preferencias para que se adapten mejor a tus necesidades específicas.</p>
+
+                <p style="margin-top: 23px;">La visualización gráfica de tu progreso en la carrera que estudies, no solo te ayudará a planificar tu carga académica de manera más efectiva, sino que también te proporcionará una visión clara de tu camino hacia la graduación. Esto te permitirá tomar decisiones informadas sobre tus estudios, como la elección de materias electivas, la distribución del tiempo y los recursos, y la identificación de áreas en las que necesitas dedicar más esfuerzo. En pocas palabras, estos gráficos serán una herramienta valiosa para tu éxito universitario.</p>
+
+
+                <?php endif; ?>
+
+                <div class="container-master-pie">
+                    <div id="container-pie">
+                        <canvas id="pieChart"></canvas>
+                    </div>
+                    <div class="table__body" id="data_table">
+                        <table style="width: 95%; margin-right: 10px;" border="1" cellpadding="1">
+                            <tbody>
+                            <tr>
+                            <td colspan="2" style="text-align: center;">&nbsp;Leyenda</td>
+                            </tr>
+                            <tr>
+                            <td>Aprobadas</td>
+                            <td id="approv_subcj">&nbsp;0</td>
+                            </tr>
+                            <tr>
+                            <td style="width: 92.8177%;">&nbsp;En curso</td>
+                            <td id="in_progress_subjects">&nbsp;0</td>
+                            </tr>
+                            <tr>
+                            <td style="width: 92.8177%;">&nbsp;Bloqueadas</td>
+                            <td id="blocked_subjectss">&nbsp;0</td>
+                            </tr>
+                            <tr>
+                            <td style="width: 92.8177%;">&nbsp;Pendiente</td>
+                            <td id="pendings_subjects">0</td>
+                            </tr>
+                            </tbody>
+                            </table>
+    
+                            <table style="
+                            width: 95%; margin-top: 10px;"  border="1" cellpadding="1">
+                                <tbody>
+                                <tr>
+                                <td style="width: 99.1626%; text-align: center;" colspan="2">&nbsp;Asignaturas</td>
+                                </tr>
+                                <tr>
+                                <td style="width: 92.8177%;">&nbsp;Totales</td>
+                                <td style="width: 6.34496%;" id="total_subjects">&nbsp;0</td>
+                                </tr>
+                                <tr>
+                                <td style="width: 92.8177%;">&nbsp;Aprobadas</td>
+                                <td style="width: 6.34496%;" id="approved_subjects">&nbsp;0</td>
+                                </tr>
+                                <tr>
+                                <td style="width: 92.8177%;">&nbsp;Restante</td>
+                                <td style="width: 6.34496%;" id="reamining_subjects">&nbsp;0</td>
+                                </tr>
+                                <tr>
+                                <td style="width: 92.8177%;">&nbsp;% Aprobadas</td>
+                                <td style="width: 6.34496%;" id="percentage_approved_subjects">&nbsp;0</td>
+                                </tr>
+                                <tr>
+                                <td style="width: 92.8177%;">% Restantes</td>
+                                <td style="width: 6.34496%;" id="percentage_remaining_subjects">&nbsp;0</td>
+                                </tr>
+                                </tbody>
+                                </table>
+    
+                    </div>
+                </div>
+
+
+
+                <div class="container-master-doughnut">
+                    <div id="container-doughnut">
+                        <canvas id="doughnutChart"></canvas>
+                    </div>
+
+                    <div class="table__body">
+                        <table style="width: 98%; height: 98%; margin: auto;" border="1" cellpadding="1">
+                            <tbody>
+                            <tr>
+                            <td style="width: 99.1626%; text-align: center;" colspan="2">&nbsp;Creditos</td>
+                            </tr>
+                            <tr>
+                            <td style="width: 92.8177%;">&nbsp;Total</td>
+                            <td style="width: 6.34496%;" id="total_credits">&nbsp;0</td>
+                            </tr>
+                            <tr>
+                            <td style="width: 92.8177%;">&nbsp;Aprobados</td>
+                            <td style="width: 6.34496%;" id="approved_credits">&nbsp;0</td>
+                            </tr>
+                            <tr>
+                            <td style="width: 92.8177%;">&nbsp;Restante</td>
+                            <td style="width: 6.34496%;" id="remaining_credits">&nbsp;0</td>
+                            </tr>
+                            <tr>
+                            <td style="width: 92.8177%;">&nbsp;% Aprobados</td>
+                            <td style="width: 6.34496%;" id="percentage_approved_credits">&nbsp;0</td>
+                            </tr>
+                            <tr>
+                            <td style="width: 92.8177%;">% Restante</td>
+                            <td style="width: 6.34496%;" id="remaining_percentage">&nbsp;0</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+           
             </section>
         </div>
      <?php $__env->endSlot(); ?>

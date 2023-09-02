@@ -26,6 +26,7 @@
             <ul>
                 <li><a href="<?php echo e(route('calendario')); ?>" class="rip_c">Calendario Académico</a></li>
                 <li><a href="<?php echo e(route('indice')); ?>" class="rip_c">Calcular índice académico</a></li>
+                <li><a href="<?php echo e(route('progress')); ?>" class="rip_c">Progreso de carrera</a></li>
                 <li><a href="<?php echo e(route('carreras')); ?>" class="rip_c">Carreras en UNAPEC</a></li>
                 <li><a href="<?php echo e(route('faq')); ?>" class="rip_c">Preguntas frecuentes</a></li>
                 <?php if(auth()->check() && auth()->user()->role == 'admin'): ?><li><a href="<?php echo e(route('reports')); ?>" class="rip_c">Ver reportes</a></li><?php endif; ?>

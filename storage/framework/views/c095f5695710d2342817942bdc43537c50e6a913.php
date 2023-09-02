@@ -22,6 +22,165 @@
       .Inhalt .TextInBox .botones {
       justify-content: flex-start !important; 
   }
+
+.conti01 .tarj .circl,
+.conti01 .tarj .tex a::before {
+    background: #f3492b !important;
+}
+
+.conti01 .tarj .tex a span::before {
+  border-top: 2px solid #f3492b !important;
+  border-left: 2px solid #f3492b !important;
+
+}
+.conti01 .tarj .tex a span::after{
+  border-bottom: 2px solid #f3492b !important;
+  border-right: 2px solid #f3492b !important;
+
+}
+
+
+.conti02 .tarj .circl,
+.conti02 .tarj .tex a::before {
+    background: #352bf3 !important;
+}
+
+.conti02 .tarj .tex a span::before {
+  border-top: 2px solid #352bf3 !important;
+  border-left: 2px solid #352bf3 !important;
+
+}
+.conti02 .tarj .tex a span::after{
+  border-bottom: 2px solid #352bf3 !important;
+  border-right: 2px solid #352bf3 !important;
+
+}
+
+.conti03 .tarj .circl,
+.conti03 .tarj .tex a::before{
+    background: #2d7b87 !important;
+}
+
+.conti03 .tarj .tex a span::before {
+  border-top: 2px solid #2d7b87 !important;
+  border-left: 2px solid #2d7b87 !important;
+
+}
+.conti03 .tarj .tex a span::after{
+  border-bottom: 2px solid #2d7b87 !important;
+  border-right: 2px solid #2d7b87 !important;
+
+}
+
+.conti04 .tarj .circl,
+.conti04 .tarj .tex a::before{
+    background: #712ab3 !important;
+}
+
+.conti04 .tarj .tex a span::before {
+  border-top: 2px solid #712ab3 !important;
+  border-left: 2px solid #712ab3 !important;
+
+}
+.conti04 .tarj .tex a span::after{
+  border-bottom: 2px solid #712ab3 !important;
+  border-right: 2px solid #712ab3 !important;
+
+}
+
+.conti05 .tarj .circl,
+.conti05 .tarj .tex a::before{
+    background: #ffaf00 !important;
+}
+
+.conti05 .tarj .tex a span::before {
+  border-top: 2px solid #ffaf00 !important;
+  border-left: 2px solid #ffaf00 !important;
+
+}
+.conti05 .tarj .tex a span::after{
+  border-bottom: 2px solid #ffaf00 !important;
+  border-right: 2px solid #ffaf00 !important;
+}
+
+.conti06 .tarj .circl,
+.conti06 .tarj .tex a::before {
+  background: #2badf7 !important;
+}
+
+.conti06 .tarj .tex a span::before {
+  border-top: 2px solid #2badf7 !important;
+  border-left: 2px solid #2badf7 !important;
+
+}
+.conti06 .tarj .tex a span::after{
+  border-bottom: 2px solid #2badf7 !important;
+  border-right: 2px solid #2badf7 !important;
+}
+
+
+.conti07 .tarj .circl,
+.conti07 .tarj .tex a::before{
+  background: #039440 !important;
+}
+
+.conti07 .tarj .tex a span::before {
+  border-top: 2px solid #039440 !important;
+  border-left: 2px solid #039440 !important;
+
+}
+.conti07 .tarj .tex a span::after{
+  border-bottom: 2px solid #039440 !important;
+  border-right: 2px solid #039440 !important;
+}
+
+
+.conti08 .tarj .circl,
+.conti08 .tarj .tex a::before{
+  background: #d40573 !important;
+}
+
+.conti08 .tarj .tex a span::before {
+  border-top: 2px solid #d40573 !important;
+  border-left: 2px solid #d40573 !important;
+
+}
+.conti08 .tarj .tex a span::after{
+  border-bottom: 2px solid #d40573 !important;
+  border-right: 2px solid #d40573 !important;
+}
+
+
+.conti09 .tarj .circl,
+.conti09 .tarj .tex a::before{
+  background: #ee0f0f !important;
+}
+
+.conti09 .tarj .tex a span::before {
+  border-top: 2px solid #ee0f0f !important;
+  border-left: 2px solid #ee0f0f !important;
+
+}
+.conti09 .tarj .tex a span::after{
+  border-bottom: 2px solid #ee0f0f !important;
+  border-right: 2px solid #ee0f0f !important;
+}
+
+
+.conti10 .tarj .circl,
+.conti10 .tarj .tex a::before{
+  background: #11a28a !important;
+}
+
+.conti10 .tarj .tex a span::before {
+  border-top: 2px solid #11a28a !important;
+  border-left: 2px solid #11a28a !important;
+
+}
+.conti10 .tarj .tex a span::after{
+  border-bottom: 2px solid #11a28a !important;
+  border-right: 2px solid #11a28a !important;
+}
   </style>
    <?php $__env->endSlot(); ?>
 
@@ -82,8 +241,23 @@
         <div class="fopr"></div>
       </div>
     </div>
+
+    <div class="ads">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+     crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3525189773538188"
+     data-ad-slot="5695044141"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
     <?php $__currentLoopData = $results; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $result): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-    <div class="cont" id="results">
+    <div class="cont <?php echo e('conti' . str_pad($loop->iteration, 2, '0', STR_PAD_LEFT)); ?>" id="results">
       <div class="tarj">
         <div class="circl">
           <h2><?php echo e(str_pad($loop->iteration, 2, '0', STR_PAD_LEFT)); ?></h2>
@@ -100,7 +274,20 @@
       </div>
     </div>
   <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-
+  <div class="ads">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3525189773538188"
+   crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+   style="display:block"
+   data-ad-client="ca-pub-3525189773538188"
+   data-ad-slot="5695044141"
+   data-ad-format="auto"
+   data-full-width-responsive="true"></ins>
+<script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>
 
   
   <?php echo e($results->appends(request()->only(['modality', 'schedule', 'search_query']))->links()); ?>

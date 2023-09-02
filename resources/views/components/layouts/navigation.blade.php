@@ -26,6 +26,7 @@
             <ul>
                 <li><a href="{{ route('calendario') }}" class="rip_c">Calendario Académico</a></li>
                 <li><a href="{{ route('indice') }}" class="rip_c">Calcular índice académico</a></li>
+                <li><a href="{{ route('progress') }}" class="rip_c">Progreso de carrera</a></li>
                 <li><a href="{{ route('carreras') }}" class="rip_c">Carreras en UNAPEC</a></li>
                 <li><a href="{{ route('faq') }}" class="rip_c">Preguntas frecuentes</a></li>
                 @if(auth()->check() && auth()->user()->role == 'admin')<li><a href="{{ route('reports') }}" class="rip_c">Ver reportes</a></li>@endif

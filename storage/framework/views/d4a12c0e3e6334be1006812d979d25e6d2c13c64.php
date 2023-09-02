@@ -141,13 +141,14 @@
                     
                 </div>
 
+
                 <div class="buttons_settings">
                     <a href="<?php echo e('/opiniones/' . str(str_replace('-', ' ', $professor->name))->slug()); ?>" class="md-ripples ripples-bg-immer-weiss"><span>Ver opiniones</span></a>
                     <a href="<?php echo e(route('inicio')); ?>" class="md-ripples ripples-bg-immer-weiss"><span>Buscar a otro docente</span></a>
                 </div>
                 <?php else: ?> 
                 <h2>Actualmente no hay secciones</h2>
-                <p style="margin-bottom: 50px;">Lamentamos decirte que, en el período actual, el docente <?php echo e(str($professor->name)->title()); ?> no tiene secciones disponibles. Te recomendamos buscar otros docentes con secciones similares a las que estabas buscando. Quizá en otro período vuelva a tener secciones disponibles.</p>
+                <p style="margin-bottom: 50px;">En este período, el docente <?php echo e(str($professor->name)->title()); ?> no tiene secciones disponibles. Te recomendamos buscar otros docentes que ofrezcan secciones similares a las que estás buscando. Es posible que en un futuro el docente tenga secciones disponibles nuevamente, por lo que te sugerimos que estés atento a su perfil y a las actualizaciones de su disponibilidad.</p>
                 <?php endif; ?>
 
 
