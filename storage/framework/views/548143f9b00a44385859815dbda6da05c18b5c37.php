@@ -9,7 +9,7 @@
 <?php $component->withAttributes(['title' => '★ Ver el progreso de tu carrera en el pensum que sigues ★ — Recomiéndame un profesor','h1' => 'Mirar el progreso en tu pensum','pAfterH1' => 'Aquí podrás visualizar de forma efectiva el progreso que llevas en tu carrera, por medio del pensum que sigues.']); ?>
 
      <?php $__env->slot('metadesc', null, []); ?> 
-        ➫ En esta página, encontrarás herramientas que te ayudarán con el cálculo del progreso que llevas del pensum! ;&#x29;
+        ➫ En esta página, encontrarás la herramienta perfecta que te ayudarán con el cálculo del progreso que llevas del pensum! Nuestra herramienta de extractor de pensum UNAPEC y cálculo de progreso académico te ayudarán bastante ;&#x29;
      <?php $__env->endSlot(); ?>
 
      <?php $__env->slot('otherstyle', null, []); ?> 
@@ -368,11 +368,11 @@ main .general1 {
                 <h6>Para la carrera <?php if(auth()->guard()->check()): ?><?php echo e($userCareer); ?><?php endif; ?> <?php if(auth()->guard()->guest()): ?> <?php echo e("Que estudies"); ?> <?php endif; ?> </h6>
 
 
-                <p style="margin-top:23px;">A continuación, encontrarás todos los cuatrimestres desglozados relacionados a la carrera que estudias. Solo basta con seleccionar la caja de opciones de las materias que tienes "<span><strong>liberadas</strong></span>" a partir del primer cuatrimestre, ya sea la opción: en curso, aprobada o pendiente. Las asignaturas que aún no hayas desbloqueado o liberado, aparecerán de forma <span style="color: red;">rojiza</span> hasta que apruebes el o los pre-requisitos necesarios.</p>
+                <p style="margin-top:23px;">A continuación, encontrarás todos los cuatrimestres de tu pensum desglozados relacionados, a la carrera que estudias. Solo basta con seleccionar la caja de opciones de las materias que tienes "<span><strong>liberadas</strong></span>" a partir del primer cuatrimestre, ya sea la opción: en curso, aprobada o pendiente. Las asignaturas que aún no hayas desbloqueado o liberado, aparecerán de forma <span style="color: red;">rojiza</span> hasta que apruebes el o los pre-requisitos necesarios.</p>
 
                 <p style="margin-top:23px;">La acción de "<span><strong>cursando</strong></span>" te ayuda a mantener aún más el control de las asignaturas que llevas actualmente en el cuatrimestre en curso. Así que, te recomendamos usarlo para el cuatrimestre actual que lleves en curso.</p>
 
-                <p style="margin-top:23px;">Ten en cuenta que, para aprovechar al máximo nuestras funciones de seguimiento y guardar tu progreso de manera segura, es esencial que dispongas de una cuenta con <strong>sesión iniciada</strong>. Tu cuenta te brindará la capacidad de almacenar y acceder a tu información académica de manera conveniente y personalizada.</p>
+                <p style="margin-top:23px;"><strong style="color: rgba(253, 94, 94, 0.958); text-decoration: underline; font-style: italic; font-weight: 700;">Ten en cuenta que, para aprovechar al máximo nuestras funciones de seguimiento y guardar tu progreso de manera segura, es esencial que dispongas de una cuenta con sesión iniciada</strong>. Tu cuenta te brindará la capacidad de almacenar y acceder a tu información académica de manera conveniente y personalizada.</p>
 
                 
                 <p style="margin-top:23px;">A continuación, te proporcionamos una vista detallada de los cuatrimestres correspondientes a tu carrera (si ya está seleccionada), así como otros detalles relevantes para tu formación académica:</p>
@@ -460,11 +460,11 @@ main .general1 {
                 <?php endif; ?>
 
                 <?php if(auth()->guard()->guest()): ?>
-                <p>Una vez hayas seleccionado tu carrera y hayacargado tu pensum, tendrás a tu disposición una herramienta gráfica intuitiva que te permitirá llevar un seguimiento detallado de tu progreso la carrera que estudies. Estos gráficos proporcionarán una visión clara y fácil de entender de tus logros y avances a lo largo de tu trayecto académico, lo que te ayudará a mantenerte motivado y enfocado en tus metas educativas.</p>
+                <p style="line-height: 30px;">Una vez hayas seleccionado tu carrera y haya cargado tu pensum con nuestro extractor de pensum, tendrás a tu disposición una herramienta gráfica intuitiva que te permitirá llevar un seguimiento detallado de las materias aprobadas, cuántas materias te quedan por cursar, las que están bloqueadas, las que llevas en curso y las que tengas pendientes.</p>
 
-                <p style="margin-top: 23px;">Los gráficos te mostrarán información valiosa, como las materias completadas, las que están pendientes, en progreso y las bloqueadas, al igual que tu promedio académico, y otros datos relevantes para tu carrera. Esta herramienta te permitirá identificar áreas en las que puedes mejorar y celebrar tus éxitos a medida que avanzas en tu formación universitaria. Además, podrás personalizar los gráficos según tus preferencias para que se adapten mejor a tus necesidades específicas.</p>
+                <p style="margin-top: 23px; line-height: 30px;">Los gráficos te mostrarán información valiosa de forma dinámica tu situación actual de las asignaturas, como el estado de cada asignatura y el porcentaje de tus créditos aprobados. Prácticamente, esta herramienta te permitirá identificar áreas en las que puedes mejorar y celebrar tus éxitos a medida que avanzas en tu formación universitaria. Además, podrás personalizar los gráficos según tus preferencias para que se adapten mejor a tus necesidades específicas.</p>
 
-                <p style="margin-top: 23px;">La visualización gráfica de tu progreso en la carrera que estudies, no solo te ayudará a planificar tu carga académica de manera más efectiva, sino que también te proporcionará una visión clara de tu camino hacia la graduación. Esto te permitirá tomar decisiones informadas sobre tus estudios, como la elección de materias electivas, la distribución del tiempo y los recursos, y la identificación de áreas en las que necesitas dedicar más esfuerzo. En pocas palabras, estos gráficos serán una herramienta valiosa para tu éxito universitario.</p>
+                <p style="margin-top: 23px; line-height: 30px;">La visualización gráfica de tu progreso en la carrera que estudies, no solo te ayudará a planificar tu carga académica de manera más efectiva, sino que también te proporcionará una visión clara de tu camino hacia la graduación. Esto te permitirá tomar decisiones informadas sobre tus estudios, como la elección de materias electivas, la distribución del tiempo y los recursos, y la identificación de áreas en las que necesitas dedicar más esfuerzo. En pocas palabras, estos gráficos serán una herramienta valiosa para tu éxito universitario.</p>
 
 
                 <?php endif; ?>
