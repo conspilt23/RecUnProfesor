@@ -292,7 +292,7 @@ main .general1 {
     </x-slot>
 
     <x-slot name="otherjs">
-        <script src="{{ asset('js/progresPensum.js') }}" defer></script>
+        <script src="{{ asset('js/progressPensum.js') }}" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         @auth
         @if(!is_null($progress))
