@@ -171,11 +171,11 @@ jQuery(function(){
                     
                     statusOptions += `<option value="2" class="in_progress">En curso</option>`;
     
-                    const selectStatus = `<select class="status-selector" name="${selectName + asignatura.code}" data-code="${asignatura.code}" data-pre="${asignatura.pre_requirements}">${statusOptions}</select>`;
+                    const selectStatus = `<select class="status-selector" name="${selectName + asignatura.code}" data-code="${trim(asignatura.code)}" data-pre="${trim(asignatura.pre_requirements)}">${statusOptions}</select>`;
     
                     const trClass = hasPreRequisites ? 'blocked_re' : '';
     
-                    asignaturasContent += `<tr class="${trClass}" data-code="${asignatura.code}" data-pre="${creditsValue ? code_subject : asignatura.pre_requirements}" data-credits="${creditsValue ? creditsValue : '0'}"><td>${asignatura.code}</td><td class="subj_name">${asignatura.subject}</td><td class="row_credits">${asignatura.credits}</td><td>${asignatura.pre_requirements}</td><td>${selectStatus}</td></tr>`;
+                    asignaturasContent += `<tr class="${trClass}" data-code="${trim(asignatura.code)}" data-pre="${creditsValue ? trim(code_subject) : trim(asignatura.pre_requirements)}" data-credits="${creditsValue ? creditsValue : '0'}"><td>${asignatura.code}</td><td class="subj_name">${asignatura.subject}</td><td class="row_credits">${asignatura.credits}</td><td>${asignatura.pre_requirements}</td><td>${selectStatus}</td></tr>`;
 
                     selectCounter++;
                 }
