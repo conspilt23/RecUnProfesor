@@ -7,7 +7,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Image Driv
+    | Image Driver
     |--------------------------------------------------------------------------
     | Avatar use Intervention Image library to process image.
     | Meanwhile, Intervention Image supports "GD Library" and "Imagick" to process images
@@ -35,13 +35,13 @@ return [
     'height' => 100,
 
     // Number of characters used as initials. If name consists of single word, the first N character will be used
-    'chars' => 1,
+    'chars' => 2,
 
     // font size
     'fontSize' => 48,
 
     // convert initial letter in uppercase
-    'uppercase' => true,
+    'uppercase' => false,
 
     // Right to Left (RTL)
     'rtl' => false,
@@ -123,21 +123,6 @@ return [
                 '#FFC107',
                 '#FF9800',
                 '#FF5722',
-                '#339966',
-                '#149253',
-                '#086e3b',
-                '#6ab014',
-                '#1469d2',
-                '#4958f5',
-                '#6571f8',
-                '#0a8fae',
-                '#046f88',
-                '#fdaa00',
-                '#f38763',
-                '#d4400e',
-                '#d24242',
-                '#a60062',
-                '#f3a837'
             ],
             'foregrounds' => ['#FFFFFF'],
         ],
